@@ -1,0 +1,31 @@
+{
+    "key": "imagepreview",
+    "label": "Image preview extractor",
+    "image": "ndslabs/image-preview:0.9.1",
+    "isStack": false,
+    "isService": false,
+    "isStandalone": true,
+    "depends": [
+        {
+            "key": "rabbitmq",
+            "required": true
+        }
+    ],
+    "config":  {
+        {
+            "name": "RABBITMQ_EXCHANGE",
+            "value": "clowder",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_VHOST",
+            "value": "%2F",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_QUEUE",
+            "value": "ncsa.image.preview",
+            "canOverride": false
+        }
+	}
+}

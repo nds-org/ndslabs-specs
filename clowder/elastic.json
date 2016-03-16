@@ -1,0 +1,14 @@
+{
+    "key": "elasticsearch",
+    "label": "ElasticSearch 1.x",
+    "image": "elasticsearch:1.3",
+    "isStack": false,
+    "isService": true,
+    "isStandalone": false,
+    "ports": [
+        { "port": 9300, "protocol": "TCP" }
+    ],
+    "args" : [
+        "-Des.cluster.name=clowder" 
+    ]
+}

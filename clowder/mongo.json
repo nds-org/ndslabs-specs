@@ -1,0 +1,17 @@
+{
+    "key": "mongo",
+    "label": "MongoDB",
+    "image": "mongo:latest",
+	"description": "A cross-platform document-oriented NoSQL database",
+    "isStack": false,
+    "isService": true,
+    "isStandalone": true,
+    "requiresVolume": true,
+    "ports": [
+        { "port": 27017, "protocol": "TCP" },
+        { "port": 28017, "protocol": "TCP" }
+    ],
+    "volumeMounts":[
+        { "mountPath": "/data/db", "name": "mongo" }
+    ]
+}

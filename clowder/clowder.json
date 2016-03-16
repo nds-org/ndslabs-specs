@@ -1,0 +1,57 @@
+{
+    "label": "Clowder",
+    "key": "clowder",
+	"description": "a scalable data repository where you can share, organize and analyze data.",
+    "image": "ndslabs/clowder:terra",
+    "isStack": true,
+    "isService": true,
+    "isStandalone": true,
+	"isPublic": true,
+    "depends": [
+        {
+            "key": "mongo",
+            "required": true
+        },
+        {
+            "key": "imagepreview",
+            "required": false
+        },
+        {
+            "key": "elasticsearch",
+            "required": false
+        },
+        {
+            "key": "plantcv",
+            "required": false
+        }
+    ],
+    "config":  {
+        {
+            "name": "SMTP_HOST",
+            "value": "smtp.ncsa.illinois.edu",
+            "canOverride": true
+        },
+        {
+            "name": "ELASTICSEARCH_CLUSTERNAME",
+            "value": "clowder",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_EXCHANGE",
+            "value": "clowder",
+            "canOverride": false
+        },
+        {
+            "name": "TOOLMGR_URI",
+            "value": "localhost:8082",
+            "label": "ToolServer address",
+            "canOverride": true
+        },
+    },
+    "ports": [
+        {
+            "port": 9000,
+            "protocol": "TCP"
+        }
+    ]
+}

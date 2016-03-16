@@ -1,0 +1,26 @@
+{
+    "key": "logspout",
+    "label": "LogSpout",
+    "image": "ndslabs/logspout:latest",
+    "isStack": false,
+    "isService": false,
+    "isStandalone": false,
+    "requiresVolume": true,
+    "depends": [
+        {
+            "key": "logstash",
+            "required": true
+        }
+    ],
+    "config":  [
+		{
+			"name": "LABEL",
+			"value": "io.kubernetes.pod.name:^$(NAMESPACE)/.*"
+		}	
+    ],
+    "command": [ "bin/logspout" ],
+    "args": [ "syslog+tcp://$(LOGSTASH_PORT_5000_TCP_ADDR):$(LOGSTASH_PORT_5000_TCP_PORT)" ],
+    "volumeMounts":[
+        { "mountPath": "/tmp/docker.sock", "name": "docker" }
+    ]
+}

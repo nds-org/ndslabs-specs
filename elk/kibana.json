@@ -1,0 +1,34 @@
+{
+    "key": "kibana",
+    "label": "Kibana",
+    "image": "kibana",
+    "description": "An open source data visualization platform",
+    "isStack": true,
+    "isService": true,
+    "isPublic": true,
+    "isStandalone": true,
+    "depends": [
+        {
+            "key": "elasticsearch2",
+            "required": true
+        },
+        {
+            "key": "logstash",
+            "required": true
+        },
+        {
+            "key": "logspout",
+            "required": true
+        }
+    ],
+    "ports": [
+        { "port": 5601, "protocol": "TCP" }
+    ],
+    "config":  {
+        {
+            "name": "ELASTICSEARCH_URL",
+            "value": "http://$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)",
+            "canOverride": false
+        }
+	}
+}
