@@ -25,7 +25,7 @@
             "required": false
         }
     ],
-    "config":  {
+    "config":  [
         {
             "name": "SMTP_HOST",
             "value": "smtp.ncsa.illinois.edu",
@@ -46,8 +46,8 @@
             "value": "localhost:8082",
             "label": "ToolServer address",
             "canOverride": true
-        },
-    },
+        }
+    ],
     "ports": [
         {
             "port": 9000,
