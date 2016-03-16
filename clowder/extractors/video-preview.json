@@ -11,7 +11,7 @@
             "required": true
         }
     ],
-    "config":  {
+    "config":  [
         {
             "name": "RABBITMQ_EXCHANGE",
             "value": "clowder",
@@ -27,5 +27,5 @@
             "value": "ncsa.video.preview",
             "canOverride": false
         }
-    }
+    ]
 }
