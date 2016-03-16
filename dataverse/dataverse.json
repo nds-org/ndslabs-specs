@@ -43,7 +43,7 @@
             "canOverride": false
         },
         {
-            "name": "POSTGRES_USERNAME",
+            "name": "POSTGRES_USER",
             "value": "dvnapp",
             "canOverride": false
         },
