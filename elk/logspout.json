@@ -5,7 +5,6 @@
     "isStack": false,
     "isService": false,
     "isStandalone": false,
-    "requiresVolume": true,
     "depends": [
         {
             "key": "logstash",

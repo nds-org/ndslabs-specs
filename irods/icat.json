@@ -6,7 +6,7 @@
     "isService": true,
     "isStandalone": true,
     "isStack": true,
-    "isPublic": false,
+    "isPublic": true,
     "ports": [
         {
             "port": 1247,

@@ -1,6 +1,6 @@
 {
     "key": "kibana",
-    "label": "Kibana",
+    "label": "ELK",
     "image": "kibana",
     "description": "An open source data visualization platform",
     "isStack": true,
@@ -24,11 +24,11 @@
     "ports": [
         { "port": 5601, "protocol": "TCP" }
     ],
-    "config":  {
+    "config":  [
         {
             "name": "ELASTICSEARCH_URL",
             "value": "http://$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)",
             "canOverride": false
         }
-	}
+	]
 }

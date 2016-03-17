@@ -69,7 +69,7 @@
         {
             "name": "IRODS_PORT",
             "value": "1247",
-            "label": "iRODS server address",
+            "label": "iRODS server post",
             "canOverride": true,
             "isPassword": false
         },
@@ -84,6 +84,13 @@
             "name": "IRODS_ZONE",
             "value": "dvnZone",
             "label": "iRODS Zone",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "IRODS_USER",
+            "value": "rods",
+            "label": "iRODS rods user password",
             "canOverride": true,
             "isPassword": false
         },
