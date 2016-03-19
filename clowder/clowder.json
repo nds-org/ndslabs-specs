@@ -43,7 +43,7 @@
         },
         {
             "name": "TOOLMANAGER_URI",
-            "value": "localhost:8082",
+            "value": "http://localhost:8082",
             "label": "ToolServer address",
             "canOverride": true
         }
