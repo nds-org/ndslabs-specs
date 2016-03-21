@@ -82,7 +82,7 @@
         },
         {
             "name": "IRODS_ZONE",
-            "value": "dvnZone",
+            "value": "tempZone",
             "label": "iRODS Zone",
             "canOverride": true,
             "isPassword": false
