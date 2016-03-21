@@ -1,6 +1,6 @@
 {
     "key": "kibana",
-    "label": "ELK",
+    "label": "Kibana (ELK)",
     "image": "kibana",
     "description": "An open source data visualization platform",
     "isStack": true,
