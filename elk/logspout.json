@@ -14,7 +14,7 @@
     "config":  [
 		{
 			"name": "LABEL",
-			"value": "io.kubernetes.pod.namespace:^$(NAMESPACE)",
+			"value": "io.kubernetes.pod.namespace:^$(NAMESPACE)$"
 		}
     ],
     "command": [ "bin/logspout" ],
