@@ -2,7 +2,7 @@
     "key": "icat",
     "label": "iRODS iCAT",
     "requiresVolume": true,
-    "image": "ndslabs/irods-icat:4.1.3",
+    "image": "ndslabs/irods-icat:dev",
     "isService": true,
     "isStandalone": true,
     "isStack": true,
@@ -11,12 +11,16 @@
         {
             "port": 1247,
             "protocol": "TCP"
+        },
+        {
+            "port": 8080,
+            "protocol": "TCP"
         }
     ],
     "config":  [
         {
             "name": "RODS_ZONE",
-            "value": "tempZone",
+            "value": "fedZone",
             "label": "iRODS zone",
             "canOverride": true
         },

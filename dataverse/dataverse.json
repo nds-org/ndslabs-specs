@@ -29,11 +29,32 @@
             "canOverride": true
         },
         {
+            "name": "POSTGRES_DATABASE",
+            "value": "dvndb",
+            "canOverride": false
+        },
+        {
+            "name": "POSTGRES_USER",
+            "value": "dvnapp",
+            "canOverride": false
+        },
+        {
             "name": "POSTGRES_PASSWORD",
             "value": "",
             "label": "Database password",
             "canOverride": true,
             "isPassword": true
+        },
+        {
+            "name": "RSERVE_USER",
+            "value": "rserve",
+            "canOverride": false
+        },
+        {
+            "name": "RSERVE_PASSWORD",
+            "value": "rserve",
+            "label": "RServe password",
+            "canOverride": false
         },
         {
             "name": "IRODS_ZONE",
@@ -44,15 +65,15 @@
         },
         {
             "name": "IRODS_USER",
-            "value": "rods",
-            "label": "iRODS rods user password",
+            "value": "dataverse",
+            "label": "iRODS rods user",
             "canOverride": true,
             "isPassword": false
         },
         {
             "name": "IRODS_PASSWORD",
             "value": "",
-            "label": "iRODS rods user password",
+            "label": "iRODS user password",
             "canOverride": true,
             "isPassword": true
         }

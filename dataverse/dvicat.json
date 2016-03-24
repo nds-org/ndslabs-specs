@@ -16,7 +16,7 @@
     "config":  [
         {
             "name": "RODS_ZONE",
-            "value": "",
+            "value": "dvnZone",
             "label": "iRODS local zone",
             "canOverride": true,
             "isPassword": false
@@ -37,7 +37,7 @@
         },
         {
             "name": "PRESERVATION_ZONE",
-            "value": "",
+            "value": "fedZone",
             "label": "iRODS preservation zone",
             "canOverride": true,
             "isPassword": false
