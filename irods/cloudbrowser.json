@@ -2,7 +2,7 @@
     "key": "cloudbrowser",
     "label": "iRODS Cloudbrowser API",
     "requiresVolume": false,
-    "image": "ndslabs/cloudbrowser:latest",
+    "image": "ndslabs/cloudbrowser:dev",
     "isService": true,
     "isStandalone": false,
     "isStack": false,
@@ -16,7 +16,7 @@
     "config":  [
         {
             "name": "IRODS_ZONE",
-            "value": "fedZone",
+            "value": "",
             "label": "iRODS Zone",
             "canOverride": true
         }
