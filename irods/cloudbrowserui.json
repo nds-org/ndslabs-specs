@@ -2,7 +2,7 @@
     "key": "cloudbrowserui",
     "label": "iRODS Cloudbrowser UI",
     "requiresVolume": false,
-    "image": "ndslabs/cloudbrowser-ui:latest",
+    "image": "ndslabs/cloudbrowser-ui:dev",
     "isService": true,
     "isStandalone": true,
     "isStack": false,
@@ -10,7 +10,7 @@
     "ports": [
         {
             "port": 80,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ],
     "depends": [
