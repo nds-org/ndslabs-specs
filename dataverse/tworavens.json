@@ -8,6 +8,6 @@
     "label": "TwoRavens",
     "image": "ndslabs/tworavens:latest",
     "ports": [
-        { "port": 80, "protocol": "TCP" }
+        { "port": 80, "protocol": "http" }
     ]
 }

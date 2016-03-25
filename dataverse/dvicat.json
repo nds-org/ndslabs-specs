@@ -10,7 +10,7 @@
     "ports": [
         {
             "port": 1247,
-            "protocol": "TCP"
+            "protocol": "tcp"
         }
     ],
     "config":  [

@@ -26,65 +26,56 @@
             "name": "MAIL_SERVER",
             "value": "smtp.ncsa.illinois.edu",
             "label": "SMTP server",
-            "canOverride": true,
-            "service": "dataverse"
+            "canOverride": true
         },
         {
             "name": "POSTGRES_DATABASE",
             "value": "dvndb",
-            "canOverride": false,
-            "service": "postgres"
+            "canOverride": false
         },
         {
             "name": "POSTGRES_USER",
             "value": "dvnapp",
-            "canOverride": false,
-            "service": "postgres"
+            "canOverride": false
         },
         {
             "name": "POSTGRES_PASSWORD",
             "value": "",
             "label": "Database password",
             "canOverride": true,
-            "isPassword": true,
-            "service": "postgres"
+            "isPassword": true
         },
         {
             "name": "RSERVE_USER",
             "value": "rserve",
-            "canOverride": false,
-            "service": "rserve"
+            "canOverride": false
         },
         {
             "name": "RSERVE_PASSWORD",
             "value": "rserve",
             "label": "RServe password",
-            "canOverride": false,
-            "service": "rserve"
+            "canOverride": false
         },
         {
             "name": "IRODS_ZONE",
             "value": "dvnZone",
             "label": "iRODS Zone",
             "canOverride": true,
-            "isPassword": false,
-            "service": "dvicat"
+            "isPassword": false
         },
         {
             "name": "IRODS_USER",
             "value": "dataverse",
             "label": "iRODS rods user",
             "canOverride": true,
-            "isPassword": false,
-            "service": "dvicat"
+            "isPassword": false
         },
         {
             "name": "IRODS_PASSWORD",
             "value": "",
             "label": "iRODS user password",
             "canOverride": true,
-            "isPassword": true,
-            "service": "dvicat"
+            "isPassword": true
         }
     ],
 	"volumeMounts":[

@@ -51,7 +51,7 @@
     "ports": [
         {
             "port": 9000,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ]
 }

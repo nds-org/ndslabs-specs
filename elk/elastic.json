@@ -8,7 +8,7 @@
     "isStandalone": true,
     "requiresVolume": true,
     "ports": [
-        { "port": 9200, "protocol": "TCP" }
+        { "port": 9200, "protocol": "tcp" }
     ],
     "volumeMounts":[
         { "mountPath": "/usr/share/elasticsearch/data", "name": "elasticsearch2" }

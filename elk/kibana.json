@@ -22,7 +22,7 @@
         }
     ],
     "ports": [
-        { "port": 5601, "protocol": "TCP" }
+        { "port": 5601, "protocol": "tcp" }
     ],
     "config":  [
         {
