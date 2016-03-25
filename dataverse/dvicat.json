@@ -64,7 +64,7 @@
             "isPassword": false
         }
     ],
-	"volumeMounts":[
-	   { "mountPath": "/var/lib/irods/iRODS/Vault", "name": "dvicat" }
+    "volumeMounts":[
+       { "mountPath": "/var/lib/irods/iRODS/Vault", "name": "dvicat" }
     ]
 }

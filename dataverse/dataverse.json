@@ -1,16 +1,16 @@
 {
     "key": "dataverse",
     "label": "Dataverse",
-  	"requiresVolume": true,
+      "requiresVolume": true,
     "image": "ndslabs/dataverse:dev",
     "isService": true,
     "isStack": true,
-	"isPublic": true,
-	"isStandalone": true,
-	"description": "A web application to share, preserve, cite, explore and analyze research data",
+    "isPublic": true,
+    "isStandalone": true,
+    "description": "A web application to share, preserve, cite, explore and analyze research data",
     "ports": [
         {
-            "port": 8080,
+            "port": 8080
             "protocol": "http"
         }
     ],
@@ -19,7 +19,7 @@
       { "key": "solr", "required": true },
       { "key": "rserve", "required": true},
       { "key": "tworavens", "required": false },
-      { "key": "dvicat", "required": false }
+      { "key": "dvicat", "required": false, "shareConfig": true }
     ],
     "config":  [
         {
@@ -55,36 +55,15 @@
             "value": "rserve",
             "label": "RServe password",
             "canOverride": false
-        },
-        {
-            "name": "IRODS_ZONE",
-            "value": "dvnZone",
-            "label": "iRODS Zone",
-            "canOverride": true,
-            "isPassword": false
-        },
-        {
-            "name": "IRODS_USER",
-            "value": "dataverse",
-            "label": "iRODS rods user",
-            "canOverride": true,
-            "isPassword": false
-        },
-        {
-            "name": "IRODS_PASSWORD",
-            "value": "",
-            "label": "iRODS user password",
-            "canOverride": true,
-            "isPassword": true
         }
     ],
-	"volumeMounts":[
-	   { "mountPath": "/usr/local/glassfish4/glassfish/domains/domain1/files", "name": "dataverse" }
+    "volumeMounts":[
+       { "mountPath": "/usr/local/glassfish4/glassfish/domains/domain1/files", "name": "dataverse" }
     ], 
-	"readinessProbe" : {
-		"path" : "/resources/images/dataverseproject_logo.jpg",
-		"port" : 8080,
-		"initialDelay": 30,
-		"timeout" : 600
-	}
+    "readinessProbe" : {
+        "path" : "/resources/images/dataverseproject_logo.jpg",
+        "port" : 8080,
+        "initialDelay": 30,
+        "timeout" : 600
+    }
 }
