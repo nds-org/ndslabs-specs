@@ -8,8 +8,7 @@
     "isStandalone": true,
     "requiresVolume": true,
     "ports": [
-        { "port": 27017, "protocol": "tcp" },
-        { "port": 28017, "protocol": "tcp" }
+        { "port": 27017, "protocol": "tcp" }
     ],
     "volumeMounts":[
         { "mountPath": "/data/db", "name": "mongo" }
