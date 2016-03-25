@@ -2,7 +2,7 @@
     "key": "cloudbrowserui",
     "label": "iRODS Cloudbrowser UI",
     "requiresVolume": false,
-    "image": "ndslabs/cloudbrowser-ui:dev",
+    "image": "ndslabs/cloudbrowser-ui:latest",
     "isService": true,
     "isStandalone": true,
     "isStack": false,

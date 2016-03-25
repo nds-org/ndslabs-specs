@@ -1,7 +1,7 @@
 {
     "key": "dvicat",
     "label": "Dataverse iRODS iCAT",
-    "image": "ndslabs/dataverse-icat:dev",
+    "image": "ndslabs/dataverse-icat:latest",
     "isService": true,
     "isStandalone": false,
     "isStack": false ,

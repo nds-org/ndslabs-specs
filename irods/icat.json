@@ -2,7 +2,7 @@
     "key": "icat",
     "label": "iRODS iCAT",
     "requiresVolume": true,
-    "image": "ndslabs/irods-icat:dev",
+    "image": "ndslabs/irods-icat:latest",
     "isService": true,
     "isStandalone": true,
     "isStack": true,

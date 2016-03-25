@@ -2,7 +2,7 @@
     "key": "dataverse",
     "label": "Dataverse",
       "requiresVolume": true,
-    "image": "ndslabs/dataverse:dev",
+    "image": "ndslabs/dataverse:latest",
     "isService": true,
     "isStack": true,
     "isPublic": true,
