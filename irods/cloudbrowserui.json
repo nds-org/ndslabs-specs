@@ -10,10 +10,16 @@
     "ports": [
         {
             "port": 80,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ],
     "depends": [
       { "key": "cloudbrowser", "required": true }
-    ]
+    ],
+    "readinessProbe" : {
+        "path" : "app/images/beta_test_logo.png",
+        "port" : 80,
+        "initialDelay": 30,
+        "timeout" : 600
+    }
 }

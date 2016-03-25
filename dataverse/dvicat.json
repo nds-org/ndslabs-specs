@@ -1,0 +1,70 @@
+{
+    "key": "dvicat",
+    "label": "Dataverse iRODS iCAT",
+    "image": "ndslabs/dataverse-icat:latest",
+    "isService": true,
+    "isStandalone": false,
+    "isStack": false ,
+    "isPublic": true,
+    "requiresVolume": true,
+    "ports": [
+        {
+            "port": 1247,
+            "protocol": "tcp"
+        }
+    ],
+    "config":  [
+        {
+            "name": "RODS_ZONE",
+            "value": "dvnZone",
+            "label": "iRODS local zone",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "PRESERVATION_USER",
+            "value": "dataverse",
+            "label": "iRODS user",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "PRESERVATION_PASSWORD",
+            "value": "",
+            "label": "iRODS password",
+            "canOverride": true,
+            "isPassword": true
+        },
+        {
+            "name": "PRESERVATION_ZONE",
+            "value": "fedZone",
+            "label": "iRODS preservation zone",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "PRESERVATION_SERVER",
+            "value": "nds-irods-demo",
+            "label": "iRODS preservation server hostname",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "PRESERVATION_SERVER_IP",
+            "value": "",
+            "label": "iRODS preservation server IP",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "PRESERVATION_SERVER_PORT",
+            "value": "1247",
+            "label": "iRODS preservation server port",
+            "canOverride": true,
+            "isPassword": false
+        }
+    ],
+    "volumeMounts":[
+       { "mountPath": "/var/lib/irods/iRODS/Vault", "name": "dvicat" }
+    ]
+}

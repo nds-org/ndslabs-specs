@@ -6,6 +6,6 @@
     "label": "Rserve",
     "image": "ndslabs/dataverse-rserve:latest",
     "ports": [
-        { "port": 6311, "protocol": "TCP" }
+        { "port": 6311, "protocol": "tcp" }
     ]
 }

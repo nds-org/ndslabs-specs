@@ -6,7 +6,7 @@
     "isService": true,
     "isStandalone": false,
     "ports": [
-        { "port": 9300, "protocol": "TCP" }
+        { "port": 9300, "protocol": "tcp" }
     ],
     "args" : [
         "-Des.cluster.name=clowder" 

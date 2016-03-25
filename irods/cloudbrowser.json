@@ -10,13 +10,13 @@
     "ports": [
         {
             "port": 8009,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ],
     "config":  [
         {
             "name": "IRODS_ZONE",
-            "value": "tempZone",
+            "value": "",
             "label": "iRODS Zone",
             "canOverride": true
         }
