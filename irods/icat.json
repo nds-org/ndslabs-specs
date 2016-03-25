@@ -10,11 +10,11 @@
     "ports": [
         {
             "port": 1247,
-            "protocol": "TCP"
+            "protocol": "tcp"
         },
         {
             "port": 8080,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ],
     "config":  [

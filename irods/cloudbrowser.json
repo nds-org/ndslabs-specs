@@ -10,7 +10,7 @@
     "ports": [
         {
             "port": 8009,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ],
     "config":  [
