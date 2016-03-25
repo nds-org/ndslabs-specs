@@ -11,7 +11,7 @@
     "ports": [
         {
             "port": 8080,
-            "protocol": "TCP"
+            "protocol": "http"
         }
     ],
     "depends": [
@@ -26,56 +26,65 @@
             "name": "MAIL_SERVER",
             "value": "smtp.ncsa.illinois.edu",
             "label": "SMTP server",
-            "canOverride": true
+            "canOverride": true,
+            "service": "dataverse"
         },
         {
             "name": "POSTGRES_DATABASE",
             "value": "dvndb",
-            "canOverride": false
+            "canOverride": false,
+            "service": "postgres"
         },
         {
             "name": "POSTGRES_USER",
             "value": "dvnapp",
-            "canOverride": false
+            "canOverride": false,
+            "service": "postgres"
         },
         {
             "name": "POSTGRES_PASSWORD",
             "value": "",
             "label": "Database password",
             "canOverride": true,
-            "isPassword": true
+            "isPassword": true,
+            "service": "postgres"
         },
         {
             "name": "RSERVE_USER",
             "value": "rserve",
-            "canOverride": false
+            "canOverride": false,
+            "service": "rserve"
         },
         {
             "name": "RSERVE_PASSWORD",
             "value": "rserve",
             "label": "RServe password",
-            "canOverride": false
+            "canOverride": false,
+            "service": "rserve"
         },
         {
             "name": "IRODS_ZONE",
             "value": "dvnZone",
             "label": "iRODS Zone",
             "canOverride": true,
-            "isPassword": false
+            "isPassword": false,
+            "service": "dvicat"
         },
         {
             "name": "IRODS_USER",
             "value": "dataverse",
             "label": "iRODS rods user",
             "canOverride": true,
-            "isPassword": false
+            "isPassword": false,
+            "service": "dvicat"
         },
         {
             "name": "IRODS_PASSWORD",
             "value": "",
             "label": "iRODS user password",
             "canOverride": true,
-            "isPassword": true
+            "isPassword": true,
+            "service": "dvicat"
         }
     ],
 	"volumeMounts":[
