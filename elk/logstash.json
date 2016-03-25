@@ -10,7 +10,7 @@
     "isService": true,
     "isStandalone": false,
     "label": "Logstash",
-    "image": "logstash",
+    "image": "logstash:2.2",
     "ports": [
         { "port": 5000, "protocol": "tcp" }
     ],
