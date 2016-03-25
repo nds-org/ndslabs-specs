@@ -5,7 +5,7 @@
     "isService": true,
     "isStandalone": false,
     "isStack": false ,
-    "isPublic": false,
+    "isPublic": true,
     "requiresVolume": true,
     "ports": [
         {
