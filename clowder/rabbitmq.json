@@ -2,7 +2,7 @@
     "key": "rabbitmq",
     "label": "RabbitMQ",
     "description": "A highly reliable enterprise messaging system",
-    "image": "rabbitmq:management",
+    "image": "rabbitmq:3.6.1-management",
     "isStack": false,
     "isService": true,
     "isStandalone": false,

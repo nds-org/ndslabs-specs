@@ -1,6 +1,7 @@
 {
     "key": "elasticsearch",
     "label": "ElasticSearch 1.x",
+    "description": "A distributed search and analytics engine",
     "image": "elasticsearch:1.3",
     "isStack": false,
     "isService": true,
