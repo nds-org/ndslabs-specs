@@ -10,9 +10,9 @@
     "isService": true,
     "isStandalone": false,
     "label": "Logstash",
-    "image": "logstash",
+    "image": "logstash:2.2",
     "ports": [
-        { "port": 5000, "protocol": "TCP" }
+        { "port": 5000, "protocol": "tcp" }
     ],
     "command": [ "logstash", "-e" ],
     "args" : [ "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }" ]

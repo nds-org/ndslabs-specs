@@ -1,7 +1,7 @@
 {
     "key": "kibana",
-    "label": "ELK",
-    "image": "kibana",
+    "label": "Kibana (ELK)",
+    "image": "kibana:4.4",
     "description": "An open source data visualization platform",
     "isStack": true,
     "isService": true,
@@ -22,7 +22,7 @@
         }
     ],
     "ports": [
-        { "port": 5601, "protocol": "TCP" }
+        { "port": 5601, "protocol": "tcp" }
     ],
     "config":  [
         {

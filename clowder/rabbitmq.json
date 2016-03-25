@@ -7,8 +7,8 @@
     "isService": true,
     "isStandalone": false,
     "ports": [
-        { "port": 5672, "protocol": "TCP" },
-        { "port": 15672, "protocol": "TCP" }
+        { "port": 5672, "protocol": "tcp" },
+        { "port": 15672, "protocol": "tcp" }
     ]
 }
 
