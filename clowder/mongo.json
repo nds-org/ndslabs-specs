@@ -1,8 +1,8 @@
 {
     "key": "mongo",
     "label": "MongoDB",
-    "image": "mongo:latest",
-	"description": "A cross-platform document-oriented NoSQL database",
+    "image": "mongo:3.2.4",
+    "description": "A cross-platform document-oriented NoSQL database",
     "isStack": false,
     "isService": true,
     "isStandalone": true,

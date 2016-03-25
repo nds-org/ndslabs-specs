@@ -1,6 +1,7 @@
 {
     "key": "plantcv",
     "label": "PlantCV extractor",
+    "description": "Clowder extractor for PlantCV images",
     "image": "ndslabs/plantcv:0.9.2",
     "isStack": false,
     "isService": false,
