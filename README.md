@@ -13,5 +13,5 @@ This repository contains specifications for services supported in the National D
 
 Specifications for a given service stack are organized into subdirectories. 
 
-For more information, see the (NDS Labs Service Specification documentation) [https://opensource.ncsa.illinois.edu/confluence/display/NDS/NDS+Labs+Service+Specification]
+For more information, see the [NDS Labs Service Specification documentation] (https://opensource.ncsa.illinois.edu/confluence/display/NDS/NDS+Labs+Service+Specification)
 
