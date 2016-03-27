@@ -12,10 +12,14 @@
         }
     ],
     "config":  [
-		{
-			"name": "LABEL",
-			"value": "io.kubernetes.pod.namespace:^$(NAMESPACE)$"
-		}
+        {
+            "name": "LABEL",
+            "value": "io.kubernetes.pod.namespace:^$(NAMESPACE)$"
+        },
+        {
+            "name": "DEBUG",
+            "value": "true"
+        }
     ],
     "command": [ "bin/logspout" ],
     "args": [ "syslog+tcp://$(LOGSTASH_PORT_5000_TCP_ADDR):$(LOGSTASH_PORT_5000_TCP_PORT)" ],
