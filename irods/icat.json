@@ -2,6 +2,7 @@
     "key": "icat",
     "label": "iRODS iCAT",
     "requiresVolume": true,
+	"description": "open source data management software",
     "image": "ndslabs/irods-icat:latest",
     "isService": true,
     "isStandalone": true,
