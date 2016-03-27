@@ -17,6 +17,7 @@
       { "key": "cloudbrowser", "required": true }
     ],
     "readinessProbe" : {
+        "type" : "http",
         "path" : "app/images/beta_test_logo.png",
         "port" : 80,
         "initialDelay": 30,

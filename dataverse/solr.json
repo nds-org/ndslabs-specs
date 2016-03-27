@@ -14,6 +14,7 @@
         { "mountPath": "/usr/local/solr-4.6.0/example/solr/collection1/data", "name": "solr" }
     ],
     "readinessProbe" : {
+        "type" : "http",
         "path" : "/solr",
         "port" : 8983,
         "initialDelay": 30,

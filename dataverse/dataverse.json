@@ -61,6 +61,7 @@
        { "mountPath": "/usr/local/glassfish4/glassfish/domains/domain1/files", "name": "dataverse" }
     ], 
     "readinessProbe" : {
+        "type" : "http",
         "path" : "/resources/images/dataverseproject_logo.jpg",
         "port" : 8080,
         "initialDelay": 30,
