@@ -1,7 +1,7 @@
 {
     "key": "logspout",
     "label": "LogSpout",
-    "image": "ndslabs/logspout:latest",
+    "image": "ndslabs/logspout:dev",
     "isStack": false,
     "isService": false,
     "isStandalone": false,
