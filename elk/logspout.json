@@ -2,9 +2,7 @@
     "key": "logspout",
     "label": "LogSpout",
     "image": "ndslabs/logspout:latest",
-    "isStack": false,
-    "isService": false,
-    "isStandalone": false,
+	"access":"internal",
     "depends": [
         {
             "key": "logstash",

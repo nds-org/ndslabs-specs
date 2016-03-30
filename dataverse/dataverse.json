@@ -1,12 +1,9 @@
 {
     "key": "dataverse",
     "label": "Dataverse",
-      "requiresVolume": true,
     "image": "ndslabs/dataverse:latest",
-    "isService": true,
-    "isStack": true,
-    "isPublic": true,
-    "isStandalone": true,
+	"display": "stack",
+	"access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
     "ports": [
         {

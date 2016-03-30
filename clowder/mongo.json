@@ -3,10 +3,8 @@
     "label": "MongoDB",
     "image": "mongo:3.2.4",
     "description": "A cross-platform document-oriented NoSQL database",
-    "isStack": false,
-    "isService": true,
-    "isStandalone": true,
-    "requiresVolume": true,
+	"display": "standalone",
+	"access": "internal",
     "ports": [
         { "port": 27017, "protocol": "tcp" }
     ],

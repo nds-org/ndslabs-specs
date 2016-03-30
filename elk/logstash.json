@@ -2,9 +2,7 @@
     "key": "logstash",
     "label": "Logstash",
     "image": "logstash:2.2",
-    "isStack": false,
-    "isService": true,
-    "isStandalone": false,
+	"access":"internal",
     "depends": [
         {
             "key": "elasticsearch2",

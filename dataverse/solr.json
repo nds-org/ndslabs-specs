@@ -1,11 +1,8 @@
 {
     "key": "solr",
-    "isStack": false,
-    "isService": true,
     "description": "Solr 4.6 intended for use with Dataverse",
-    "isStandalone": false,
+	"access": "internal",
     "label": "Solr",
-    "requiresVolume": true,
     "image": "ndslabs/dataverse-solr:latest",
     "ports": [
         { "port": 8983, "protocol": "http" }

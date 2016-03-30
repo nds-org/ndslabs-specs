@@ -2,11 +2,7 @@
     "key": "dvicat",
     "label": "Dataverse iRODS iCAT",
     "image": "ndslabs/dataverse-icat:latest",
-    "isService": true,
-    "isStandalone": false,
-    "isStack": false ,
-    "isPublic": true,
-    "requiresVolume": true,
+	"access": "internal",
     "ports": [
         {
             "port": 1247,

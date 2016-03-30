@@ -1,8 +1,7 @@
 {
     "key": "rserve",
-    "isStack": false,
-    "isService": true,
-    "isStandalone": true,
+	"access": "internal",
+	"display": "standalone",
     "label": "Rserve",
     "image": "ndslabs/dataverse-rserve:latest",
     "ports": [
