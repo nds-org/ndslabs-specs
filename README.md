@@ -1,4 +1,4 @@
-# NDSLabs Service Catalog
+# NDS Labs Service Catalog
 The service definitions used by [NDS Labs](https://github.com/nds-org/ndslabs).
 
 ## Documentation
