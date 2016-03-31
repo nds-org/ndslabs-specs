@@ -58,6 +58,20 @@
             "label": "iRODS preservation server port",
             "canOverride": true,
             "isPassword": false
+        },
+        {
+            "name": "CURATOR_EMAIL",
+            "value": "",
+            "label": "Curator email",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "SMTP_SERVER",
+            "value": "smtp.ncsa.illinois.edu:25",
+            "label": "Mail server",
+            "canOverride": true,
+            "isPassword": false
         }
     ],
     "volumeMounts":[
