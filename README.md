@@ -13,6 +13,8 @@ This repository contains specifications for services supported in the National D
 Specifications for a given service stack are organized into subdirectories. 
 
 ## Documentation
+For more information about the specs: [NDS Labs Service Specification](https://opensource.ncsa.illinois.edu/confluence/display/NDS/NDS+Labs+Service+Specification).
+
 ```js
 {
   "key": "A unique identifier for this service - may only contain lowercase alpha-numeric characters",
@@ -52,11 +54,16 @@ Specifications for a given service stack are organized into subdirectories.
       "mountPath": "The absolute path of the destination inside of the container"
     },
       ...
-  ]
+  ],
+  "readinessProbe": {
+    "type": "Must be one of http / tcp",
+    "path": "For HTTP probes, the full address / path to probe",
+    "port": "The port number to query",
+    "initialDelay": "How long to wait before starting the probe",
+    "timeout": "How long to wait before stopping the probe"
+  }
 }
 ```
-
-For more information about the specs: [NDS Labs Service Specification](https://opensource.ncsa.illinois.edu/confluence/display/NDS/NDS+Labs+Service+Specification).
 
 ## Adding a New Spec
 To add a new service to NDS Labs, you only need:
