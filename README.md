@@ -1,4 +1,5 @@
 # NDSLabs Service Catalog
+The service definitions used by [NDS Labs](https://github.com/nds-org/ndslabs).
 
 ## Documentation
 For more information about the specs: [NDS Labs Service Specification](https://opensource.ncsa.illinois.edu/confluence/display/NDS/NDS+Labs+Service+Specification).
@@ -6,7 +7,7 @@ For more information about the specs: [NDS Labs Service Specification](https://o
 ## Adding a New Spec
 To add a new service to NDS Labs, you only need:
 * a Docker Image
-* a Docker Hub account
+* a Docker Hub account (required to push your image)
 * a JSON object describing your image that conforms to the above specification
 
 For some tutorials on how to add a new spec to a running instance of NDS Labs, see [developer-tutorial](https://github.com/nds-org/developer-tutorial).
@@ -19,7 +20,12 @@ That's great!
 ### Share Your Spec
 Share the JSON spec you have created with other users of NDS Labs!
 
-This will enable them to add the JSON spec, which can be run using your pushed Docker image.
+This will enable them to add the JSON spec using the CLI:
+```bash
+ndslabsctl add service -f path/to/spec/file.json
+```
+
+They will then be able to run your custom service using your pushed Docker image.
 
 ### Make a Pull Request
 To contribute your service back to our code base:
