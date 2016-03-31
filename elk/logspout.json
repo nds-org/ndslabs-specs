@@ -2,9 +2,7 @@
     "key": "logspout",
     "label": "LogSpout",
     "image": "ndslabs/logspout:latest",
-    "isStack": false,
-    "isService": false,
-    "isStandalone": false,
+	"access":"internal",
     "depends": [
         {
             "key": "logstash",
@@ -12,10 +10,14 @@
         }
     ],
     "config":  [
-		{
-			"name": "LABEL",
-			"value": "io.kubernetes.pod.namespace:^$(NAMESPACE)$"
-		}
+        {
+            "name": "LABEL",
+            "value": "io.kubernetes.pod.namespace:^$(NAMESPACE)$"
+        },
+        {
+            "name": "DEBUG",
+            "value": "true"
+        }
     ],
     "command": [ "bin/logspout" ],
     "args": [ "syslog+tcp://$(LOGSTASH_PORT_5000_TCP_ADDR):$(LOGSTASH_PORT_5000_TCP_PORT)" ],

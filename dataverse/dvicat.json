@@ -2,11 +2,7 @@
     "key": "dvicat",
     "label": "Dataverse iRODS iCAT",
     "image": "ndslabs/dataverse-icat:latest",
-    "isService": true,
-    "isStandalone": false,
-    "isStack": false ,
-    "isPublic": true,
-    "requiresVolume": true,
+	"access": "external",
     "ports": [
         {
             "port": 1247,
@@ -43,13 +39,6 @@
             "isPassword": false
         },
         {
-            "name": "PRESERVATION_SERVER",
-            "value": "nds-irods-demo",
-            "label": "iRODS preservation server hostname",
-            "canOverride": true,
-            "isPassword": false
-        },
-        {
             "name": "PRESERVATION_SERVER_IP",
             "value": "",
             "label": "iRODS preservation server IP",
@@ -60,6 +49,27 @@
             "name": "PRESERVATION_SERVER_PORT",
             "value": "1247",
             "label": "iRODS preservation server port",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "CURATOR_EMAIL",
+            "value": "",
+            "label": "Curator email",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "CRON_FREQUENCY",
+            "label": "Cron frequency",
+            "value": "5",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
+            "name": "SMTP_SERVER",
+            "value": "smtp.ncsa.illinois.edu:25",
+            "label": "Mail server",
             "canOverride": true,
             "isPassword": false
         }

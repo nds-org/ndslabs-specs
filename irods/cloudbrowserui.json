@@ -3,10 +3,8 @@
     "label": "iRODS Cloudbrowser UI",
     "requiresVolume": false,
     "image": "ndslabs/cloudbrowser-ui:latest",
-    "isService": true,
-    "isStandalone": true,
-    "isStack": false,
-    "isPublic": true,
+	"access": "external",
+	"display": "standalone",
     "ports": [
         {
             "port": 80,
@@ -17,6 +15,7 @@
       { "key": "cloudbrowser", "required": true }
     ],
     "readinessProbe" : {
+        "type" : "http",
         "path" : "app/images/beta_test_logo.png",
         "port" : 80,
         "initialDelay": 30,

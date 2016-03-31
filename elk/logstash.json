@@ -1,19 +1,23 @@
 {
+    "key": "logstash",
+    "label": "Logstash",
+    "image": "logstash:2.2",
+	"access":"internal",
     "depends": [
         {
             "key": "elasticsearch2",
             "required": true
         }
     ],
-    "key": "logstash",
-    "isStack": false,
-    "isService": true,
-    "isStandalone": false,
-    "label": "Logstash",
-    "image": "logstash:2.2",
     "ports": [
         { "port": 5000, "protocol": "tcp" }
     ],
     "command": [ "logstash", "-e" ],
-    "args" : [ "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }" ]
+    "args" : [ "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }" ],
+   "readinessProbe" : {
+	    "type" : "tcp",	
+        "port" : 5000,
+        "initialDelay": 30,
+        "timeout" : 600
+    }
 }

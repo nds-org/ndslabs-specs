@@ -2,11 +2,10 @@
     "key": "icat",
     "label": "iRODS iCAT",
     "requiresVolume": true,
+	"description": "open source data management software",
     "image": "ndslabs/irods-icat:latest",
-    "isService": true,
-    "isStandalone": true,
-    "isStack": true,
-    "isPublic": true,
+	"access": "external",
+	"display": "stack",
     "ports": [
         {
             "port": 1247,

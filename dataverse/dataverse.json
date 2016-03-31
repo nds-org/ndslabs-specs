@@ -1,12 +1,9 @@
 {
     "key": "dataverse",
     "label": "Dataverse",
-      "requiresVolume": true,
     "image": "ndslabs/dataverse:latest",
-    "isService": true,
-    "isStack": true,
-    "isPublic": true,
-    "isStandalone": true,
+	"display": "stack",
+	"access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
     "ports": [
         {
@@ -61,6 +58,7 @@
        { "mountPath": "/usr/local/glassfish4/glassfish/domains/domain1/files", "name": "dataverse" }
     ], 
     "readinessProbe" : {
+        "type" : "http",
         "path" : "/resources/images/dataverseproject_logo.jpg",
         "port" : 8080,
         "initialDelay": 30,
