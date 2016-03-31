@@ -3,7 +3,7 @@
     "label": "iRODS Cloudbrowser API",
     "requiresVolume": false,
     "image": "ndslabs/cloudbrowser:latest",
-	"access": "external",
+	"access": "internal",
     "ports": [
         {
             "port": 8009,
