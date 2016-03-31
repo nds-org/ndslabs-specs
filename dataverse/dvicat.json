@@ -40,8 +40,8 @@
         },
         {
             "name": "PRESERVATION_SERVER",
-            "value": "nds-irods-demo",
-            "label": "iRODS preservation server hostname",
+            "value": "",
+            "label": "iRODS preservation server address",
             "canOverride": true,
             "isPassword": false
         },
