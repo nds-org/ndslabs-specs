@@ -17,10 +17,17 @@ Have you created and tested a spec of your own? Want to see it end up in NDS Lab
 That's great!
 
 ### Share Your Spec
-Simply sharing the JSON spec you have created with others will allow them to add the service to their running instance to run using your pushed Docker image.
+Share the JSON spec you have created with other users of NDS Labs!
+
+This will enable them to add the JSON spec, which can be run using your pushed Docker image.
 
 ### Make a Pull Request
-Just fork this repository, add your service spec, and create a pull request!
+To contribute your service back to our code base:
+* Fork this repository
+* Add your service spec
+* Create a pull request
+
+We will review and give feedback on your pull request before merging it in.
 
 For more information on our Developer Workflows, see [Developer Workflows](https://opensource.ncsa.illinois.edu/confluence/display/NDS/Developer+Workflows).
 
