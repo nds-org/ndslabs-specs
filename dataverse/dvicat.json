@@ -67,6 +67,12 @@
             "isPassword": false
         },
         {
+            "name": "CRON_FREQUENCY",
+            "value": "5",
+            "canOverride": true,
+            "isPassword": false
+        },
+        {
             "name": "SMTP_SERVER",
             "value": "smtp.ncsa.illinois.edu:25",
             "label": "Mail server",
