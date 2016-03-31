@@ -1,5 +1,4 @@
-# ndslabs-specs
-NDSLabs service catalog
+# NDSLabs Service Catalog
 
 * https://github.com/nds-org/ndslabs-clowder
 * https://github.com/nds-org/ndslabs-dataverse
