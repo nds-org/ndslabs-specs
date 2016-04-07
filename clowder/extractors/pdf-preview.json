@@ -1,0 +1,30 @@
+{
+    "key": "pdfpreview",
+    "label": "PDF Preview Extractor",
+    "description": "Clowder extractor for PDF preview thumbnails",
+    "image": "bodom0015/pdf-preview",
+    "access": "internal",
+    "depends": [
+        {
+            "key": "rabbitmq",
+            "required": true
+        }
+    ],
+    "config":  [
+        {
+            "name": "RABBITMQ_EXCHANGE",
+            "value": "clowder",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_VHOST",
+            "value": "%2F",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_QUEUE",
+            "value": "ncsa.pdf.preview",
+            "canOverride": false
+        }
+    ]
+}

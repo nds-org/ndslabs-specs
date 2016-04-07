@@ -1,0 +1,30 @@
+{
+    "key": "speech2text",
+    "label": "Speech-to-Text Extractor",
+    "description": "Clowder extractor for creating text from audio",
+    "image": "bodom0015/audio-speech2text",
+    "access": "internal",
+    "depends": [
+        {
+            "key": "rabbitmq",
+            "required": true
+        }
+    ],
+    "config":  [
+        {
+            "name": "RABBITMQ_EXCHANGE",
+            "value": "clowder",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_VHOST",
+            "value": "%2F",
+            "canOverride": false
+        },
+        {
+            "name": "RABBITMQ_QUEUE",
+            "value": "speech2text",
+            "canOverride": false
+        }
+    ]
+}
