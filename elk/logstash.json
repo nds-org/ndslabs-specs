@@ -2,7 +2,7 @@
     "key": "logstash",
     "label": "Logstash",
     "image": "logstash:2.2",
-	"access":"internal",
+    "access":"internal",
     "depends": [
         {
             "key": "elasticsearch2",
@@ -15,7 +15,7 @@
     "command": [ "logstash", "-e" ],
     "args" : [ "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }" ],
    "readinessProbe" : {
-	    "type" : "tcp",	
+        "type" : "tcp",    
         "port" : 5000,
         "initialDelay": 30,
         "timeout" : 600
