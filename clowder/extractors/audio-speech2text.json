@@ -2,7 +2,7 @@
     "key": "speech2text",
     "label": "Speech-to-Text Extractor",
     "description": "Clowder extractor for creating text from audio",
-    "image": "bodom0015/audio-speech2text",
+    "image": "ndslabs/speech2text:0.9.2",
     "access": "internal",
     "depends": [
         {
