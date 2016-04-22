@@ -2,7 +2,7 @@
     "key": "imagemetadata",
     "label": "Image Metadata Extractor",
     "description": "Clowder extractor for image metadata",
-    "image": "bodom0015/image-metadata:latest",
+    "image": "ndslabs/image-metadata:0.9.2",
     "access": "internal",
     "depends": [
         {
