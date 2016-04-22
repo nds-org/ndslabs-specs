@@ -2,7 +2,7 @@
     "key": "audiopreview",
     "label": "Audio Preview Extractor",
     "description": "Clowder extractor for audio preview clips",
-    "image": "bodom0015/audio-preview:latest",
+    "image": "ndslabs/audio-preview:0.9.2",
     "access": "internal",
     "depends": [
         {
