@@ -2,8 +2,8 @@
     "key": "dataverse",
     "label": "Dataverse",
     "image": "ndslabs/dataverse:latest",
-	"display": "stack",
-	"access": "external",
+    "display": "stack",
+    "access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
     "ports": [
         {
@@ -63,5 +63,11 @@
         "port" : 8080,
         "initialDelay": 30,
         "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "250m",
+        "memMax": "2Gi",
+        "memDefault": "1Gi"
     }
 }
