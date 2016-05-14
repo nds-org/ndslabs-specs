@@ -1,6 +1,6 @@
 {
-    "key": "toobigtest",
-    "label": "Test - Too Big",
+    "key": "smalltest",
+    "label": "Test - Small container",
     "image": "nginx",
     "display": "stack",
     "access": "external",
@@ -12,9 +12,9 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": "10",
-        "cpuDefault": "10",
-        "memMax": "100Gi",
-        "memDefault": "100Gi"
+        "cpuMax": "1",
+        "cpuDefault": "1m",
+        "memMax": "10Mi",
+        "memDefault": "1Mi"
     }
 }
