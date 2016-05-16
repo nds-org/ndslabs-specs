@@ -20,7 +20,7 @@
 	],
     "resourceLimits": {
         "cpuMax": "500m",
-        "cpuDefault": "250m",
+        "cpuDefault": "100m",
         "memMax": "2Gi",
         "memDefault": "500Mi"
     }
