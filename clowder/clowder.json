@@ -11,15 +11,31 @@
             "required": true
         },
         {
+            "key": "elasticsearch",
+            "required": false
+        },
+        {
             "key": "imagepreview",
             "required": false
         },
         {
-            "key": "videopreview",
+            "key": "imagemetadata",
             "required": false
         },
         {
-            "key": "elasticsearch",
+            "key": "pdfpreview",
+            "required": false
+        },
+        {
+            "key": "audiopreview",
+            "required": false
+        },
+        {
+            "key": "speech2text",
+            "required": false
+        },
+        {
+            "key": "videopreview",
             "required": false
         },
         {
