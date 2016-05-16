@@ -62,7 +62,7 @@
         {
             "name": "CRON_FREQUENCY",
             "label": "Cron frequency",
-            "value": "5",
+            "value": "2",
             "canOverride": true,
             "isPassword": false
         },
