@@ -32,7 +32,7 @@
     "readinessProbe" : {
         "type" : "http",
         "path" : "bundles/src/ui/public/images/kibana.svg",
-        "port" : 8080,
+        "port" : 5601,
         "initialDelay": 10,
         "timeout" : 600
     }
