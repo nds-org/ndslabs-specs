@@ -31,6 +31,6 @@
         "cpuMax": "1",
         "cpuDefault": "100m",
         "memMax": "250Mi",
-        "memDefault": "25Mi"
+        "memDefault": "100Mi"
     }
 }
