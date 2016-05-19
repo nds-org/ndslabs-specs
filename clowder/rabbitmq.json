@@ -9,6 +9,12 @@
         { "port": 5672, "protocol": "tcp" },
         { "port": 15672, "protocol": "tcp" }
     ],
+    "readinessProbe" : {
+        "type" : "tcp",
+        "path" : "unused",
+        "port" : 5672,
+        "initialDelay": 30
+    },
     "resourceLimits": {
         "cpuMax": "1",
         "cpuDefault": "100m",
@@ -16,4 +22,3 @@
         "memDefault": "150Mi"
     }
 }
-

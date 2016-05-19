@@ -28,5 +28,12 @@
             "value": "http://$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)",
             "canOverride": false
         }
-	]
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "bundles/src/ui/public/images/kibana.svg",
+        "port" : 5601,
+        "initialDelay": 10,
+        "timeout" : 600
+    }
 }
