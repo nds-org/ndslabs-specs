@@ -16,5 +16,11 @@
         "port" : 8983,
         "initialDelay": 30,
         "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "500Mi",
+        "memDefault": "200Mi"
     }
 }

@@ -6,5 +6,11 @@
     "image": "ndslabs/tworavens:latest",
     "ports": [
         { "port": 80, "protocol": "http" }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "1Gi",
+        "memDefault": "500Mi"
+    }
 }

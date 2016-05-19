@@ -9,5 +9,11 @@
     ],
     "volumeMounts":[
         { "mountPath": "/var/lib/postgresql/data", "name": "postgres" }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "250Mi",
+        "memDefault": "100Mi"
+    }
 }

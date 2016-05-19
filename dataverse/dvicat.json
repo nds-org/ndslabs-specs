@@ -62,7 +62,7 @@
         {
             "name": "CRON_FREQUENCY",
             "label": "Cron frequency",
-            "value": "5",
+            "value": "2",
             "canOverride": true,
             "isPassword": false
         },
@@ -76,5 +76,11 @@
     ],
     "volumeMounts":[
        { "mountPath": "/var/lib/irods/iRODS/Vault", "name": "dvicat" }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "500Mi",
+        "memDefault": "100Mi"
+    }
 }

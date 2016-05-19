@@ -6,5 +6,11 @@
     "image": "ndslabs/dataverse-rserve:latest",
     "ports": [
         { "port": 6311, "protocol": "tcp" }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "250Mi",
+        "memDefault": "100Mi"
+    }
 }

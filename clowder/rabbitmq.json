@@ -14,5 +14,11 @@
         "path" : "unused",
         "port" : 5672,
         "initialDelay": 30
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "500Mi",
+        "memDefault": "150Mi"
     }
 }

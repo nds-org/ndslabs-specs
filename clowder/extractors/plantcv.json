@@ -26,5 +26,11 @@
             "value": "terra.plantcv",
             "canOverride": false
         }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "250Mi",
+        "memDefault": "100Mi"
+    }
 }

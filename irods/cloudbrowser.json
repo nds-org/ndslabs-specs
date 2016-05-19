@@ -17,5 +17,11 @@
             "label": "iRODS Zone",
             "canOverride": true
         }
-	]
+	],
+    "resourceLimits": {
+        "cpuMax": "500m",
+        "cpuDefault": "100m",
+        "memMax": "2Gi",
+        "memDefault": "500Mi"
+    }
 }
