@@ -26,5 +26,11 @@
             "value": "ncsa.video.preview",
             "canOverride": false
         }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "250Mi",
+        "memDefault": "25Mi"
+    }
 }

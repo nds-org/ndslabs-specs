@@ -8,6 +8,12 @@
     "ports": [
         { "port": 5672, "protocol": "tcp" },
         { "port": 15672, "protocol": "tcp" }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "500Mi",
+        "memDefault": "150Mi"
+    }
 }
 

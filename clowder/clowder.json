@@ -55,5 +55,12 @@
             "port": 9000,
             "protocol": "http"
         }
-    ]
+    ],
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "1Gi",
+        "memDefault": "250Mi"
+    }
 }
+
