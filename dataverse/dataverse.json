@@ -59,7 +59,7 @@
     ], 
     "readinessProbe" : {
         "type" : "http",
-        "path" : "/resources/images/dataverseproject_logo.jpg",
+        "path" : "/healthcheck.txt",
         "port" : 8080,
         "initialDelay": 30,
         "timeout" : 600
