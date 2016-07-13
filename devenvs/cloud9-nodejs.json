@@ -1,0 +1,30 @@
+{
+    "key": "cloud9nodejs",
+    "label": "Cloud9 Node.js",
+    "image": "ndslabs/cloud9-nodejs",
+    "display": "stack",
+    "access": "external",
+    "description": "Unopinionated Node.js development environment based on Cloud9",
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "volumeMounts":[
+       { "mountPath": "/workspace", "name": "cloud9nodejs" }
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "1Gi",
+        "memDefault": "50Mi"
+    }
+}
