@@ -1,7 +1,10 @@
 {
     "key": "cloud9go",
     "label": "Cloud9 GO",
-    "image": "ndslabs/cloud9-go",
+    "image": {
+		"name": "ndslabs/cloud9-go",
+		"tags": ["latest"]
+	}, 
     "display": "stack",
     "access": "external",
     "description": "Unopinionated Go development environment based on Cloud9",
