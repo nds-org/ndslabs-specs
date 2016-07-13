@@ -1,7 +1,10 @@
 {
     "key": "logspout",
     "label": "LogSpout",
-    "image": "ndslabs/logspout:latest",
+    "image": {
+		"name" : "ndslabs/logspout",
+		"tags" : ["latest"]
+	},
     "access":"internal",
     "depends": [
         {

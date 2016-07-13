@@ -2,7 +2,10 @@
     "key": "imagepreview",
     "label": "Image Preview Extractor",
     "description": "Clowder extractor for image preview thumbnails",
-    "image": "ndslabs/image-preview:0.9.2",
+    "image": {
+		"name": "ndslabs/image-preview", 
+		"tags" : ["0.9.2"]
+	},
 	"access": "internal",
     "depends": [
         {

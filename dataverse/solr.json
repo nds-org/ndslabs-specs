@@ -3,7 +3,10 @@
     "description": "Solr 4.6 intended for use with Dataverse",
 	"access": "internal",
     "label": "Solr",
-    "image": "ndslabs/dataverse-solr:latest",
+    "image": {
+		"name": "ndslabs/dataverse-solr",
+		"tags": ["latest"]
+	},
     "ports": [
         { "port": 8983, "protocol": "http" }
     ],

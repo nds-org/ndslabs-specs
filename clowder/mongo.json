@@ -1,7 +1,10 @@
 {
     "key": "mongo",
     "label": "MongoDB",
-    "image": "mongo:3.2.4",
+    "image": { 
+		"name" : "mongo",
+		"tags" : ["3.2.4"]
+	},
     "description": "A cross-platform document-oriented NoSQL database",
 	"display": "standalone",
 	"access": "internal",

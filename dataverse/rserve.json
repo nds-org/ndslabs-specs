@@ -3,7 +3,10 @@
 	"access": "internal",
 	"display": "standalone",
     "label": "Rserve",
-    "image": "ndslabs/dataverse-rserve:latest",
+    "image": {
+		"name": "ndslabs/dataverse-rserve",
+		"tags": ["latest"]
+	},
     "ports": [
         { "port": 6311, "protocol": "tcp" }
     ],

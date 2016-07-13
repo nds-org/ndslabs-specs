@@ -2,7 +2,10 @@
     "key": "videopreview",
     "label": "Video Preview Extractor",
     "description": "Clowder extractor for creating a series of preview shots from a video",
-    "image": "ndslabs/video-preview:0.9.2",
+    "image": {
+		"name": "ndslabs/video-preview", 
+		"tags" : ["0.9.2"]
+	},
 	"access": "internal",
     "depends": [
         {

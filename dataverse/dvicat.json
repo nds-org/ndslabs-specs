@@ -1,7 +1,10 @@
 {
     "key": "dvicat",
     "label": "Dataverse iRODS iCAT",
-    "image": "ndslabs/dataverse-icat:latest",
+    "image": {
+		"name": "ndslabs/dataverse-icat",
+		"tags": ["latest"]
+	},
 	"access": "external",
     "ports": [
         {

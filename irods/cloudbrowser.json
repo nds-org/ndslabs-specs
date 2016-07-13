@@ -1,8 +1,10 @@
 {
     "key": "cloudbrowser",
     "label": "iRODS Cloudbrowser API",
-    "requiresVolume": false,
-    "image": "ndslabs/cloudbrowser:latest",
+    "image": {
+		"name": "ndslabs/cloudbrowser",
+		"tags": ["latest"]
+	},
     "access": "external",
     "ports": [
         {

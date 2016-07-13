@@ -1,8 +1,10 @@
 {
     "key": "cloudbrowserui",
     "label": "iRODS Cloudbrowser UI",
-    "requiresVolume": false,
-    "image": "ndslabs/cloudbrowser-ui:latest",
+    "image": {
+		"name": "ndslabs/cloudbrowser-ui",
+		"tags": ["latest"]
+	},
 	"access": "external",
 	"display": "standalone",
     "ports": [

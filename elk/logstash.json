@@ -1,7 +1,10 @@
 {
     "key": "logstash",
     "label": "Logstash",
-    "image": "logstash:2.2",
+    "image": {
+		"name" : "logstash",
+		"tags" : ["2.2"]
+	},
     "access":"internal",
     "depends": [
         {

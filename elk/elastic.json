@@ -1,7 +1,10 @@
 {
     "key": "elasticsearch2",
     "label": "ElasticSearch",
-    "image": "elasticsearch:2.2",
+    "image": {
+		"name" : "elasticsearch",
+		"tags" : ["2.2"]
+	},
     "description": "A distributed search and analytics engine",
 	"display": "standalone",
 	"access":"internal",
