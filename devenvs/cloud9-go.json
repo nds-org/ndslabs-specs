@@ -1,0 +1,30 @@
+{
+    "key": "cloud9go",
+    "label": "Cloud9 GO",
+    "image": "ndslabs/cloud9-go",
+    "display": "stack",
+    "access": "external",
+    "description": "Unopinionated Go development environment based on Cloud9",
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "volumeMounts":[
+       { "mountPath": "/workspace", "name": "cloud9go" }
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "1Gi",
+        "memDefault": "50Mi"
+    }
+}
