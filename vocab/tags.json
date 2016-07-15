@@ -1,0 +1,93 @@
+{
+    "name": "tags",
+    "terms": [
+        {
+            "definition": "",
+            "name": "Archive"
+        },
+        {
+            "definition": "",
+            "name": "Active data management"
+        },
+        {
+            "definition": "",
+            "name": "Collaboration"
+        },
+        {
+            "definition": "",
+            "name": "Catalog"
+        },
+        {
+            "definition": "Current research information system",
+            "name": "CRIS"
+        },
+        {
+            "definition": "",
+            "name": "Data transfer"
+        },
+        {
+            "definition": "",
+            "name": "Development environment"
+        },
+        {
+            "definition": "",
+            "name": "Identifier services"
+        },
+        {
+            "definition": "",
+            "name": "Identity services"
+        },
+        {
+            "definition": "Metadata capture and management",
+            "name": "Metadata"
+        },
+        {
+            "definition": "",
+            "name": "Repository"
+        },
+        {
+            "definition": "",
+            "name": "Visualization"
+        },
+        {
+            "definition": "",
+            "name": "Workflow"
+        },
+        {
+            "definition": "",
+            "name": "C/C++"
+        },
+        {
+            "definition": "",
+            "name": "C#"
+        },
+        {
+            "definition": "",
+            "name": "Java"
+        },
+        {
+            "definition": "",
+            "name": "Go"
+        },
+        {
+            "definition": "",
+            "name": "PHP"
+        },
+        {
+            "definition": "",
+            "name": "Ruby"
+        },
+        {
+            "definition": "",
+            "name": "Python"
+        },
+        {
+            "definition": "",
+            "name": "Javascript"
+        },
+        {
+            "definition": "",
+            "name": "Scala"
+        }
+    ]
+}
