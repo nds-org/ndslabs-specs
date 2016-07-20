@@ -14,9 +14,9 @@
         "-Des.cluster.name=clowder" 
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "500Mi",
-        "memDefault": "250Mi"
+        "cpuMax": "500",
+        "cpuDefault": "100",
+        "memMax": "500",
+        "memDefault": "250"
     }
 }

@@ -68,9 +68,9 @@
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "2Gi",
-        "memDefault": "1Gi"
+        "cpuMax": "1000",
+        "cpuDefault": "100",
+        "memMax": "2000",
+        "memDefault": "1000"
     }
 }

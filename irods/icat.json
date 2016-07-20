@@ -40,9 +40,9 @@
       { "key": "cloudbrowserui", "required": false }
     ],
     "resourceLimits": {
-        "cpuMax": "400m",
-        "cpuDefault": "100m",
-        "memMax": "500Mi",
-        "memDefault": "200Mi"
+        "cpuMax": "400",
+        "cpuDefault": "100",
+        "memMax": "500",
+        "memDefault": "200"
     }
 }

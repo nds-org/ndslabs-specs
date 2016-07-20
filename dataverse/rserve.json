@@ -11,9 +11,9 @@
         { "port": 6311, "protocol": "tcp" }
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "250Mi",
-        "memDefault": "100Mi"
+        "cpuMax": "1000",
+        "cpuDefault": "100",
+        "memMax": "250",
+        "memDefault": "100"
     }
 }
