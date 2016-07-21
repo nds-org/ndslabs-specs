@@ -22,5 +22,11 @@
         "port" : 5000,
         "initialDelay": 30,
         "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "250Mi",
+        "memDefault": "100Mi"
     }
 }
