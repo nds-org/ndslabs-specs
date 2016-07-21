@@ -15,9 +15,9 @@
         { "mountPath": "/usr/share/elasticsearch/data", "name": "elasticsearch2" }
     ],
     "resourceLimits": {
-        "cpuMax": "1000",
-        "cpuDefault": "100",
-        "memMax": "500",
-        "memDefault": "100"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 500,
+        "memDefault": 100
     }
 }
