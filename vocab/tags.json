@@ -1,0 +1,115 @@
+{
+    "name": "tags",
+    "terms": [
+        {
+			"id": "1",
+            "definition": "Software that supports archiving of research data",
+            "name": "Archive"
+        },
+        {
+			"id": "2",
+            "definition": "Software that supports management of active research data",
+            "name": "Active data management"
+        },
+        {
+			"id": "3",
+            "definition": "Software that supports collaboration with research data",
+            "name": "Collaboration"
+        },
+        {
+			"id": "4",
+            "definition": "Software that supports cataloging of research data or metadata",
+            "name": "Catalog"
+        },
+        {
+			"id": "5",
+            "definition": "Current research information system",
+            "name": "CRIS"
+        },
+        {
+			"id": "6",
+            "definition": "Software that supports transfer of research data",
+            "name": "Data transfer"
+        },
+        {
+			"id": "7",
+            "definition": "Software development environment",
+            "name": "Development environment"
+        },
+        {
+			"id": "8",
+            "definition": "Software for object identification",
+            "name": "Identifier services"
+        },
+        {
+			"id": "9",
+            "definition": "Software for research or user identity",
+            "name": "Identity services"
+        },
+        {
+			"id": "10",
+            "definition": "Metadata capture and management",
+            "name": "Metadata"
+        },
+        {
+			"id": "11",
+            "definition": "Research data repository software",
+            "name": "Repository"
+        },
+        {
+			"id": "12",
+            "definition": "Research data visualiation software",
+            "name": "Visualization"
+        },
+        {
+			"id": "13",
+            "definition": "Workflow management systems",
+            "name": "Workflow"
+        },
+        {
+			"id": "14",
+            "definition": "Software written in C/C++",
+            "name": "C/C++"
+        },
+        {
+			"id": "15",
+            "definition": "Software written in C#",
+            "name": "C#"
+        },
+        {
+			"id": "16",
+            "definition": "Software written in Java",
+            "name": "Java"
+        },
+        {
+			"id": "17",
+            "definition": "Software written in Go",
+            "name": "Go"
+        },
+        {
+			"id": "18",
+            "definition": "Software written in PHP",
+            "name": "PHP"
+        },
+        {
+			"id": "19",
+            "definition": "Software written in Ruby",
+            "name": "Ruby"
+        },
+        {
+			"id": "20",
+            "definition": "Software written in Python",
+            "name": "Python"
+        },
+        {
+			"id": "21",
+            "definition": "Software written in Javascript",
+            "name": "Javascript"
+        },
+        {
+			"id": "22",
+            "definition": "Software written in Scala",
+            "name": "Scala"
+        }
+    ]
+}
