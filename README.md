@@ -20,6 +20,7 @@ Specifications for a given service stack are organized into subdirectories.
     "logo": "URL",
     "key": "shortname",
     "label": "My Service Display Name",
+    "maintainer": "Maintainer name and email",
     "image": {
         "registry" : "docker.io",
         "name" : "ndslabs/myimage",
@@ -30,10 +31,10 @@ Specifications for a given service stack are organized into subdirectories.
     "description": "Description of my service",
     "depends": [
         {
-            "id": "dependencyid",
+            "key": "dependencykey",
             "required": true,
-            "sharedConfig": false
-        },
+            "shareConfig": false
+        }
     ],
     "config":  [
         {
@@ -42,7 +43,7 @@ Specifications for a given service stack are organized into subdirectories.
             "label": "Label",
             "canOverride": true,
             "isPassword": true
-        },
+        }
     ],
     "command": [ "somecommand" ],
     "args" : [
@@ -60,7 +61,7 @@ Specifications for a given service stack are organized into subdirectories.
     ],
     "repositories":  [
         {
-            "name": "https://github.com/golang/example",
+            "url": "https://github.com/golang/example",
             "type": "git"
         }
     ],
@@ -83,10 +84,10 @@ Specifications for a given service stack are organized into subdirectories.
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "2Gi",
-        "memDefault": "1Gi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1024,
+        "memDefault": 512
     },
     "tags": [
         "tagId1",
@@ -103,6 +104,7 @@ Specifications for a given service stack are organized into subdirectories.
 |key|string|Unique identifier for the service (alpha-numeric only, lowercase)|
 |label|string|Label used for display|
 |description|string|Description used for display|
+|maintainer|string|maintainer name and email|
 |logo|string|Optional URL to logo for service|
 |image|ServiceImage|Docker image information (see below)|
 |display|string|	"stack" => show this service as a top-level stack; "standalone" => show this service as a standalone (hidden behind the checkbox in the UI) otherwise, do not display this service; only allow it to be added to other stacks|
@@ -131,7 +133,7 @@ Specifications for a given service stack are organized into subdirectories.
 |:---|:---|:---|
 |key|string|Unique ID of dependency|
 |required|bool|Whether dependency is required (default: false)|
-|sharedConfig|bool|Whether config is shared with other services (default:false)
+|shareConfig|bool|Whether config is shared with other services (default:false)
 
 ### Config
 |Field|Type|Description|
