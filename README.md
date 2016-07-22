@@ -12,6 +12,89 @@ This repository contains specifications for services supported in the National D
 
 Specifications for a given service stack are organized into subdirectories. 
 
+## Example specification
+
+```js
+{
+    "id": "uniqueid",
+    "logo": "URL",
+    "key": "shortname",
+    "label": "My Service Display Name",
+    "image": {
+        "registry" : "docker.io",
+        "name" : "ndslabs/myimage",
+        "tags" : [ "latest", "v1", "v2", "v3" ]
+    },
+    "display": "stack",
+    "access": "external",
+    "description": "Description of my service",
+    "depends": [
+        {
+            "id": "dependencyid",
+            "required": true,
+            "sharedConfig": false
+        },
+    ],
+    "config":  [
+        {
+            "name": "ENV_VAR",
+            "value": "value",
+            "label": "Label",
+            "canOverride": true,
+            "isPassword": true
+        },
+    ],
+    "command": [ "somecommand" ],
+    "args" : [
+        "-someargument"
+    ],
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http"
+        },
+        {
+            "port": 8000,
+            "protocol": "http"
+        }
+    ],
+    "repositories":  [
+        {
+            "name": "https://github.com/golang/example",
+            "type": "git"
+        }
+    ],
+    "developerEnvironment" : "devenvId",
+    "volumeMounts":[
+       { 
+            "name": "data",
+            "mountPath": "/data"
+       },
+       {
+            "name": "other",
+            "mountPath": "/other"
+       }   
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": "1",
+        "cpuDefault": "100m",
+        "memMax": "2Gi",
+        "memDefault": "1Gi"
+    },
+    "tags": [
+        "tagId1",
+        "tagId2"
+    ]
+}
+```
+
 ## Documentation
 
 ### Service
