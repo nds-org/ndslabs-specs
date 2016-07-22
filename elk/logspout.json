@@ -1,7 +1,10 @@
 {
     "key": "logspout",
     "label": "LogSpout",
-    "image": "ndslabs/logspout:latest",
+    "image": {
+		"name" : "ndslabs/logspout",
+		"tags" : ["latest"]
+	},
     "access":"internal",
     "depends": [
         {
@@ -25,9 +28,9 @@
         { "mountPath": "/tmp/docker.sock", "name": "docker" }
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "250Mi",
-        "memDefault": "100Mi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 250,
+        "memDefault": 100
     }
 }

@@ -1,7 +1,10 @@
 {
     "key": "elasticsearch2",
     "label": "ElasticSearch",
-    "image": "elasticsearch:2.2",
+    "image": {
+		"name" : "elasticsearch",
+		"tags" : ["2.2"]
+	},
     "description": "A distributed search and analytics engine",
 	"display": "standalone",
 	"access":"internal",
@@ -12,9 +15,9 @@
         { "mountPath": "/usr/share/elasticsearch/data", "name": "elasticsearch2" }
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "250Mi",
-        "memDefault": "100Mi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 500,
+        "memDefault": 100
     }
 }

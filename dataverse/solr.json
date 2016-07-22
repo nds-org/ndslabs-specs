@@ -3,7 +3,10 @@
     "description": "Solr 4.6 intended for use with Dataverse",
 	"access": "internal",
     "label": "Solr",
-    "image": "ndslabs/dataverse-solr:latest",
+    "image": {
+		"name": "ndslabs/dataverse-solr",
+		"tags": ["latest"]
+	},
     "ports": [
         { "port": 8983, "protocol": "http" }
     ],
@@ -18,9 +21,9 @@
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "500Mi",
-        "memDefault": "200Mi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 500,
+        "memDefault": 200
     }
 }

@@ -1,7 +1,10 @@
 {
     "key": "kibana",
     "label": "Kibana (ELK)",
-    "image": "kibana:4.4",
+    "image": {
+		"name" : "kibana",
+		"tags" : ["4.4"]
+	},
     "description": "An open source data visualization platform",
 	"display": "stack",
 	"access":"external",
@@ -37,9 +40,9 @@
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "250Mi",
-        "memDefault": "100Mi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 250,
+        "memDefault": 100
     }
 }

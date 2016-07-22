@@ -12,58 +12,176 @@ This repository contains specifications for services supported in the National D
 
 Specifications for a given service stack are organized into subdirectories. 
 
-## Documentation
-For more information about the specs: [NDS Labs Service Specification](https://opensource.ncsa.illinois.edu/confluence/display/NDS/NDS+Labs+Service+Specification).
+## Example specification
 
 ```js
 {
-  "key": "A unique identifier for this service - may only contain lowercase alpha-numeric characters",
-  "label": "How this service should appear in the UI",
-  "image": "A docker image, formatted as repository/image:version",
-  "description": "A short description of what this service does that will appear in the UI",
-  "access": "external if browser needs to access, internal if other services need to access, none otherwise",
-  "display": "stack if it should be displayed at the top-level in the UI, standalone if it should be displayed under the 'Show Standalones' checkbox in the UI, none otherwise",
-  "depends": [
-    {
-      "key": "The key of another service that this spec depends on",
-      "required": "True if this dependency is required. False if it is optional",
-      "shareConfig": "True if any config from the dependency should be copied into this one"
+    "id": "uniqueid",
+    "logo": "URL",
+    "key": "shortname",
+    "label": "My Service Display Name",
+    "maintainer": "Maintainer name and email",
+    "image": {
+        "registry" : "docker.io",
+        "name" : "ndslabs/myimage",
+        "tags" : [ "latest", "v1", "v2", "v3" ]
     },
-      ...
-  ],
-  "config": [
-    {
-      "name": "Name of the environment variable to set inside of this container",
-      "value": "Value of the environment variable",
-      "label": "The label for this property that will appear in the UI",
-      "isPassword": "True if this variable reprents a password - this tells the UI to generate a password box and to allow the user to generate a random value for this field",
-      "canOverride": "True if this variable can be overridden by the user, if they so desire"
+    "display": "stack",
+    "access": "external",
+    "description": "Description of my service",
+    "depends": [
+        {
+            "key": "dependencykey",
+            "required": true,
+            "shareConfig": false
+        }
+    ],
+    "config":  [
+        {
+            "name": "ENV_VAR",
+            "value": "value",
+            "label": "Label",
+            "canOverride": true,
+            "isPassword": true
+        }
+    ],
+    "command": [ "somecommand" ],
+    "args" : [
+        "-someargument"
+    ],
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http"
+        },
+        {
+            "port": 8000,
+            "protocol": "http"
+        }
+    ],
+    "repositories":  [
+        {
+            "url": "https://github.com/golang/example",
+            "type": "git"
+        }
+    ],
+    "developerEnvironment" : "devenvId",
+    "volumeMounts":[
+       { 
+            "name": "data",
+            "mountPath": "/data"
+       },
+       {
+            "name": "other",
+            "mountPath": "/other"
+       }   
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 600
     },
-      ...
-  ],
-  "ports": [
-    {
-      "port": "A port number to expose",
-      "protocol": "The protocol of this exposed port  must be lowercase (i.e. http, tcp, udp, etc)"
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1024,
+        "memDefault": 512
     },
-      ...
-  ],
-  "volumeMounts": [
-    {
-      "name": "The unique identifier of this volume mount - this must match an existing volume",
-      "mountPath": "The absolute path of the destination inside of the container"
-    },
-      ...
-  ],
-  "readinessProbe": {
-    "type": "Must be one of http / tcp",
-    "path": "For HTTP probes, the full address / path to probe",
-    "port": "The port number to query",
-    "initialDelay": "How long to wait before starting the probe",
-    "timeout": "How long to wait before stopping the probe"
-  }
+    "tags": [
+        "tagId1",
+        "tagId2"
+    ]
 }
 ```
+
+## Documentation
+
+### Service
+|Field|Type|Description|
+|:---|:---|:---|
+|key|string|Unique identifier for the service (alpha-numeric only, lowercase)|
+|label|string|Label used for display|
+|description|string|Description used for display|
+|maintainer|string|maintainer name and email|
+|logo|string|Optional URL to logo for service|
+|image|ServiceImage|Docker image information (see below)|
+|display|string|	"stack" => show this service as a top-level stack; "standalone" => show this service as a standalone (hidden behind the checkbox in the UI) otherwise, do not display this service; only allow it to be added to other stacks|
+|access|string|"internal" => allow this service to receive requests only from within the cluster;  "external" => allow this service to receive requests from outside of the cluster (usually a browser); otherwise, do not allow any communication to be received by this service|
+|depends|ServiceDepencency[]|List of dependencies (see below)|
+|config|Config[]|List of configuration options (see below)|
+|command|string[]|Optional commands to be passed to the container.|
+|args|string[]|	Optional arguments to be passed to the container|
+|ports|Port[]|List of ports exposed by this service (see below)|
+|repositories|Repository[]|List of source code repositoriues associated with service|
+|volumeMounts|VolumeMount[]|Defines volume requirements for the service. Currently only one mount is supported per service.|
+|readinessProbe|ReadyProbe|Probe used to determine when a service is ready to receive traffic|
+|resourceLimits|ResourceLimit[]|Required CPU and memory requirements for application.|
+|developerEnvironment|string|Unique key of associated developer environment|
+|tags|string[]|List of tags|
+
+### ServiceImage
+|Field|Type|Description|
+|:---|:---|:---|
+|registry|string|Registry URL (for now, only docker)|
+|name|string|Docker image name|
+|tags|string[]|List of tags|
+
+### ServiceDependency
+|Field|Type|Description|
+|:---|:---|:---|
+|key|string|Unique ID of dependency|
+|required|bool|Whether dependency is required (default: false)|
+|shareConfig|bool|Whether config is shared with other services (default:false)
+
+### Config
+|Field|Type|Description|
+|:---|:---|:---|
+|name|string|Environment variable name|
+|value|string|Environment variable value|
+|label|string|Label to display in UI|
+|canOverride|bool|Whether user can override value|
+|isPassword|bool|Whether value is a password|
+
+### Port
+|Field|Type|Description|
+|:---|:---|:---|
+|port|int|Port number|
+|protocol|string|Procotol (http or tcp)
+
+### VolumeMount
+|Field|Type|Description|
+|:---|:---|:---|
+|name|string|Unique name for volume|
+|mountPath|string|Mount path in container|
+
+### ReadyProbe
+|Field|Type|Description|
+|:---|:---|:---|
+|type|string|Probe type: must be one of "http" or "tcp"|
+|path|string|Probe path for HTTP probes|
+|port|int|Probe port|
+|initialDelay|int|How long to wait before starting probe|
+|timeout|int|How long to wait before timing out|
+
+### Repository
+|Field|Type|Description|
+|:---|:---|:---|
+|url|string|Respository URL|
+|type|string|Repository type (git, svn or hg)|
+
+### ResourceLimit
+Individual NDS Labs projects are configured with specific memory and CPU limits. Because of this, all services must declare memory and CPU requirements to enable scheduling and resource constraint enforcement. These values relate directly to Kubernetes limit ranges and resource requests.
+
+|Field|Type|Description|
+|:---|:---|:---|
+|cpuMax	|String	|Maximum expected CPU utilization in millicores|
+|cpuDefault	|String	|Initial CPU utilization in millicores |
+|memMax	|String	|Maximum memory in Mb|
+|memDefault	|String	|Initial memory in Mb|
+
+
 
 ## Adding a New Spec
 To add a new service to NDS Labs, you only need:

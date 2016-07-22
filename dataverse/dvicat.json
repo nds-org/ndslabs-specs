@@ -1,7 +1,10 @@
 {
     "key": "dvicat",
     "label": "Dataverse iRODS iCAT",
-    "image": "ndslabs/dataverse-icat:latest",
+    "image": {
+		"name": "ndslabs/dataverse-icat",
+		"tags": ["latest"]
+	},
 	"access": "external",
     "ports": [
         {
@@ -78,9 +81,9 @@
        { "mountPath": "/var/lib/irods/iRODS/Vault", "name": "dvicat" }
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "500Mi",
-        "memDefault": "100Mi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 500,
+        "memDefault": 100
     }
 }

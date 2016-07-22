@@ -2,7 +2,10 @@
     "key": "speech2text",
     "label": "Speech-to-Text Extractor",
     "description": "Clowder extractor for creating text from audio",
-    "image": "ndslabs/speech2text:0.9.2",
+    "image": {
+		"name": "ndslabs/speech2text", 
+		"tags" : ["0.9.2"]
+	},
     "access": "internal",
     "depends": [
         {

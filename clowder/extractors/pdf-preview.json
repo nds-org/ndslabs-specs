@@ -2,7 +2,10 @@
     "key": "pdfpreview",
     "label": "PDF Preview Extractor",
     "description": "Clowder extractor for PDF preview thumbnails",
-    "image": "ndslabs/pdf-preview:0.9.2",
+    "image": {
+		"name": "ndslabs/pdf-preview", 
+		"tags" : ["0.9.2"]
+	},
     "access": "internal",
     "depends": [
         {

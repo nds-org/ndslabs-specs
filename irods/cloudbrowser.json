@@ -1,8 +1,10 @@
 {
     "key": "cloudbrowser",
     "label": "iRODS Cloudbrowser API",
-    "requiresVolume": false,
-    "image": "ndslabs/cloudbrowser:latest",
+    "image": {
+		"name": "ndslabs/cloudbrowser",
+		"tags": ["latest"]
+	},
     "access": "external",
     "ports": [
         {
@@ -19,9 +21,9 @@
         }
 	],
     "resourceLimits": {
-        "cpuMax": "500m",
-        "cpuDefault": "100m",
-        "memMax": "2Gi",
-        "memDefault": "500Mi"
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 2000,
+        "memDefault": 500
     }
 }

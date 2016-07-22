@@ -2,7 +2,10 @@
     "label": "Clowder",
     "key": "clowder",
     "description": "A scalable data repository where you can share, organize and analyze data.",
-    "image": "ndslabs/clowder:0.9.2",
+    "image": {
+		"name": "ndslabs/clowder",
+		"tags" : ["0.9.2"]
+	},
 	"display": "stack",
 	"access": "external",
     "depends": [
@@ -73,10 +76,10 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "1Gi",
-        "memDefault": "250Mi"
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 250
     }
 }
 

@@ -3,14 +3,17 @@
 	"access":"external",
     "description": "A collection of statistical tools for data exploration, analysis, and meta-analysis.",
     "label": "TwoRavens",
-    "image": "ndslabs/tworavens:latest",
+    "image": {
+		"name": "ndslabs/tworavens",
+		"tags": ["latest"]
+	},
     "ports": [
         { "port": 80, "protocol": "http" }
     ],
     "resourceLimits": {
-        "cpuMax": "1",
-        "cpuDefault": "100m",
-        "memMax": "1Gi",
-        "memDefault": "500Mi"
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 500
     }
 }
