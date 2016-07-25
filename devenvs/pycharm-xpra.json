@@ -1,0 +1,41 @@
+{
+    "key": "pycharmxpra",
+    "label": "PyCharm XPRA",
+    "description": "PyCharm development environment (Xpra)",
+    "logo": "",
+    "image": {
+        "registry": "",
+        "name": "ndslabs/pycharm-xpra",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 10000,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "unused",
+        "port": 10000,
+        "initialDelay": 0,
+        "initialDelay": 30,
+        "timeout": 600
+    },
+    "volumeMounts": [
+        {
+            "mountPath": "/root",
+            "name": "root"
+        }
+    ],
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1024,
+        "memDefault": 512
+    },
+}
