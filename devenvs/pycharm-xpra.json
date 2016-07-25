@@ -37,5 +37,5 @@
         "cpuDefault": 100,
         "memMax": 1024,
         "memDefault": 512
-    },
+    }
 }
