@@ -1,7 +1,7 @@
 {
     "key": "pycharmxpra",
-    "label": "PyCharm XPRA",
-    "description": "PyCharm development environment (Xpra)",
+    "label": "PyCharm (Xpra)",
+    "description": "PyCharm Community Edition (Xpra)",
     "logo": "",
     "image": {
         "registry": "",
@@ -25,7 +25,7 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 500,
         "cpuDefault": 100,
         "memMax": 4096,
         "memDefault": 1024
