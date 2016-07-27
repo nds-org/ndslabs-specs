@@ -29,5 +29,6 @@
             "value": "ncsa.image.metadata",
             "canOverride": false
         }
-    ]
+    ],
+	"tags" : ["27"]
 }

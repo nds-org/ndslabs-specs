@@ -72,5 +72,6 @@
         "cpuDefault": 100,
         "memMax": 2000,
         "memDefault": 1000
-    }
+    },
+	"tags" : ["1", "11", "16"]
 }

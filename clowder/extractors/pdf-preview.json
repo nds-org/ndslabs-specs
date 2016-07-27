@@ -29,5 +29,6 @@
             "value": "ncsa.pdf.preview",
             "canOverride": false
         }
-    ]
+    ],
+	"tags" : ["27"]
 }
