@@ -3,7 +3,7 @@
     "label": "iRODS Cloudbrowser API",
     "image": {
 		"name": "ndslabs/cloudbrowser",
-		"tags": ["latest"]
+		"tags": ["1.0", "latest"]
 	},
     "access": "external",
     "ports": [

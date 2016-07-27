@@ -4,7 +4,7 @@
 	"description": "open source data management software",
     "image": {
 		"name": "ndslabs/irods-icat",
-		"tags": ["latest"]
+		"tags": ["4.1.3", "latest"]
 	},
 	"access": "external",
 	"display": "stack",
