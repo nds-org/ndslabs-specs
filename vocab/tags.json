@@ -110,6 +110,46 @@
 			"id": "22",
             "definition": "Software written in Scala",
             "name": "Scala"
+        },
+        {
+			"id": "23",
+            "definition": "Search engine software",
+            "name": "Search engine"
+        },
+        {
+			"id": "24",
+            "definition": "NoSQL database ",
+            "name": "NoSQL"
+        },
+        {
+			"id": "25",
+            "definition": "Relational database management system ",
+            "name": "RDBMS"
+        },
+        {
+			"id": "26",
+            "definition": "Message broker",
+            "name": "Message broker"
+        },
+        {
+			"id": "27",
+            "definition": "Extractor",
+            "name": "Extractor"
+        },
+        {
+			"id": "28",
+            "definition": "Statistical programming and analysis",
+            "name": "Statistics"
+        },
+        {
+			"id": "29",
+            "definition": "Software that provides a REST API",
+            "name": "REST"
+        },
+        {
+			"id": "30",
+            "definition": "Logging, monitoring and alerts",
+            "name": "LMA"
         }
     ]
 }

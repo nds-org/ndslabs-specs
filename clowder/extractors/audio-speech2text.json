@@ -29,5 +29,6 @@
             "value": "speech2text",
             "canOverride": false
         }
-    ]
+    ],
+	"tags" : ["27"]
 }
