@@ -5,7 +5,7 @@
     "label": "Solr",
     "image": {
 		"name": "ndslabs/dataverse-solr",
-		"tags": ["latest"]
+		"tags": ["4.6", "latest"]
 	},
     "ports": [
         { "port": 8983, "protocol": "http" }

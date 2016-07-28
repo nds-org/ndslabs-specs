@@ -7,7 +7,7 @@
         "registry": "",
         "name": "ndslabs/pycharm-xpra",
         "tags": [
-            "latest"
+            "1.0", "latest"
         ]
     },
     "display": "stack",
