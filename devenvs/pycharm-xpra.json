@@ -36,5 +36,6 @@
         "port" : 10000,
         "initialDelay": 10,
         "timeout" : 600
-    }
+    },
+	"tags" : ["7", "20"]
 }
