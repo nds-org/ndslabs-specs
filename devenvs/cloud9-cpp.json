@@ -3,7 +3,7 @@
     "label": "Cloud9 C/C++",
     "image": {
 		"name": "ndslabs/cloud9-cpp",
-		"tags": ["latest"]
+		"tags": ["3.0", "latest"]
 	}, 
     "display": "stack",
     "access": "external",

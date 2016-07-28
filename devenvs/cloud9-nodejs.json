@@ -3,7 +3,7 @@
     "label": "Cloud9 Node.js",
     "image": {
 		"name": "ndslabs/cloud9-nodejs",
-		"tags": ["latest"]
+		"tags": ["3.0", "latest"]
 	}, 
     "display": "stack",
     "access": "external",
