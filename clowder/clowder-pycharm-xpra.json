@@ -19,6 +19,23 @@
             "protocol": "http"
         }
     ],
+    "depends": [
+      {
+        "key": "clowder",
+        "required": true,
+        "shareConfig": false
+      },
+      {
+        "key": "mongo",
+        "required": true,
+        "shareConfig": false
+      },
+      {
+        "key": "rabbitmq",
+        "required": true,
+        "shareConfig": false
+      }
+    ],
     "volumeMounts": [
         {
             "mountPath": "/root",
