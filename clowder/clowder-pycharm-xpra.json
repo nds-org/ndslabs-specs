@@ -1,13 +1,14 @@
 {
-    "key": "clowderpycharm",
-    "label": "PyCharm for Clowder(Xpra)",
-    "description": "Clowder PyCharm development environment  (Xpra)",
+    "key": "pyclowderpycharm",
+    "label": "PyCharm for pyClowder(Xpra)",
+    "description": "pyClowder PyCharm development environment  (Xpra)",
     "logo": "",
     "image": {
         "registry": "",
         "name": "ndslabs/pycharm-clowder-xpra",
         "tags": [
-            "latest"
+            "latest",
+            "1.0"
         ]
     },
     "display": "stack",
