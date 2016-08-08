@@ -12,7 +12,7 @@
         { "port": 27017, "protocol": "tcp" }
     ],
     "volumeMounts":[
-        { "mountPath": "/data/db", "name": "mongo" }
+        { "mountPath": "/data/db" }
     ],
     "resourceLimits": {
         "cpuMax": 500,

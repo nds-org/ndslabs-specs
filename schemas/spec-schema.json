@@ -148,7 +148,7 @@
       "items": {
         "type": "object",
         "properties": {
-          "name": {
+          "type": {
             "type": "string"
           },
           "mountPath": {
@@ -156,7 +156,6 @@
           }
         },
         "required": [
-          "name",
           "mountPath"
         ]
       }

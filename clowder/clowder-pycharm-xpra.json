@@ -38,8 +38,7 @@
     ],
     "volumeMounts": [
         {
-            "mountPath": "/root",
-            "name": "root"
+            "mountPath": "/root"
         }
     ],
     "resourceLimits": {

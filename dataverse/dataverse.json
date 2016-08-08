@@ -58,7 +58,7 @@
         }
     ],
     "volumeMounts":[
-       { "mountPath": "/usr/local/glassfish4/glassfish/domains/domain1/files", "name": "dataverse" }
+       { "mountPath": "/usr/local/glassfish4/glassfish/domains/domain1/files" }
     ], 
     "readinessProbe" : {
         "type" : "http",

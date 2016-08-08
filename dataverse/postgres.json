@@ -11,7 +11,7 @@
         { "port": 5432, "protocol": "tcp" }
     ],
     "volumeMounts":[
-        { "mountPath": "/var/lib/postgresql/data", "name": "postgres" }
+        { "mountPath": "/var/lib/postgresql/data" }
     ],
     "resourceLimits": {
         "cpuMax": 1000,

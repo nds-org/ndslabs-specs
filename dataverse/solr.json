@@ -11,7 +11,7 @@
         { "port": 8983, "protocol": "http" }
     ],
     "volumeMounts":[
-        { "mountPath": "/usr/local/solr-4.6.0/example/solr/collection1/data", "name": "solr" }
+        { "mountPath": "/usr/local/solr-4.6.0/example/solr/collection1/data" }
     ],
     "readinessProbe" : {
         "type" : "http",
