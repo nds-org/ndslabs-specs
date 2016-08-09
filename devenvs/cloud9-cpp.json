@@ -15,7 +15,7 @@
         }
     ],
     "volumeMounts":[
-       { "mountPath": "/workspace", "name": "cloud9cpp" }
+       { "mountPath": "/workspace" }
     ],
     "readinessProbe" : {
         "type" : "http",

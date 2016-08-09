@@ -12,10 +12,10 @@
         { "port": 9200, "protocol": "tcp" }
     ],
     "volumeMounts":[
-        { "mountPath": "/usr/share/elasticsearch/data", "name": "elasticsearch2" }
+        { "mountPath": "/usr/share/elasticsearch/data" }
     ],
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 500,
         "memDefault": 100

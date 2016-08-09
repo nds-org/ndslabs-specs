@@ -11,7 +11,7 @@
         { "port": 80, "protocol": "http" }
     ],
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 500

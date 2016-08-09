@@ -78,10 +78,10 @@
         }
     ],
     "volumeMounts":[
-       { "mountPath": "/var/lib/irods/iRODS/Vault", "name": "dvicat" }
+       { "mountPath": "/var/lib/irods/iRODS/Vault" }
     ],
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 500,
         "memDefault": 100

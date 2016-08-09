@@ -25,10 +25,10 @@
     "command": [ "bin/logspout" ],
     "args": [ "syslog+tcp://$(LOGSTASH_PORT_5000_TCP_ADDR):$(LOGSTASH_PORT_5000_TCP_PORT)" ],
     "volumeMounts":[
-        { "mountPath": "/tmp/docker.sock", "name": "docker" }
+        { "mountPath": "/tmp/docker.sock", "type": "docker" }
     ],
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 250,
         "memDefault": 100
