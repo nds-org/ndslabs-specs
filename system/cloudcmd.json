@@ -1,0 +1,51 @@
+{
+    "id": "",
+    "key": "cloudcmd",
+    "label": "Cloud Commander",
+    "description": "Cloud file manager and editor",
+    "logo": "",
+    "maintainer": "",
+    "requiresVolume": false,
+    "image": {
+        "registry": "",
+        "name": "coderaiser/cloudcmd",
+        "tags": [
+            "5.5.1-alpine",
+            "5.5.1",
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [],
+    "config": [],
+    "command": null,
+    "args": [ "--root", "/home/$(NAMESPACE)" ],
+    "ports": [
+        {
+            "port": 8000,
+            "protocol": "http"
+        }
+    ],
+    "repositories": null,
+    "readinessProbe": {
+        "type": "",
+        "path": "",
+        "port": 0,
+        "initialDelay": 0,
+        "timeout": 0
+    },
+    "volumeMounts": [],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "catalog": "user",
+    "developerEnvironment": "",
+    "tags": [
+        "21",
+        "6"
+    ]
+}
