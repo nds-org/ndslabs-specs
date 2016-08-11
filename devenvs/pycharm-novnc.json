@@ -6,9 +6,7 @@
     "image": {
         "registry": "",
         "name": "ndslabs/pycharm-novnc",
-        "tags": [
-            "1.0", "latest"
-        ]
+        "tags": ["latest"]
     },
     "display": "stack",
     "access": "external",
