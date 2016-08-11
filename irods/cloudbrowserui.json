@@ -3,7 +3,7 @@
     "label": "iRODS Cloudbrowser UI",
     "image": {
 		"name": "ndslabs/cloudbrowser-ui",
-		"tags": ["1.0","latest"]
+		"tags": ["4.1.3","latest"]
 	},
 	"access": "external",
 	"display": "standalone",
