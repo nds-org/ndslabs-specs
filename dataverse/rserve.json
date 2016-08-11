@@ -5,7 +5,7 @@
     "label": "Rserve",
     "image": {
 		"name": "ndslabs/dataverse-rserve",
-		"tags": ["3.2.3", "latest"]
+		"tags": ["4.2.3", "latest"]
 	},
     "ports": [
         { "port": 6311, "protocol": "tcp" }
