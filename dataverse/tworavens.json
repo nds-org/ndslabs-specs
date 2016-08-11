@@ -5,7 +5,7 @@
     "label": "TwoRavens",
     "image": {
 		"name": "ndslabs/tworavens",
-		"tags": ["1.0", "latest"]
+		"tags": ["4.2.3", "latest"]
 	},
     "ports": [
         { "port": 80, "protocol": "http" }
