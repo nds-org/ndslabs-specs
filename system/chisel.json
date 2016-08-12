@@ -1,0 +1,44 @@
+{
+    "key": "chisel",
+    "label": "Chisel",
+    "description": "Utility for SSH tunneling",
+    "logo": "",
+    "image": {
+        "registry": "",
+        "name": "ndslabs/chisel",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "config": [
+        {
+            "name": "CHISEL_PASSWORD",
+            "value": "",
+            "label": "Password",
+            "isPassword": true,
+            "canOverride": false
+        }
+    ],
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http"
+        }
+    ],
+    "repositories": "https://github.com/jpillora/chisel/",
+    "readinessProbe": {
+        "type": "tcp",
+        "port": 8080,
+        "initialDelay": 30,
+        "timeout": 5000
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "tags": ["31"]
+}
