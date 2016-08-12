@@ -27,7 +27,7 @@
             "protocol": "http"
         }
     ],
-    "repositories": "https://github.com/jpillora/chisel/",
+    "repositories": ["https://github.com/jpillora/chisel/"],
     "readinessProbe": {
         "type": "tcp",
         "port": 8080,
