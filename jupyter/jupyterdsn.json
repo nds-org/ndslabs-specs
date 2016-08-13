@@ -1,0 +1,33 @@
+{
+    "key": "jupyterdsn",
+    "label": "Jupyter Data Science Notebook",
+    "description": "Jupyter Notebook data science stack with python and R support.",
+    "logo": "http://jupyter.org/assets/main-logo.svg",
+    "image": {
+        "name": "jupyter/datascience-notebook",
+        "tags": [
+            "latest"
+        ]
+    },
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "type": "http",
+        "path": "/static/base/images/favicon.ico",
+        "port": 8888,
+        "initialDelay": 3,
+        "timeout": 500
+    },
+    "volumeMounts": ["/home/jovyan/work"],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "tags": ["28"]
+}
