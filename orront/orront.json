@@ -2,6 +2,7 @@
     "key": "orront3",
     "label": "Ontology Registry and Repository",
     "description": "Registry for publishing and managing ontologies",
+	"logo": "http://mmisw.org/mmior.png",
     "image": {
         "name": "craigwillis/orr-ont",
         "tags": [
