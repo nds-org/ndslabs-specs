@@ -1,0 +1,35 @@
+{
+    "key": "agraph",
+    "label": "AllegroGraph",
+    "description": "AllegroGraph",
+    "logo": "http://allegrograph.com/wp-content/uploads/2016/07/allegrograph-logo_3x1.png",
+    "maintainer": "",
+    "image": {
+        "name": "franzinc/agraph",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "internal",
+    "ports": [
+        {
+            "port": 10035,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 10035,
+        "initialDelay": 10,
+        "timeout": 500 
+    },
+    "volumeMounts": [ "/data" ],
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    }
+}
