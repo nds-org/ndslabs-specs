@@ -1,0 +1,40 @@
+{
+    "key": "iqvoc",
+    "label": "iQvoc",
+    "description": "Vocabulary management system",
+    "logo": "http://iqvoc.net/images/iqvoc_logo.png",
+    "image": {
+        "name": "ndslabs/iqvoc",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/innoq/iqvoc",
+            "type": "git"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "port": 3000,
+        "initialDelay": 5,
+        "timeout": 500
+    },
+    "volumeMounts": ["/iqvoc-4.8.2/db"],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "tags": ["32"]
+}
