@@ -27,15 +27,15 @@
     "repositories": null,
     "readinessProbe": {
         "type": "http",
-        "path": "",
-        "port": 0,
-        "initialDelay": 0,
-        "timeout": 0
+        "path": "/images/bp_icon.png",
+        "port": 8080,
+        "initialDelay": 30,
+        "timeout": 500
     },
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 512,
+        "memMax": 1000,
         "memDefault": 50
     },
     "tags": ["32"]
