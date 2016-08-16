@@ -11,7 +11,7 @@
         ]
     },
     "display": "stack",
-    "access": "external",
+    "access": "internal",
     "ports": [
         {
             "port": 6379,
