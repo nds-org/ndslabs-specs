@@ -5,7 +5,7 @@
     "logo": "http://inveniosoftware.org/logo-invenio.svg",
     "maintainer": "",
     "image": {
-        "name": "craigwillis/invenio",
+        "name": "ndslabs/invenio",
         "tags": [
             "latest"
         ]
@@ -68,8 +68,8 @@
 		"url": "https://github.com/inveniosoftware/invenio"
 	}],
     "readinessProbe": {
-        "type": "tcp",
-        "path": "",
+        "type": "http",
+        "path": "static/images/invenio-color.svg",
         "port": 5000,
         "initialDelay": 10,
         "timeout": 500
