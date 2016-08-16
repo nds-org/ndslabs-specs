@@ -1,0 +1,42 @@
+{
+    "key": "webprotege",
+    "label": "WebProtégé",
+    "description": "Ontology development environment",
+    "logo": "http://protege.stanford.edu/download/protege/4.3/installanywhere/Web_Installers/InstData/com/zerog/ia/installer/images/Splash.gif",
+    "image": {
+        "name": "craigwillis/webprotege",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+        {
+            "key": "mongo",
+            "required": true,
+            "shareConfig": false
+        }
+    ],
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http"
+        }
+    ],
+    "repositories": null,
+    "readinessProbe": {
+        "type": "http",
+        "path": "",
+        "port": 0,
+        "initialDelay": 0,
+        "timeout": 0
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "tags": ["32"]
+}
