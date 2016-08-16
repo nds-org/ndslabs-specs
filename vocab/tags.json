@@ -150,6 +150,26 @@
 			"id": "30",
             "definition": "Logging, monitoring and alerts",
             "name": "LMA"
+        },
+        {
+			"id": "32",
+            "definition": "Semantic services for controlled vocabularies and ontologies",
+            "name": "Semantic"
+        },
+        {
+			"id": "33",
+            "definition": "Triple/quad store",
+            "name": "Triple store"
+        },
+        {
+			"id": "34",
+            "definition": "Graph database",
+            "name": "Graph database"
+        },
+        {
+			"id": "35",
+            "definition": "Digital library platform",
+            "name": "Digital library"
         }
     ]
 }
