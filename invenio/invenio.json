@@ -1,0 +1,84 @@
+{
+    "key": "invenio",
+    "label": "Invenio",
+    "description": "Digital library and document repository software",
+    "logo": "http://inveniosoftware.org/logo-invenio.svg",
+    "maintainer": "",
+    "image": {
+        "name": "craigwillis/invenio",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+        {
+            "key": "elasticsearch2",
+            "required": true,
+            "shareConfig": false
+        },
+        {
+            "key": "redis",
+            "required": true,
+            "shareConfig": false
+        },
+        {
+            "key": "postgres",
+            "required": true,
+            "shareConfig": false
+        },
+        {
+            "key": "rabbitmq",
+            "required": true,
+            "shareConfig": false
+        }
+    ],
+    "config": [
+        {
+            "name": "INVENIO_POSTGRESQL_DBNAME",
+            "value": "invenio3",
+            "label": "Postgres Db Name",
+            "isPassword": false,
+            "canOverride": true
+        },
+        {
+            "name": "INVENIO_POSTGRESQL_DBUSER",
+            "value": "invenio3",
+            "label": "Postgres Db User",
+            "isPassword": false,
+            "canOverride": true
+        },
+        {
+            "name": "INVENIO_POSTGRESQL_DBPASS",
+            "value": "",
+            "label": "Postgres Db Password",
+            "isPassword": true,
+            "canOverride": true
+        }
+    ],
+    "ports": [
+        {
+            "port": 5000,
+            "protocol": "http"
+        }
+    ],
+    "repositories": [ {
+		"type": "git",
+		"url": "https://github.com/inveniosoftware/invenio"
+	}],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 5000,
+        "initialDelay": 10,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 512,
+        "memDefault": 50
+    },
+    "tags": ["35"]
+}
