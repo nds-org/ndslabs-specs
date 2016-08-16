@@ -31,9 +31,9 @@
     },
     "volumeMounts": [],
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 1000,
+        "memMax": 512,
         "memDefault": 50
     },
     "tags": ["32"]

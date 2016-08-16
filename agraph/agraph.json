@@ -1,7 +1,7 @@
 {
     "key": "agraph",
     "label": "AllegroGraph",
-    "description": "AllegroGraph",
+    "description": "Persistent graph and semantic database",
     "logo": "http://allegrograph.com/wp-content/uploads/2016/07/allegrograph-logo_3x1.png",
     "maintainer": "",
     "image": {
@@ -33,7 +33,7 @@
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 1000,
+        "memMax": 512,
         "memDefault": 50
     }, 
     "tags": ["34"]
