@@ -1,0 +1,36 @@
+{
+    "key": "redis",
+    "label": "Redis",
+    "description": "In-memory data structure store and message broker",
+    "logo": "http://redis.io/images/redis-white.png",
+    "image": {
+        "name": "redis",
+        "tags": [
+            "3.0",
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 6379,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 6379,
+        "initialDelay": 10,
+        "timeout": 500
+    },
+    "volumeMounts": ["/data"],
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 512,
+        "memDefault": 50
+    },
+    "tags": ["26"]
+}
