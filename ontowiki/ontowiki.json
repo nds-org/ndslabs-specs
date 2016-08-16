@@ -23,13 +23,17 @@
 		}
 	],
     "readinessProbe": {
-        "type": "",
-        "path": "",
-        "port": 0,
-        "initialDelay": 0,
-        "timeout": 0
+        "type": "http",
+        "path": "favicon.png",
+        "port": 80,
+        "initialDelay": 10,
+        "timeout": 500
     },
-    "volumeMounts": [],
+    "volumeMounts": [ 
+		{
+			"mountPath": "/var/lib/virtuoso-opensource-6.1/db"
+		}
+	],
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
