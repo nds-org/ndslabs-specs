@@ -29,7 +29,11 @@
         "initialDelay": 5,
         "timeout": 500
     },
-    "volumeMounts": ["/iqvoc-4.8.2/db"],
+    "volumeMounts": [
+		{
+			"mountPath": "/iqvoc-4.8.2/db"
+		}
+	],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,

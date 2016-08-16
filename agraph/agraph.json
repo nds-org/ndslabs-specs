@@ -25,7 +25,11 @@
         "initialDelay": 10,
         "timeout": 500 
     },
-    "volumeMounts": [ "/data" ],
+    "volumeMounts": [ 
+		{
+			"mountPath": "/data" 
+		}
+	],
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
