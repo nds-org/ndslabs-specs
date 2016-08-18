@@ -1,0 +1,31 @@
+{
+    "key": "dind",
+    "label": "Docker development environment",
+    "description": "Docker environment for NDS Labs developers",
+    "logo": "https://blog.docker.com/media/2013/09/docker-meme.jpg",
+    "image": {
+        "name": "ndslabs/dind",
+        "tags": [
+            "latest"
+        ]
+    },
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http"
+        }
+    ],
+    "display": "stack",
+    "access": "external",
+    "volumeMounts": [],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 512,
+        "memDefault": 50
+    },
+    "tags": [
+        "7"
+    ],
+    "privileged": true
+}
