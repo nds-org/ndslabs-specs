@@ -17,11 +17,6 @@
     ],
     "display": "stack",
     "access": "external",
-	"volumeMounts": [
-		{
-			"mountPath" : "/var/lib/docker"
-		}
-	],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
