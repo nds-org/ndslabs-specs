@@ -1,8 +1,8 @@
 {
     "key": "dind",
-    "label": "Docker development environment",
-    "description": "Docker environment for NDS Labs developers",
-    "logo": "https://blog.docker.com/media/2013/09/docker-meme.jpg",
+    "label": "Docker",
+    "description": "Docker command-line environment",
+    "logo": "https://www.docker.com/sites/default/files/legal/small_v.png",
     "image": {
         "name": "ndslabs/dind",
         "tags": [
@@ -17,7 +17,9 @@
     ],
     "display": "stack",
     "access": "external",
-    "volumeMounts": [],
+	"volumeMounts" : [
+		"mountPath" : "/var/lib/docker"
+	],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
