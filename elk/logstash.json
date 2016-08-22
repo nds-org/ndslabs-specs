@@ -15,8 +15,8 @@
     "ports": [
         { "port": 5000, "protocol": "tcp" }
     ],
-    "command": [ "logstash", "-e" ],
-    "args" : [ "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }" ],
+    "command": [ "logstash" ],
+    "args" : [ "-e", "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }"],
    "readinessProbe" : {
         "type" : "tcp",    
         "port" : 5000,
@@ -26,7 +26,7 @@
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 250,
+        "memMax": 500,
         "memDefault": 100
     },
 	"tags" : ["30"]
