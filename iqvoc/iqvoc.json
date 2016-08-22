@@ -24,8 +24,9 @@
         }
     ],
     "readinessProbe": {
-        "type": "tcp",
+        "type": "http",
         "port": 3000,
+        "path": "/",
         "initialDelay": 5,
         "timeout": 500
     },
