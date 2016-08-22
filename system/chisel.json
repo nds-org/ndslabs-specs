@@ -2,9 +2,7 @@
     "key": "chisel",
     "label": "Chisel",
     "description": "Utility for SSH tunneling",
-    "logo": "",
     "image": {
-        "registry": "",
         "name": "ndslabs/chisel",
         "tags": [
             "latest"
