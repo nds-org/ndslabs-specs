@@ -1,7 +1,8 @@
 {
     "key": "chisel",
     "label": "Chisel",
-    "description": "Utility for SSH tunneling",
+    "description": "NDS Labs Utility for accessing TCP-based services via secure tunnel",
+	"logo": "https://avatars0.githubusercontent.com/u/8526606",
     "image": {
         "name": "ndslabs/chisel",
         "tags": [
@@ -25,7 +26,12 @@
             "protocol": "http"
         }
     ],
-    "repositories": "https://github.com/jpillora/chisel/",
+    "repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/jpillora/chisel/"
+		}
+	],
     "readinessProbe": {
         "type": "tcp",
         "port": 8080,
