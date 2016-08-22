@@ -3,7 +3,7 @@
     "label": "LogSpout",
     "image": {
 		"name" : "ndslabs/logspout",
-		"tags" : ["v3", "latest"]
+		"tags" : ["v4", "latest"]
 	},
     "access":"internal",
     "depends": [
