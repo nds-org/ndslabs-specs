@@ -150,6 +150,11 @@
 			"id": "30",
             "definition": "Logging, monitoring and alerts",
             "name": "LMA"
+        },
+        {
+			"id": "31",
+            "definition": "NDS Labs system utilities",
+            "name": "System utilities"
         }
     ]
 }
