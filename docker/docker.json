@@ -1,8 +1,8 @@
 {
     "key": "docker",
     "label": "Docker",
-    "description": "Docker command-line environment",
-    "logo": "https://www.docker.com/sites/default/files/legal/small_v.png",
+    "description": "Docker command-line environment for NDS Labs",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532060/docker_small_h.png",
     "image": {
         "name": "ndslabs/dind",
         "tags": [
@@ -33,5 +33,6 @@
     "tags": [
         "7"
     ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Docker",
     "privileged": true
 }
