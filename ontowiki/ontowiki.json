@@ -40,5 +40,6 @@
         "memMax": 512,
         "memDefault": 50
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/OntoWiki",
     "tags": ["32"]
 }
