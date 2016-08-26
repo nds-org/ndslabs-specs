@@ -2,7 +2,7 @@
     "key": "jupytermn",
     "label": "Jupyter Minimal Notebook",
     "description": "Jupyter Minimal Notebook",
-    "logo": "http://jupyter.org/assets/main-logo.svg",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532040/jupyter-logo.png",
     "image": {
         "name": "jupyter/minimal-notebook",
         "tags": [
@@ -45,5 +45,6 @@
         "memMax": 1000,
         "memDefault": 50
     },
+    "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
     "tags": ["28"]
 }
