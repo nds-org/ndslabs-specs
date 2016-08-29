@@ -1,8 +1,8 @@
 {
     "id": "",
     "key": "cloudcmd",
-    "label": "Cloud Commander",
-    "description": "Cloud file manager and editor",
+    "label": "File Manager",
+    "description": "Cloud Commander file manager and editor",
     "logo": "",
     "maintainer": "",
     "requiresVolume": false,

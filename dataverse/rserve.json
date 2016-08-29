@@ -1,7 +1,6 @@
 {
     "key": "rserve",
-	"access": "internal",
-	"display": "standalone",
+    "access": "internal",
     "label": "Rserve",
     "image": {
 		"name": "ndslabs/dataverse-rserve",
