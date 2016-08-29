@@ -1,0 +1,45 @@
+{
+    "key": "ontowiki",
+    "label": "OntoWiki",
+    "description": "Semantic wiki and knowledgebase",
+    "image": {
+        "name": "aksw/ontowiki-ubuntu-nginx",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "repositories": [
+		{
+			"type":"git",
+			"url":"https://github.com/AKSW/OntoWiki/wiki"
+		}
+	],
+    "readinessProbe": {
+        "type": "http",
+        "path": "favicon.png",
+        "port": 80,
+        "initialDelay": 10,
+        "timeout": 500
+    },
+    "volumeMounts": [ 
+		{
+			"mountPath": "/var/lib/virtuoso-opensource-6.1/db"
+		}
+	],
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 512,
+        "memDefault": 50
+    },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/OntoWiki",
+    "tags": ["32"]
+}

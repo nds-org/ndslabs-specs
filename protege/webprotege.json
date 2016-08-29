@@ -1,0 +1,43 @@
+{
+    "key": "webprotege",
+    "label": "WebProtégé",
+    "description": "Ontology development environment",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532070/webprotege-logo.gif",
+    "image": {
+        "name": "ndslabs/webprotege",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+        {
+            "key": "mongo",
+            "required": true,
+            "shareConfig": false
+        }
+    ],
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http"
+        }
+    ],
+    "repositories": null,
+    "readinessProbe": {
+        "type": "http",
+        "path": "/images/bp_icon.png",
+        "port": 8080,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/WebProtege",
+    "tags": ["32"]
+}
