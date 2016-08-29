@@ -8,6 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
+    "logo": "http://dataverse.org/files/dataverseorg/files/dataverse_project_logo-hp.png",
     "ports": [
         {
             "port": 8080,
@@ -73,5 +74,12 @@
         "memMax": 2000,
         "memDefault": 1000
     },
-	"tags" : ["1", "11", "16"]
+    "repositories": [
+	    {
+	      "url": "https://github.com/IQSS/dataverse",
+	      "type": "git"
+	    }
+     ],    
+     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Dataverse",
+     "tags" : ["1", "11", "16"]
 }

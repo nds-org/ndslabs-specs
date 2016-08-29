@@ -1,0 +1,48 @@
+{
+    "key": "chisel",
+    "label": "Chisel",
+    "description": "NDS Labs Utility for accessing TCP-based services via secure tunnel",
+	"logo": "https://avatars0.githubusercontent.com/u/8526606",
+    "image": {
+        "name": "ndslabs/chisel",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "config": [
+        {
+            "name": "CHISEL_PASSWORD",
+            "value": "",
+            "label": "Password",
+            "isPassword": true,
+            "canOverride": false
+        }
+    ],
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http"
+        }
+    ],
+    "repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/jpillora/chisel/"
+		}
+	],
+    "readinessProbe": {
+        "type": "tcp",
+        "port": 8080,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "tags": ["31"]
+}

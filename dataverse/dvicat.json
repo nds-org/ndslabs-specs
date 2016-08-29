@@ -3,7 +3,7 @@
     "label": "Dataverse iRODS iCAT",
     "image": {
 		"name": "ndslabs/dataverse-icat",
-		"tags": ["4.1.3","latest"]
+		"tags": ["4.2.3","latest"]
 	},
 	"access": "external",
     "ports": [

@@ -1,13 +1,14 @@
 {
     "key": "icat",
     "label": "iRODS iCAT",
-	"description": "open source data management software",
+    "description": "open source data management software",
     "image": {
 		"name": "ndslabs/irods-icat",
 		"tags": ["4.1.3", "latest"]
 	},
-	"access": "external",
-	"display": "stack",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/iRODS-Logo.png",
+    "access": "external",
+    "display": "stack",
     "ports": [
         {
             "port": 1247,
@@ -45,5 +46,6 @@
         "memMax": 500,
         "memDefault": 200
     },
-	"tags" : ["6"]
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/IRODS",
+    "tags" : ["6"]
 }

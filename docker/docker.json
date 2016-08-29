@@ -1,0 +1,38 @@
+{
+    "key": "docker",
+    "label": "Docker",
+    "description": "Docker command-line environment for NDS Labs",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532060/docker_small_h.png",
+    "image": {
+        "name": "ndslabs/dind",
+        "tags": [
+            "latest"
+        ]
+    },
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http"
+        }
+    ],
+    "display": "stack",
+    "access": "external",
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 512,
+        "memDefault": 50
+    },
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/",
+        "port" : 3000,
+        "initialDelay": 5,
+        "timeout" : 600
+    },
+    "tags": [
+        "7"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Docker",
+    "privileged": true
+}

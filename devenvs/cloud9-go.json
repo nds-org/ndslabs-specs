@@ -3,7 +3,7 @@
     "label": "Cloud9 GO",
     "image": {
 		"name": "ndslabs/cloud9-go",
-		"tags": ["3.0", "latest"]
+		"tags": ["latest"]
 	}, 
     "display": "stack",
     "access": "external",
