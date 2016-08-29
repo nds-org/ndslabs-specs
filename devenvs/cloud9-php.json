@@ -1,0 +1,34 @@
+{
+    "key": "cloud9php",
+    "label": "Cloud9 PHP",
+    "image": {
+		"name": "ndslabs/cloud9-ccp",
+		"tags": ["latest"]
+	}, 
+    "display": "stack",
+    "access": "external",
+    "description": "Unopinionated PHP development environment based on Cloud9",
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "volumeMounts":[
+       { "mountPath": "/workspace" }
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 200,
+        "memDefault": 50
+    },
+	"tags" : ["7", "14"]
+}
