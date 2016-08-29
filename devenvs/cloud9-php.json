@@ -2,7 +2,7 @@
     "key": "cloud9php",
     "label": "Cloud9 PHP",
     "image": {
-		"name": "ndslabs/cloud9-ccp",
+		"name": "ndslabs/cloud9-php",
 		"tags": ["latest"]
 	}, 
 	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/php-logo.png",
