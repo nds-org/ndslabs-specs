@@ -4,7 +4,7 @@
     "description": "PyCharm Community Edition (noVNC)",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532048/pycharm-logo.png",
     "image": {
-        t"name": "ndslabs/pycharm-novnc",
+        "name": "ndslabs/pycharm-novnc",
         "tags": ["latest"]
     },
     "display": "stack",
