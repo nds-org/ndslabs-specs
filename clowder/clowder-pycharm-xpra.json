@@ -1,8 +1,8 @@
 {
     "key": "pyclowderpycharm",
-    "label": "PyCharm for pyClowder(Xpra)",
+    "label": "PyCharm for pyClowder (Xpra)",
     "description": "pyClowder PyCharm development environment  (Xpra)",
-    "logo": "",
+	"logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532048/pycharm-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/pycharm-clowder-xpra",
@@ -42,10 +42,10 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 4096,
-        "memDefault": 1024
+        "memMax": 1000,
+        "memDefault": 50
     },
     "readinessProbe" : {
         "type" : "http",
@@ -54,5 +54,6 @@
         "initialDelay": 10,
         "timeout" : 600
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Clowder",
 	"tags" : ["7", "20"]
 }
