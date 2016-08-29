@@ -39,9 +39,9 @@
         "timeout": 500
     },
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 100,
         "cpuDefault": 100,
-        "memMax": 1000,
+        "memMax": 100,
         "memDefault": 50
     },
     "tags": ["31"]
