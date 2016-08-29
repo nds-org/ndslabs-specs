@@ -5,9 +5,10 @@
 		"name": "ndslabs/cloud9-ccp",
 		"tags": ["latest"]
 	}, 
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/php-logo.png",
     "display": "stack",
     "access": "external",
-    "description": "Unopinionated PHP development environment based on Cloud9",
+    "description": "PHP development environment based on Cloud9",
     "ports": [
         {
             "port": 80,
@@ -30,5 +31,6 @@
         "memMax": 200,
         "memDefault": 50
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
 	"tags" : ["7", "18"]
 }

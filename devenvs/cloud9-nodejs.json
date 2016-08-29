@@ -7,7 +7,8 @@
 	}, 
     "display": "stack",
     "access": "external",
-    "description": "Unopinionated Node.js development environment based on Cloud9",
+	"logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/nodejs-logo.png",
+    "description": "Node.js development environment based on Cloud9",
     "ports": [
         {
             "port": 80,
@@ -30,5 +31,6 @@
         "memMax": 1000,
         "memDefault": 50
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
 	"tags" : ["7", "21"]
 }

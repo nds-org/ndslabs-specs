@@ -2,7 +2,7 @@
     "key": "pycharmxpra",
     "label": "PyCharm (Xpra)",
     "description": "PyCharm Community Edition (Xpra)",
-    "logo": "",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532048/pycharm-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/pycharm-xpra",
@@ -34,5 +34,6 @@
         "initialDelay": 10,
         "timeout" : 600
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/PyCharm",
 	"tags" : ["7", "20"]
 }

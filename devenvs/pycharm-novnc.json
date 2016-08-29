@@ -2,10 +2,9 @@
     "key": "pycharmnovnc",
     "label": "PyCharm (noVNC)",
     "description": "PyCharm Community Edition (noVNC)",
-    "logo": "",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532048/pycharm-logo.png",
     "image": {
-        "registry": "",
-        "name": "ndslabs/pycharm-novnc",
+        t"name": "ndslabs/pycharm-novnc",
         "tags": ["latest"]
     },
     "display": "stack",
@@ -35,5 +34,6 @@
         "initialDelay": 10,
         "timeout" : 600
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/PyCharm",
 	"tags" : ["7", "20"]
 }

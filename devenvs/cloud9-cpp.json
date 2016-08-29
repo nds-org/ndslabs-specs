@@ -7,7 +7,7 @@
 	}, 
     "display": "stack",
     "access": "external",
-    "description": "Unopinionated C/C++ development environment based on Cloud9",
+    "description": "C/C++ development environment based on Cloud9",
     "ports": [
         {
             "port": 80,
@@ -30,5 +30,6 @@
         "memMax": 1000,
         "memDefault": 50
     },
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
 	"tags" : ["7", "14"]
 }
