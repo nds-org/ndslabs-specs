@@ -1,0 +1,48 @@
+{
+  "id": "",
+  "key": "girder",
+  "label": "Girder",
+  "description": "",
+  "logo": "",
+  "maintainer": "",
+  "image": {
+    "registry": "",
+    "name": "girder/girder",
+    "tags": [
+      "1.3.1",
+      "master",
+      "latest"
+    ]
+  },
+  "display": "stack",
+  "access": "external",
+  "depends": null,
+  "config": null,
+  "command": null,
+  "args": null,
+  "ports": [
+    {
+      "port": 8080,
+      "protocol": "http"
+    }
+  ],
+  "repositories": null,
+  "readinessProbe": {
+    "type": "",
+    "path": "",
+    "port": 0,
+    "initialDelay": 0,
+    "timeout": 0
+  },
+  "volumeMounts": [
+  ],
+  "resourceLimits": {
+    "cpuMax": 500,
+    "cpuDefault": 100,
+    "memMax": 2000,
+    "memDefault": 50
+  },
+  "developerEnvironment": "",
+  "tags": null,
+  "info": ""
+}
