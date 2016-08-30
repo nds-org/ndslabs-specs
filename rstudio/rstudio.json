@@ -1,0 +1,48 @@
+{
+  "id": "",
+  "key": "rstudio",
+  "label": "Rstudio",
+  "description": "",
+  "logo": "",
+  "maintainer": "",
+  "image": {
+    "registry": "",
+    "name": "rocker/ropensci",
+    "tags": [
+      "latest",
+      "dev"
+    ]
+  },
+  "display": "stack",
+  "access": "external",
+  "depends": null,
+  "config": null,
+  "command": null,
+  "args": null,
+  "ports": [
+    {
+      "port": 8787,
+      "protocol": "http"
+    }
+  ],
+  "repositories": null,
+  "readinessProbe": {
+    "type": "",
+    "path": "",
+    "port": 0,
+    "initialDelay": 0,
+    "timeout": 0
+  },
+  "volumeMounts": [
+    { "mountPath": "/home/rstudio" }
+  ],
+  "resourceLimits": {
+    "cpuMax": 500,
+    "cpuDefault": 100,
+    "memMax": 2000,
+    "memDefault": 50
+  },
+  "developerEnvironment": "",
+  "tags": null,
+  "info": ""
+}
