@@ -33,7 +33,7 @@
         "path": "/favicon.ico",
         "port": 8000,
         "initialDelay": 5,
-        "timeout": 120
+        "timeout": 45
     },
     "volumeMounts": [],
     "resourceLimits": {
