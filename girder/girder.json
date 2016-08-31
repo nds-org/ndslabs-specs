@@ -20,7 +20,7 @@
     {
       "key": "mongo",
       "required": true
-    },
+    }
   ],
   "config": null,
   "command": null,
