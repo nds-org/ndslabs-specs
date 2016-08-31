@@ -31,5 +31,5 @@
         "memMax": 250,
         "memDefault": 100
     },
-	"tags" : ["6"]
+	"tags" : ["6", "16"]
 }

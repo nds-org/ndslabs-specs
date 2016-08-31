@@ -1,14 +1,14 @@
 {
-    "key": "cloud9nodejs",
-    "label": "Cloud9 Node.js",
+    "key": "cloud9php",
+    "label": "Cloud9 PHP",
     "image": {
-		"name": "ndslabs/cloud9-nodejs",
+		"name": "ndslabs/cloud9-php",
 		"tags": ["latest"]
 	}, 
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/php-logo.png",
     "display": "stack",
     "access": "external",
-	"logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/nodejs-logo.png",
-    "description": "Node.js development environment based on Cloud9",
+    "description": "PHP development environment based on Cloud9",
     "ports": [
         {
             "port": 80,
@@ -26,11 +26,11 @@
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 1000,
+        "memMax": 200,
         "memDefault": 50
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
-	"tags" : ["7", "21"]
+	"tags" : ["7", "18"]
 }
