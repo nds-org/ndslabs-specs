@@ -16,10 +16,15 @@
   },
   "display": "stack",
   "access": "external",
-  "depends": null,
+  "depends": [
+    {
+      "key": "mongo",
+      "required": true
+    },
+  ],
   "config": null,
   "command": null,
-  "args": null,
+  "args": [ "-d", "mongodb://$(MONGO_PORT_27017_TCP_ADDR):$(MONGO_PORT_27017_TCP_PORT)/girder" ],
   "ports": [
     {
       "port": 8080,
