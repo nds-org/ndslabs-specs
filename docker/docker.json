@@ -31,7 +31,6 @@
         "timeout" : 600
     },
     "tags": [
-        "7","17"
         "7", "17"
     ],
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Docker",
