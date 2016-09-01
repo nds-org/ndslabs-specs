@@ -1,0 +1,45 @@
+{
+  "key": "rstudio",
+  "label": "RStudio Server",
+  "description": "IDE for the R programming language.",
+  "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613403/rstudio-small.png",
+  "image": {
+    "name": "rocker/ropensci",
+    "tags": [
+      "latest",
+      "dev"
+    ]
+  },
+  "display": "stack",
+  "access": "external",
+  "ports": [
+    {
+      "port": 8787,
+      "protocol": "http"
+    }
+  ],
+  "readinessProbe": {
+    "type": "http",
+    "path": "/images/rstudio.png",
+    "port": 8787,
+    "initialDelay": 1,
+    "timeout": 600
+  },
+  "volumeMounts": [
+    {
+      "type": "",
+      "mountPath": "/home/rstudio"
+    }
+  ],
+  "resourceLimits": {
+    "cpuMax": 500,
+    "cpuDefault": 100,
+    "memMax": 2000,
+    "memDefault": 50
+  },
+  "tags": [
+    "7",
+    "28"
+  ],
+  "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/RStudio",
+}
