@@ -6,7 +6,7 @@
     "maintainer": "",
     "image": {
         "registry": "",
-        "name": "bodom0015/fedora-commons",
+        "name": "ndslabs/fedora-commons",
         "tags": [
             "4.5.1",
             "latest"
