@@ -2,6 +2,7 @@
     "key": "ontowiki",
     "label": "OntoWiki",
     "description": "Semantic wiki and knowledgebase",
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532073/ontowiki-logo.png",
     "image": {
         "name": "aksw/ontowiki-ubuntu-nginx",
         "tags": [
