@@ -2,7 +2,7 @@
     "key": "iqvoc",
     "label": "iQvoc",
     "description": "SKOS-based vocabulary management system",
-    "logo": "http://iqvoc.net/images/iqvoc_logo.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532051/iqvoc-small.png",
     "image": {
         "name": "ndslabs/iqvoc",
         "tags": [
