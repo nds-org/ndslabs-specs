@@ -36,7 +36,7 @@
     "resourceLimits": {
         "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 1024,
+        "memMax": 2048,
         "memDefault": 512
     },
     "tags": [
