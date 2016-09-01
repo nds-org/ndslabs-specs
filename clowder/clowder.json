@@ -16,7 +16,7 @@
         },
         {
             "key": "rabbitmq",
-            "required": true
+            "required": false
         },
         {
             "key": "elasticsearch",
