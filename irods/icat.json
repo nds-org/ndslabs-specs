@@ -6,7 +6,7 @@
 		"name": "ndslabs/irods-icat",
 		"tags": ["4.1.3", "latest"]
 	},
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/iRODS-Logo.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/iRODS-Logo.png",	
     "access": "external",
     "display": "stack",
     "ports": [

@@ -8,7 +8,7 @@
 	"access": "external",
 	"display": "standalone",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/IRODS",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/iRODS-Logo.png",	
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/irods-small.png",
     "ports": [
         {
             "port": 80,
