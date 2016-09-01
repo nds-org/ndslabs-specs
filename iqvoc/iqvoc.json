@@ -1,7 +1,7 @@
 {
     "key": "iqvoc",
     "label": "iQvoc",
-    "description": "Vocabulary management system",
+    "description": "SKOS-based vocabulary management system",
     "logo": "http://iqvoc.net/images/iqvoc_logo.png",
     "image": {
         "name": "ndslabs/iqvoc",
