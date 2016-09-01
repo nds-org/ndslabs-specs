@@ -7,7 +7,7 @@
 		"tags" : ["3.6.1-management"]
 	},
 	"display": "standalone",
-	"access": "internal",
+	"access": "external",
     "ports": [
         { "port": 5672, "protocol": "tcp" },
         { "port": 15672, "protocol": "tcp" }

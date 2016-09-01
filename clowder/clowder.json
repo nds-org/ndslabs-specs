@@ -8,10 +8,14 @@
     },
     "display": "stack",
     "access": "external",
-    "logo": "https://clowder.ncsa.illinois.edu/docs/_images/logo_full.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532035/clowder-small.png",
     "depends": [
         {
             "key": "mongo",
+            "required": true
+        },
+        {
+            "key": "rabbitmq",
             "required": true
         },
         {

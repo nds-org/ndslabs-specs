@@ -1,10 +1,8 @@
 {
-    "id": "",
     "key": "cloudcmd",
     "label": "File Manager",
     "description": "Cloud Commander file manager and editor",
-    "logo": "",
-    "maintainer": "",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613382/file-manager.png",
     "requiresVolume": false,
     "image": {
         "registry": "",
@@ -17,9 +15,6 @@
     },
     "display": "stack",
     "access": "external",
-    "depends": [],
-    "config": [],
-    "command": null,
     "args": [ "--root", "/home/$(NAMESPACE)" ],
     "ports": [
         {
@@ -27,23 +22,20 @@
             "protocol": "http"
         }
     ],
-    "repositories": null,
     "readinessProbe": {
-        "type": "",
-        "path": "",
-        "port": 0,
-        "initialDelay": 0,
-        "timeout": 0
+        "type": "http",
+        "path": "img/logo/cloudcmd.png",
+        "port": 8000,
+        "initialDelay": 5,
+        "timeout": 600 
     },
-    "volumeMounts": [],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 50
     },
-    "catalog": "user",
-    "developerEnvironment": "",
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud+Commander",
     "tags": [
         "21",
         "6"
