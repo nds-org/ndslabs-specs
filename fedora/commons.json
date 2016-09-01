@@ -12,6 +12,9 @@
             "latest"
         ]
     },
+    "volumeMounts": [
+      { "mountPath": "/var/lib/jetty/fcrepo4-data/" }
+    ],
     "display": "stack",
     "access": "external",
     "ports": [
