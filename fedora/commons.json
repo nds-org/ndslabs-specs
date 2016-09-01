@@ -1,0 +1,47 @@
+{
+    "key": "fedoracommons",
+    "label": "Fedora Commons",
+    "description": "An open-source repository management system",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613437/fedora-logo.png?api=v2",
+    "maintainer": "",
+    "image": {
+        "registry": "",
+        "name": "bodom0015/fedora-commons",
+        "tags": [
+            "4.5.1",
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/fcrepo4/fcrepo4",
+            "type": "git"
+        }
+    ],
+    "readinessProbe": {
+        "type": "http",
+        "path": "/images/fedora_logo_10in.png",
+        "port": 8080,
+        "initialDelay": 30,
+        "timeout": 45
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1024,
+        "memDefault": 512
+    },
+    "tags": [
+        "11",
+        "16"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Fedora+Commons",
+}
