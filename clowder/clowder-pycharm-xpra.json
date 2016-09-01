@@ -1,7 +1,7 @@
 {
     "key": "pyclowderpycharm",
-    "label": "PyCharm for pyClowder (Xpra)",
-    "description": "pyClowder PyCharm development environment  (Xpra)",
+    "label": "PyCharm for pyClowder",
+    "description": "PyCharm development environment for pyClowder",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532048/pycharm-logo.png",
     "image": {
         "registry": "",
