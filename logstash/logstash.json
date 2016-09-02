@@ -1,5 +1,5 @@
 {
-    "key": "logstash2",
+    "key": "logstash",
     "label": "Logstash",
     "description": "Centralized logfile management",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170441/logstash-small.png",
@@ -73,5 +73,5 @@
     },
     "tags": [
         "30"
-    ],
+    ]
 }

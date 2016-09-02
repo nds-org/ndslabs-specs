@@ -6,7 +6,6 @@
 		"tags" : ["v4", "latest"]
 	},
     "access":"internal",
-	"display" : "stack",
     "depends": [
         {
             "key": "logstash",
