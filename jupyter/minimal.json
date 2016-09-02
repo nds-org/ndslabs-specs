@@ -26,7 +26,12 @@
             "protocol": "http"
         }
     ],
-    "repositories": null,
+    "repositories": [
+		{
+			"type": "git",
+			"url" : "https://github.com/jupyter/notebook"
+		}
+	],
     "readinessProbe": {
         "type": "http",
         "path": "/static/base/images/favicon.ico",
@@ -45,6 +50,7 @@
         "memMax": 1000,
         "memDefault": 50
     },
+	"developerEnvironment" : "cloud9nodejs",
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
-    "tags": ["28"]
+    "tags": ["21", "20", "28"]
 }
