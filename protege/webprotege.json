@@ -43,7 +43,6 @@
         "memMax": 500,
         "memDefault": 50
     },
-    "catalog": "user",
     "tags": [
         "16",
         "32"

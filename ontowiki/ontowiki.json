@@ -43,7 +43,6 @@
         "memMax": 512,
         "memDefault": 50
     },
-    "catalog": "user",
     "developerEnvironment": "cloud9php",
     "tags": [
         "32",
