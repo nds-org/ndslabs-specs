@@ -1,27 +1,69 @@
 {
-    "key": "logstash",
+    "key": "logstash2",
     "label": "Logstash",
+    "description": "Centralized logfile management",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170441/logstash-small.png",
     "image": {
-		"name" : "logstash",
-		"tags" : ["2.2"]
-	},
-    "access":"internal",
+        "name": "logstash",
+        "tags": [
+            "2.2"
+        ]
+    },
+    "display": "stack",
+    "access": "internal",
     "depends": [
         {
             "key": "elasticsearch2",
-            "required": true
+            "required": true,
+            "shareConfig": false
         }
     ],
-    "ports": [
-        { "port": 5000, "protocol": "tcp" }
+    "config": [],
+    "command": [
+        "logstash"
     ],
-    "command": [ "logstash" ],
-    "args" : [ "-e", "output { elasticsearch { hosts => \"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\" } } input { tcp { port => 5000 type => syslog } }"],
-   "readinessProbe" : {
-        "type" : "tcp",    
-        "port" : 5000,
+    "args": [
+        "-e",
+        "output",
+        "{",
+        "elasticsearch",
+        "{",
+        "hosts",
+        "=>",
+        "\"$(ELASTICSEARCH2_PORT_9200_TCP_ADDR):$(ELASTICSEARCH2_PORT_9200_TCP_PORT)\"",
+        "}",
+        "}",
+        "input",
+        "{",
+        "tcp",
+        "{",
+        "port",
+        "=>",
+        "5000",
+        "type",
+        "=>",
+        "syslog",
+        "}",
+        "}"
+    ],
+    "ports": [
+        {
+            "port": 5000,
+            "protocol": "tcp"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/elastic/logstash",
+            "type": "git"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 5000,
         "initialDelay": 30,
-        "timeout" : 600
+        "timeout": 120
     },
     "resourceLimits": {
         "cpuMax": 200,
@@ -29,5 +71,8 @@
         "memMax": 500,
         "memDefault": 100
     },
-	"tags" : ["30"]
+    "catalog": "user",
+    "tags": [
+        "30"
+    ],
 }
