@@ -24,10 +24,10 @@
     ],
     "readinessProbe": {
         "type": "http",
-        "path": "img/logo/cloudcmd.png",
+        "path": "/favicon.ico",
         "port": 8000,
         "initialDelay": 5,
-        "timeout": 600 
+        "timeout": 45
     },
     "resourceLimits": {
         "cpuMax": 500,
