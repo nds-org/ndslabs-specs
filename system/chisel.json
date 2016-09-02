@@ -1,8 +1,8 @@
 {
     "key": "chisel",
     "label": "HTTP Tunnel",
-    "description": "Tool for accessing TCP-based services via secure tunnel",
-	"logo": "https://avatars0.githubusercontent.com/u/8526606",
+    "description": "NDS Labs Utility for accessing TCP-based services via secure tunnel",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/13369353/ndsabs-small.png",
     "image": {
         "name": "ndslabs/chisel",
         "tags": [
@@ -27,13 +27,14 @@
         }
     ],
     "repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/jpillora/chisel/"
-		}
-	],
+        {
+            "url": "https://github.com/jpillora/chisel/",
+            "type": "git"
+        }
+    ],
     "readinessProbe": {
         "type": "tcp",
+        "path": "",
         "port": 8080,
         "initialDelay": 30,
         "timeout": 500
@@ -44,5 +45,10 @@
         "memMax": 100,
         "memDefault": 50
     },
-    "tags": ["31"]
+    "developerEnvironment": "cloud9go",
+    "tags": [
+        "31",
+        "17"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Chisel"
 }
