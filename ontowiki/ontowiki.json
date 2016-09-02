@@ -1,8 +1,8 @@
 {
-    "key": "ontowiki",
+    "key": "ontowiki2,
     "label": "OntoWiki",
     "description": "Semantic wiki and knowledgebase",
-	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532073/ontowiki-logo.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532073/ontowiki-logo.png",
     "image": {
         "name": "aksw/ontowiki-ubuntu-nginx",
         "tags": [
@@ -11,6 +11,8 @@
     },
     "display": "stack",
     "access": "external",
+    "command": null,
+    "args": null,
     "ports": [
         {
             "port": 80,
@@ -18,29 +20,34 @@
         }
     ],
     "repositories": [
-		{
-			"type":"git",
-			"url":"https://github.com/AKSW/OntoWiki/wiki"
-		}
-	],
+        {
+            "url": "https://github.com/AKSW/OntoWiki/wiki",
+            "type": "git"
+        }
+    ],
     "readinessProbe": {
         "type": "http",
-        "path": "favicon.png",
+        "path": "/favicon.png",
         "port": 80,
         "initialDelay": 10,
-        "timeout": 500
+        "timeout": 120
     },
-    "volumeMounts": [ 
-		{
-			"mountPath": "/var/lib/virtuoso-opensource-6.1/db"
-		}
-	],
+    "volumeMounts": [
+        {
+            "mountPath": "/var/lib/virtuoso-opensource-6.1/db"
+        }
+    ],
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 512,
         "memDefault": 50
     },
-	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/OntoWiki",
-    "tags": ["32"]
+    "catalog": "user",
+    "developerEnvironment": "cloud9php",
+    "tags": [
+        "32",
+        "18"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/OntoWiki"
 }
