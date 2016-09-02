@@ -3,6 +3,9 @@
 	"access":"external",
     "description": "A collection of statistical tools for data exploration, analysis, and meta-analysis.",
     "label": "TwoRavens",
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Two+Ravens",
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170437/tworavens-small.png",
+	"display" : "stack",
     "image": {
 		"name": "ndslabs/tworavens",
 		"tags": ["4.2.3", "latest"]
@@ -16,5 +19,10 @@
         "memMax": 1000,
         "memDefault": 500
     },
-	"tags" : ["28"]
+	"repositories" : [{
+		"type" : "git",
+		"url" : "https://github.com/IQSS/TwoRavens"
+	}],
+	"developerEnvironment": "cloud9nodejs",
+	"tags" : ["21", "28"]
 }
