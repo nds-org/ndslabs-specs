@@ -52,7 +52,7 @@
         "path" : "/favicon.ico",
         "port" : 10000,
         "initialDelay": 10,
-        "timeout" : 600
+        "timeout" : 360
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Clowder",
 	"tags" : ["7", "20"]
