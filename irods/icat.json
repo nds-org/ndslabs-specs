@@ -46,6 +46,13 @@
         "memMax": 500,
         "memDefault": 200
     },
+	"repositories" : [
+		{
+			"type" : "git",
+			"url" : "https://github.com/irods/irods"
+		}
+	],
+	"developerEnvironment" : "cloud9cpp",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/IRODS",
     "tags" : ["6", "14"]
 }
