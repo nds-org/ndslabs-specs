@@ -16,6 +16,12 @@
     "volumeMounts":[
         { "mountPath": "/usr/share/elasticsearch/data" }
     ],
+	"repositories" : [
+		{
+			"type" : "git",
+			"url" : "https://github.com/elastic/elasticsearch"
+		}
+	],
    "readinessProbe" : {
         "type" : "http",
         "port" : 9200,
