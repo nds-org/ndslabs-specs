@@ -33,5 +33,6 @@
         "memMax": 250,
         "memDefault": 100
     },
+	"privileged": true,
 	"tags" : ["30"]
 }
