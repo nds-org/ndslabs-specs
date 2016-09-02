@@ -24,20 +24,29 @@
             "protocol": "http"
         }
     ],
-    "repositories": null,
+    "repositories": [
+        {
+            "url": "https://github.com/protegeproject/webprotege",
+            "type": "git"
+        }
+    ],
     "readinessProbe": {
         "type": "http",
         "path": "/images/bp_icon.png",
         "port": 8080,
         "initialDelay": 30,
-        "timeout": 500
+        "timeout": 360
     },
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 1000,
+        "memMax": 500,
         "memDefault": 50
     },
-    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/WebProtege",
-    "tags": ["16","32"]
+    "catalog": "user",
+    "tags": [
+        "16",
+        "32"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/WebProtege"
 }
