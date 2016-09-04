@@ -4,6 +4,7 @@
     "description": "Relational database platform",
     "logo": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png",
 	"access" :"internal",
+	"display" :"stack",
     "image": {
         "name": "postgres",
         "tags": [
@@ -39,7 +40,7 @@
     "ports": [
         {
             "port": 5432,
-            "protocol": "http"
+            "protocol": "tcp"
         }
     ],
     "repositories": [
@@ -52,7 +53,7 @@
         "type": "tcp",
         "path": "",
         "port": 5432,
-        "initialDelay": 10,
+        "initialDelay": 30,
         "timeout": 500
     },
     "volumeMounts": [ 
