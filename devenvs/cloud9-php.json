@@ -3,7 +3,7 @@
     "label": "Cloud9 PHP",
     "image": {
 		"name": "ndslabs/cloud9-php",
-		"tags": ["latest"]
+		"tags": ["latest", "v1.0.2"]
 	}, 
 	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/php-logo.png",
     "display": "stack",
@@ -28,7 +28,7 @@
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 200,
+        "memMax": 1000,
         "memDefault": 50
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
