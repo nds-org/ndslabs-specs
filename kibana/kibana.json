@@ -5,6 +5,8 @@
 		"name" : "kibana",
 		"tags" : ["4.4"]
 	},
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613430/kibana-logo.png",
+	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Kibana",
     "description": "An open source data visualization platform",
 	"display": "stack",
 	"access":"external",

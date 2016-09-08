@@ -6,7 +6,7 @@
 		"tags": ["4.1.3", "latest"]
 	},
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/IRODS",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/iRODS-Logo.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532044/irods-small.png",
     "access": "external",
     "ports": [
         {

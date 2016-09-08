@@ -20,5 +20,13 @@
         "memMax": 250,
         "memDefault": 100
     },
+	"repositories" : [
+		{
+		"type" : "git",
+		"url" : "https://github.com/mongodb/mongo"
+		}
+	],
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613400/mongodb-small.jpg",
+	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/MongoDB",
 	"tags" : ["24"]
 }

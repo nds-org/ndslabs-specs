@@ -33,5 +33,14 @@
         "memMax": 250,
         "memDefault": 100
     },
+	"repositories": [
+		{
+			"type" : "git",
+			"url" : "https://github.com/elastic/logstash"
+		}
+	],
+	"privileged": true,
+	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Logstash",
+	"logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170441/logstash-small.png",
 	"tags" : ["30"]
 }

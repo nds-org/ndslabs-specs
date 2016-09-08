@@ -1,8 +1,8 @@
 {
     "key": "iqvoc",
     "label": "iQvoc",
-    "description": "Vocabulary management system",
-    "logo": "http://iqvoc.net/images/iqvoc_logo.png",
+    "description": "SKOS-based vocabulary management system",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532051/iqvoc-small.png",
     "image": {
         "name": "ndslabs/iqvoc",
         "tags": [
@@ -37,5 +37,5 @@
         "memDefault": 50
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/iQvoc",
-    "tags": ["32"]
+    "tags": ["19", "32"]
 }

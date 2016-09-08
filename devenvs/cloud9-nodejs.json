@@ -23,7 +23,7 @@
         "path" : "/favicon.ico",
         "port" : 80,
         "initialDelay": 10,
-        "timeout" : 600
+        "timeout" : 360
     },
     "resourceLimits": {
         "cpuMax": 1000,

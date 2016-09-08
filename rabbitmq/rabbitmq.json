@@ -2,12 +2,14 @@
     "key": "rabbitmq",
     "label": "RabbitMQ",
     "description": "A highly reliable enterprise messaging system",
+	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613394/rabbitmq-small.png",
+	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/RabbitMQ",
     "image": {
 		"name" : "rabbitmq", 
 		"tags" : ["3.6.1-management"]
 	},
 	"display": "standalone",
-	"access": "internal",
+	"access": "external",
     "ports": [
         { "port": 5672, "protocol": "tcp" },
         { "port": 15672, "protocol": "tcp" }

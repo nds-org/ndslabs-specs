@@ -175,6 +175,11 @@
 			"id": "35",
             "definition": "Digital library platform",
             "name": "Digital library"
-		}
+		},
+        {
+			"id": "36",
+            "definition": "Software that supports management of research data",
+            "name": "Data management"
+        }
     ]
 }

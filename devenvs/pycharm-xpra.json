@@ -1,7 +1,7 @@
 {
     "key": "pycharmxpra",
-    "label": "PyCharm (Xpra)",
-    "description": "PyCharm Community Edition (Xpra)",
+    "label": "PyCharm",
+    "description": "PyCharm Community Edition",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532048/pycharm-logo.png",
     "image": {
         "registry": "",

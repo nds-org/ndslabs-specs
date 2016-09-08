@@ -8,11 +8,15 @@
     },
     "display": "stack",
     "access": "external",
-    "logo": "https://clowder.ncsa.illinois.edu/docs/_images/logo_full.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532035/clowder-small.png",
     "depends": [
         {
             "key": "mongo",
             "required": true
+        },
+        {
+            "key": "rabbitmq",
+            "required": false
         },
         {
             "key": "elasticsearch",
@@ -89,6 +93,6 @@
       }
     ],    
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Clowder",
-    "tags" : ["2", "22"]
+    "tags" : ["2", "22", "36"]
 }
 
