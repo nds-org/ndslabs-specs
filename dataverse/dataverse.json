@@ -65,7 +65,7 @@
         "type" : "http",
         "path" : "/healthcheck.txt",
         "port" : 8080,
-        "initialDelay": 120,
+        "initialDelay": 360,
         "timeout" : 600
     },
     "resourceLimits": {
