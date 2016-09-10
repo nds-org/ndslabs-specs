@@ -81,10 +81,17 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 250
+    },
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/assets/stylesheets/main.css",
+        "port" : 9000,
+        "initialDelay": 10,
+        "timeout" : 60
     },
     "repositories": [
       {
