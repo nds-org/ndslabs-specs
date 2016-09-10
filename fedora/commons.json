@@ -34,7 +34,7 @@
         "path": "/images/fedora_logo_10in.png",
         "port": 8080,
         "initialDelay": 30,
-        "timeout": 45
+        "timeout": 120
     },
     "resourceLimits": {
         "cpuMax": 1000,

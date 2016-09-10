@@ -31,7 +31,7 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 250,
         "memDefault": 25

@@ -20,6 +20,13 @@
         "memMax": 250,
         "memDefault": 100
     },
+    "readinessProbe" : {
+        "type" : "tcp",
+        "path" : "",
+        "port" : 27017,
+        "initialDelay": 10,
+        "timeout" : 60
+    },
 	"repositories" : [
 		{
 		"type" : "git",

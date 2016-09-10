@@ -65,13 +65,13 @@
         "type" : "http",
         "path" : "/healthcheck.txt",
         "port" : 8080,
-        "initialDelay": 120,
+        "initialDelay": 360,
         "timeout" : 600
     },
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 2000,
+        "memMax": 3000,
         "memDefault": 1000
     },
     "repositories": [

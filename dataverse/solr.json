@@ -18,7 +18,7 @@
         "path" : "/solr",
         "port" : 8983,
         "initialDelay": 30,
-        "timeout" : 600
+        "timeout" : 360
     },
     "resourceLimits": {
         "cpuMax": 200,

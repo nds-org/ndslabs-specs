@@ -49,7 +49,7 @@
         },
         {
             "name": "ADMIN_EMAIL",
-            "value": "",
+            "value": "$(NDSLABS_EMAIL)",
             "label": "Admin email",
             "isPassword": false,
             "canOverride": true
@@ -89,7 +89,7 @@
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
-        "memMax": 4000,
+        "memMax": 3000,
         "memDefault": 50
     },
     "tags": [
