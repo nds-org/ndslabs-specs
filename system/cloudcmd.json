@@ -30,7 +30,7 @@
         "timeout": 45
     },
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 50
