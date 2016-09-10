@@ -71,7 +71,7 @@
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
-        "memMax": 2000,
+        "memMax": 3000,
         "memDefault": 1000
     },
     "repositories": [
