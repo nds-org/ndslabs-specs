@@ -22,18 +22,15 @@
     "depends": [
       {
         "key": "clowder",
-        "required": true,
-        "shareConfig": false
+        "required": true
       },
       {
         "key": "mongo",
-        "required": true,
-        "shareConfig": false
+        "required": true
       },
       {
         "key": "rabbitmq",
-        "required": true,
-        "shareConfig": false
+        "required": true
       }
     ],
     "volumeMounts": [

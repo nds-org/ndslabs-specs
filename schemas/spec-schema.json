@@ -55,7 +55,7 @@
           "required": {
             "type": "boolean"
           },
-          "shareConfig": {
+          "useFrom": {
             "type": "boolean"
           }
         },
