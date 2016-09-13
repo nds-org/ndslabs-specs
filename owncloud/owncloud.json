@@ -39,10 +39,10 @@
     ],
     "readinessProbe": {
         "type": "http",
-        "path": "/settings/img/help.svg",
+        "path": "/core/img/favicon.ico",
         "port": 80,
-        "initialDelay": 15,
-        "timeout": 45
+        "initialDelay": 30,
+        "timeout": 120
     },
     "volumeMounts": [
         {
