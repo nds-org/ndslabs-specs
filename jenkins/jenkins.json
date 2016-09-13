@@ -29,7 +29,7 @@
         "type": "tcp",
         "path": "",
         "port": 50000,
-        "initialDelay": 20,
+        "initialDelay": 30,
         "timeout": 120
     },
     "volumeMounts": [
@@ -41,8 +41,8 @@
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
-        "memMax": 1000,
-        "memDefault": 50
+        "memMax": 2000,
+        "memDefault": 1000
     },
     "tags": [ "37", "16" ],
     "developerEnvironment": "cloud9java",
