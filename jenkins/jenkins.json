@@ -18,6 +18,10 @@
         {
             "port": 8080,
             "protocol": "http"
+        },
+        {
+            "port": 50000,
+            "protocol": "tcp"
         }
     ],
     "repositories": null,
