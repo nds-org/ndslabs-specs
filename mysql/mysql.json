@@ -49,7 +49,7 @@
   "ports": [
     {
       "port": 3306,
-      "protocol": "http"
+      "protocol": "tcp"
     }
   ],
   "repositories": [
