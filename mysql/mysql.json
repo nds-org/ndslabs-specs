@@ -19,14 +19,14 @@
   "config": [
     {
       "name": "MYSQL_DATABASE",
-      "value": "owncloud",
+      "value": "",
       "label": "Database",
       "isPassword": false,
       "canOverride": true
     },
     {
       "name": "MYSQL_USER",
-      "value": "owncloud",
+      "value": "",
       "label": "Username",
       "isPassword": false,
       "canOverride": true
