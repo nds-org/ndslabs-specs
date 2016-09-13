@@ -26,9 +26,9 @@
     ],
     "repositories": null,
     "readinessProbe": {
-        "type": "http",
-        "path": "/images/mask-icon.svg",
-        "port": 8080,
+        "type": "tcp",
+        "path": "",
+        "port": 50000,
         "initialDelay": 20,
         "timeout": 120
     },
