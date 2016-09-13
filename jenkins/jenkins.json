@@ -23,9 +23,9 @@
     "repositories": null,
     "readinessProbe": {
         "type": "http",
-        "path": "/favicon.ico",
+        "path": "/images/mask-icon.svg",
         "port": 8080,
-        "initialDelay": 30,
+        "initialDelay": 20,
         "timeout": 120
     },
     "volumeMounts": [

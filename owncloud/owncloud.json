@@ -41,7 +41,7 @@
         "type": "http",
         "path": "/core/img/favicon.ico",
         "port": 80,
-        "initialDelay": 30,
+        "initialDelay": 15,
         "timeout": 120
     },
     "volumeMounts": [
