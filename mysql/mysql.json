@@ -62,8 +62,8 @@
     "type": "tcp",
     "path": "",
     "port": 3306,
-    "initialDelay": 15,
-    "timeout": 45
+    "initialDelay": 30,
+    "timeout": 120
   },
   "volumeMounts": [
     {
