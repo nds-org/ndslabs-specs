@@ -1,6 +1,7 @@
 {
     "key": "logspout",
     "label": "LogSpout",
+    "description": "A log router for Docker containers that runs inside Docker",
     "image": {
 		"name" : "ndslabs/logspout",
 		"tags" : ["v4", "latest"]

@@ -1,6 +1,7 @@
 {
     "key": "dvicat",
     "label": "Dataverse iRODS iCAT",
+    "description": "iRODS iCAT customized for use as a plugin for Dataverse",
     "image": {
 		"name": "ndslabs/dataverse-icat",
 		"tags": ["4.2.3","latest"]

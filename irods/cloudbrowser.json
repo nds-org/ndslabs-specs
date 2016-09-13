@@ -1,6 +1,7 @@
 {
     "key": "cloudbrowser",
     "label": "iRODS Cloudbrowser API",
+    "description": "The API server used to facilitate communication between iCAT and the Cloudbrowser",
     "image": {
 		"name": "ndslabs/cloudbrowser",
 		"tags": ["4.1.3", "latest"]
