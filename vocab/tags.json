@@ -180,6 +180,11 @@
 			"id": "36",
             "definition": "Software that supports management of research data",
             "name": "Data management"
+        },
+        {
+                        "id": "37",
+            "definition": "Software that supports task or scripting automation",
+            "name": "Automation"
         }
     ]
 }

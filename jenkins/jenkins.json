@@ -1,0 +1,50 @@
+{
+    "key": "jenkins",
+    "label": "Jenkins CI",
+    "description": "An open-source automation server",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17989674/jenkins-logo.png?api=v2",
+    "maintainer": "",
+    "image": {
+        "registry": "",
+        "name": "ndslabs/jenkins",
+        "tags": [
+            "dind",
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http"
+        },
+        {
+            "port": 50000,
+            "protocol": "tcp"
+        }
+    ],
+    "repositories": null,
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 50000,
+        "initialDelay": 30,
+        "timeout": 120
+    },
+    "volumeMounts": [
+        {
+            "mountPath": "/var/jenkins_home",
+            "name": "jenkins"
+        }
+    ],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 2000,
+        "memDefault": 1000
+    },
+    "tags": [ "37", "16" ],
+    "developerEnvironment": "cloud9java",
+    "privileged": true
+}
