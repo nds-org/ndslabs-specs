@@ -41,10 +41,7 @@
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "value": "",
-            "label": "Database password",
-            "canOverride": true,
-            "isPassword": true
+            "useFrom": "postgres"
         },
         {
             "name": "RSERVE_USER",
