@@ -20,7 +20,7 @@
       { "key": "solr", "required": true },
       { "key": "rserve", "required": true},
       { "key": "tworavens", "required": false },
-      { "key": "dvicat", "required": false, "shareConfig": true }
+      { "key": "dvicat", "required": false }
     ],
     "config":  [
         {
@@ -41,10 +41,8 @@
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "value": "",
-            "label": "Database password",
-            "canOverride": true,
-            "isPassword": true
+            "useFrom": "postgres",
+            "canOverride": false
         },
         {
             "name": "RSERVE_USER",

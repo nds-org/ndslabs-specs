@@ -14,31 +14,26 @@
     "depends": [
         {
             "key": "postgres",
-            "required": true,
-            "shareConfig": false
+            "required": true
         }
     ],
     "config": [
         {
             "name": "POSTGRES_SCHEMA",
             "value": "dspace",
-            "label": "Postgres Schema",
+            "label": "Postgres Database",
             "isPassword": false,
             "canOverride": false
         },
         {
             "name": "POSTGRES_USER",
-            "value": "dspace",
-            "label": "Postgres User",
-            "isPassword": false,
+            "useFrom" : "postgres",
             "canOverride": false
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "value": "dspace",
-            "label": "Postgres Password",
-            "isPassword": true,
-            "canOverride": true
+            "useFrom" : "postgres",
+            "canOverride": false
         },
         {
             "name": "POSTGRES_DB_HOST",

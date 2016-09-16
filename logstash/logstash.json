@@ -14,8 +14,7 @@
     "depends": [
         {
             "key": "elasticsearch2",
-            "required": true,
-            "shareConfig": false
+            "required": true
         }
     ],
     "config": [],
