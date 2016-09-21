@@ -3,8 +3,8 @@
     "label": "Image Metadata Extractor",
     "description": "Clowder extractor for image metadata",
     "image": {
-		"name": "ndslabs/image-metadatak", 
-		"tags" : ["0.9.2"]
+		"name": "ncsa/clowder-extractors-image-metadata", 
+		"tags" : ["latest"]
 	},
     "access": "internal",
     "depends": [
