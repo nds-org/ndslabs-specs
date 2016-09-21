@@ -3,7 +3,7 @@
     "label": "Image Preview Extractor",
     "description": "Clowder extractor for image preview thumbnails",
     "image": {
-		"name": "ncsa/clowder-extractors-image-preview"", 
+		"name": "ncsa/clowder-extractors-image-preview", 
 		"tags" : ["latest"]
 	},
 	"access": "internal",
