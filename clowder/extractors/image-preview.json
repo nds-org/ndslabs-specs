@@ -4,7 +4,7 @@
     "description": "Clowder extractor for image preview thumbnails",
     "image": {
 		"name": "ncsa/clowder-extractors-image-preview"", 
-		"tags" : ["latest""]
+		"tags" : ["latest"]
 	},
 	"access": "internal",
     "depends": [
