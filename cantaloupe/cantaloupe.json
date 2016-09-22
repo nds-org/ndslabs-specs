@@ -2,7 +2,7 @@
     "key": "cantaloupe",
     "label": "Cantaloupe IIIF",
     "image": { 
-        "name" : "mitlibraries",
+        "name" : "mitlibraries/cantaloupe",
         "tags" : ["tryiiif", "latest"]
     },
     "description": "A high-performance dynamic image server in Java",
