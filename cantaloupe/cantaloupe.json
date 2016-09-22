@@ -33,7 +33,7 @@
             "url" : "https://github.com/medusa-project/cantaloupe"
         }
     ],
-    "logo" : "",
+    "logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/19791875/cantaloupe_opt.png?api=v2",
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cantaloupe",
     "tags" : ["16"]
 }
