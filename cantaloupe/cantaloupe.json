@@ -1,0 +1,39 @@
+{
+    "key": "cantaloupe",
+    "label": "Cantaloupe IIIF",
+    "image": { 
+        "name" : "mitlibraries",
+        "tags" : ["tryiiif", "latest"]
+    },
+    "description": "A high-performance dynamic image server in Java",
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        { "port": 8182, "protocol": "http" }
+    ],
+    "volumeMounts":[
+        { "mountPath": "/imageroot" }
+    ],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 500,
+        "memDefault": 100
+    },
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 8182,
+        "initialDelay": 10,
+        "timeout" : 60
+    },
+    "repositories" : [
+        {
+            "type" : "git",
+            "url" : "https://github.com/medusa-project/cantaloupe"
+        }
+    ],
+    "logo" : "",
+    "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cantaloupe",
+    "tags" : ["16"]
+}
