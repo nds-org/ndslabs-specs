@@ -30,6 +30,14 @@
 		"type" : "git",
 		"url" : "https://github.com/IQSS/TwoRavens"
 	}],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/dataexplore/gui.html",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 120
+    },
 	"developerEnvironment": "cloud9nodejs",
 	"tags" : ["21", "28"]
 }
+
