@@ -49,6 +49,14 @@
         {
             "key": "plantcv",
             "required": false
+        },
+        {
+            "key": "digest",
+            "required": false
+        },
+        {
+            "key": "officepreview",
+            "required": false
         }
     ],
     "config":  [
