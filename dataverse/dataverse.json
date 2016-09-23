@@ -56,7 +56,7 @@
         },
         {
             "name": "TWORAVENS_URL",
-            "value": "$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
+            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
             "canOverride": false
         }
     ],

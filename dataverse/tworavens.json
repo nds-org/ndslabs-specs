@@ -22,7 +22,7 @@
     "config":  [
         {
             "name": "DATAVERSE_URL",
-            "value": "$(NDSLABS_STACK)-dataverse.$(NDSLABS_DOMAIN)",
+            "value": "https://$(NDSLABS_STACK)-dataverse.$(NDSLABS_DOMAIN)",
             "canOverride": false
         }
     ],
