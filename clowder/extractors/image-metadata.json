@@ -3,9 +3,9 @@
     "label": "Image Metadata Extractor",
     "description": "Clowder extractor for image metadata",
     "image": {
-		"name": "ncsa/clowder-extractors-image-metadata", 
-		"tags" : ["latest"]
-	},
+        "name": "ncsa/clowder-extractors-image-metadata", 
+        "tags" : ["latest"]
+    },
     "access": "internal",
     "depends": [
         {
@@ -30,5 +30,11 @@
             "canOverride": false
         }
     ],
-	"tags" : ["27"]
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 250,
+        "memDefault": 25
+    },
+    "tags" : ["27"]
 }
