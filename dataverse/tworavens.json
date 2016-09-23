@@ -19,6 +19,13 @@
         "memMax": 1000,
         "memDefault": 500
     },
+    "config":  [
+        {
+            "name": "DATAVERSE_URL",
+            "value": "$(NDSLABS_STACK)-dataverse.$(NDSLABS_DOMAIN)",
+            "canOverride": false
+        }
+    ],
 	"repositories" : [{
 		"type" : "git",
 		"url" : "https://github.com/IQSS/TwoRavens"
