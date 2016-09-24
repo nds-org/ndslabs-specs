@@ -24,6 +24,11 @@
             "name": "DATAVERSE_URL",
             "value": "https://$(NDSLABS_STACK)-dataverse.$(NDSLABS_DOMAIN)",
             "canOverride": false
+        },
+        {
+            "name": "TWORAVENS_URL",
+            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
+            "canOverride": false
         }
     ],
 	"repositories" : [{
