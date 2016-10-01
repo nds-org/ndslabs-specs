@@ -7,8 +7,8 @@
 	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170437/tworavens-small.png",
 	"display" : "stack",
     "image": {
-		"name": "ndslabs/tworavens",
-		"tags": ["4.2.3", "latest"]
+		"name": "craigwillis/tworavens",
+		"tags": ["NDS-538"]
 	},
     "ports": [
         { "port": 80, "protocol": "http" }

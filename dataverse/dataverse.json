@@ -2,8 +2,8 @@
     "key": "dataverse",
     "label": "Dataverse",
     "image": {
-		"name": "ndslabs/dataverse",
-		"tags": ["4.2.3","latest"]
+		"name": "craigwillis/dataverse",
+		"tags": ["NDS-538"]
 	},
     "display": "stack",
     "access": "external",
@@ -31,13 +31,11 @@
         },
         {
             "name": "POSTGRES_DATABASE",
-            "value": "dvndb",
-            "canOverride": false
+            "useFrom": "postgres"
         },
         {
             "name": "POSTGRES_USER",
-            "value": "dvnapp",
-            "canOverride": false
+            "useFrom": "postgres"
         },
         {
             "name": "POSTGRES_PASSWORD",
@@ -67,11 +65,11 @@
         "type" : "http",
         "path" : "/healthcheck.txt",
         "port" : 8080,
-        "initialDelay": 420,
+        "initialDelay": 480,
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": 200,
+        "cpuMax": 500,
         "cpuDefault": 100,
         "memMax": 3000,
         "memDefault": 1000
