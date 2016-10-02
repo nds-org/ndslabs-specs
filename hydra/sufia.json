@@ -31,6 +31,24 @@
     "access": "external",
     "config": [
         {
+            "name": "POSTGRES_DB",
+            "label" : "Database name",
+            "useFrom" : "postgres.POSTGRES_DB",
+            "canOverride": false
+        },
+        {
+            "name": "POSTGRES_USER",
+            "label" : "Database user",
+            "useFrom" : "postgres.POSTGRES_USER",
+            "canOverride": false
+        },
+        {
+            "name": "POSTGRES_PASSWORD",
+            "label" : "Database password",
+            "useFrom" : "postgres.POSTGRES_PASSWORD",
+            "canOverride": false
+        },
+        {
             "name": "CORE_NAME",
             "useFrom" : "solr6.CORE_NAME",
             "canOverride": false
