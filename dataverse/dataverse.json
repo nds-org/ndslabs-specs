@@ -30,7 +30,7 @@
             "canOverride": true
         },
         {
-            "name": "POSTGRES_DATABASE",
+            "name": "POSTGRES_DB",
             "useFrom": "postgres.POSTGRES_DB",
             "canOverride": false
         },
