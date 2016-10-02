@@ -11,6 +11,10 @@
     },
     "depends": [
         {
+            "key": "postgres",
+            "required": true
+        },
+        {
             "key": "redis",
             "required": true
         },
