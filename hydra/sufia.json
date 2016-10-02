@@ -1,0 +1,67 @@
+{
+    "key": "sufia",
+    "label": "Sufia",
+    "description": "Open-source repository platform",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/21299211/sufia-logo.png",
+    "image": {
+        "name": "ndslabs/sufia",
+        "tags": [
+            "latest"
+        ]
+    },
+    "depends": [
+        {
+            "key": "redis",
+            "required": true
+        },
+        {
+            "key": "solr6",
+            "required": true
+        },
+        {
+            "key": "fedoracommons",
+            "required": true
+        }
+    ],
+    "display": "stack",
+    "access": "external",
+    "config": [
+        {
+            "name": "CORE_NAME",
+            "useFrom" : "solr6.CORE_NAME",
+            "canOverride": false
+        },
+        {
+            "name": "CONFIG_REPO",
+            "label" : "Solr Config Repo",
+            "value" : "https://github.com/nds-org/ndslabs-sufia/trunk/solr/conf",
+            "setTo" : "solr6.CONFIG_REPO",
+            "isPassword" : false,
+            "canOverride": true
+        }
+    ],
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "type": "http",
+        "path": "/favicon.ico",
+        "port": 3000,
+        "initialDelay": 15,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 2000,
+        "memDefault": 50
+    },
+    "tags": [
+        "19",
+        "11"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Sufia"
+}
