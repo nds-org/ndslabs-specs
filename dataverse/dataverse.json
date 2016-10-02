@@ -31,17 +31,17 @@
         },
         {
             "name": "POSTGRES_DATABASE",
-            "value": "dvndb",
+            "useFrom": "postgres.POSTGRES_DB",
             "canOverride": false
         },
         {
             "name": "POSTGRES_USER",
-            "value": "dvnapp",
+            "useFrom": "postgres.POSTGRES_USER",
             "canOverride": false
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "useFrom": "postgres",
+            "useFrom": "postgres.POSTGRES_PASSWORD",
             "canOverride": false
         },
         {
