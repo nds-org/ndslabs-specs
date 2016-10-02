@@ -24,14 +24,14 @@
         },
         {
             "name": "POSTGRES_USER",
-            "value": "",
+            "value": "myuser",
             "label": "Username",
             "isPassword": false,
             "canOverride": true
         },
         {
             "name": "POSTGRES_DB",
-            "value": "",
+            "value": "mydb",
             "label": "Database Name",
             "isPassword": false,
             "canOverride": true
