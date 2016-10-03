@@ -24,6 +24,13 @@
     ],
     "config":  [
         {
+            "name": "ADMIN_PASSWORD",
+            "value": "",
+            "label": "Admin password",
+            "isPassword": true,
+            "canOverride": true
+        },
+        {
             "name": "MAIL_SERVER",
             "value": "smtp.ncsa.illinois.edu",
             "label": "SMTP server",
