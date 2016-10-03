@@ -2,8 +2,8 @@
     "key": "dataverse",
     "label": "Dataverse",
     "image": {
-        "name": "ndslabs/dataverse",
-        "tags": ["4.2.3","latest"]
+        "name": "craigwillis/dataverse",
+        "tags": ["NDS-538"]
     },
     "display": "stack",
     "access": "external",
