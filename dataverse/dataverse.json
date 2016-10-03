@@ -54,6 +54,11 @@
             "value": "rserve",
             "label": "RServe password",
             "canOverride": false
+        },
+        {
+            "name": "TWORAVENS_URL",
+            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
+            "canOverride": false
         }
     ],
     "volumeMounts":[
