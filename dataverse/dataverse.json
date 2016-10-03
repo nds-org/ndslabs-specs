@@ -2,9 +2,9 @@
     "key": "dataverse",
     "label": "Dataverse",
     "image": {
-		"name": "craigwillis/dataverse",
-		"tags": ["NDS-538"]
-	},
+        "name": "ndslabs/dataverse",
+        "tags": ["4.2.3","latest"]
+    },
     "display": "stack",
     "access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
@@ -20,7 +20,7 @@
       { "key": "solr", "required": true },
       { "key": "rserve", "required": true},
       { "key": "tworavens", "required": false },
-      { "key": "dvicat", "required": false, "shareConfig": true }
+      { "key": "dvicat", "required": false }
     ],
     "config":  [
         {
@@ -30,16 +30,19 @@
             "canOverride": true
         },
         {
-            "name": "POSTGRES_DATABASE",
-            "useFrom": "postgres"
+            "name": "POSTGRES_DB",
+            "useFrom": "postgres.POSTGRES_DB",
+            "canOverride": false
         },
         {
             "name": "POSTGRES_USER",
-            "useFrom": "postgres"
+            "useFrom": "postgres.POSTGRES_USER",
+            "canOverride": false
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "useFrom": "postgres"
+            "useFrom": "postgres.POSTGRES_PASSWORD",
+            "canOverride": false
         },
         {
             "name": "RSERVE_USER",
@@ -51,11 +54,6 @@
             "value": "rserve",
             "label": "RServe password",
             "canOverride": false
-        },
-        {
-            "name": "TWORAVENS_URL",
-            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
-            "canOverride": false
         }
     ],
     "volumeMounts":[
@@ -65,20 +63,20 @@
         "type" : "http",
         "path" : "/healthcheck.txt",
         "port" : 8080,
-        "initialDelay": 480,
+        "initialDelay": 360,
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 1000,
         "cpuDefault": 100,
         "memMax": 3000,
         "memDefault": 1000
     },
     "repositories": [
-	    {
-	      "url": "https://github.com/IQSS/dataverse",
-	      "type": "git"
-	    }
+        {
+          "url": "https://github.com/IQSS/dataverse",
+          "type": "git"
+        }
      ],    
      "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Dataverse",
      "tags" : ["1", "11", "16", "36"]
