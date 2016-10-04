@@ -24,6 +24,13 @@
     ],
     "config":  [
         {
+            "name": "ADMIN_PASSWORD",
+            "value": "",
+            "label": "Admin password",
+            "isPassword": true,
+            "canOverride": true
+        },
+        {
             "name": "MAIL_SERVER",
             "value": "smtp.ncsa.illinois.edu",
             "label": "SMTP server",
@@ -53,6 +60,11 @@
             "name": "RSERVE_PASSWORD",
             "value": "rserve",
             "label": "RServe password",
+            "canOverride": false
+        },
+        {
+            "name": "TWORAVENS_URL",
+            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
             "canOverride": false
         }
     ],
