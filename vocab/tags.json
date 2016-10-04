@@ -185,6 +185,16 @@
                         "id": "37",
             "definition": "Software that supports task or scripting automation",
             "name": "Automation"
-        }
+        },
+        {
+                        "id": "38",
+            "definition": "Software that supports transformation of datasets",
+            "name": "Data transformation"
+        },
+        {
+			"id": "39",
+            "definition": "Software written in Groovy",
+            "name": "Groovy"
+        },
     ]
 }

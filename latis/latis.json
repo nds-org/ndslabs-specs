@@ -1,0 +1,40 @@
+{
+  "key": "latis",
+  "label": "LaTiS",
+  "logo" :"https://nationaldataservice.atlassian.net/wiki/download/attachments/13369353/ndsabs-small.png",
+  "description": "Web service for dynamic dataset reformatting",
+  "image": {
+    "registry": "",
+    "name": "ndslabs/latis",
+    "tags": [
+      "latest"
+    ]
+  },
+  "display": "stack",
+  "access": "external",
+  "ports": [
+    {
+      "port": 8080,
+      "protocol": "http",
+      "contextPath": "/latis-nds/latis"
+    }
+  ],
+  "readinessProbe": {
+    "type": "http",
+    "path": "/latest-nds/latis",
+    "port": 8080,
+    "initialDelay": 10,
+    "timeout": 120
+  },
+  "resourceLimits": {
+    "cpuMax": 500,
+    "cpuDefault": 100,
+    "memMax": 500,
+    "memDefault": 50
+  },
+  "tags": [
+    "38",
+    "39"
+  ],
+  "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/LaTis"
+}
