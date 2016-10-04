@@ -25,16 +25,18 @@
         "initialDelay": 10,
         "timeout": 500
     },
+    "resourceLimits": {
+        "cpuDefault": 100,
+        "cpuMax": 200,
+        "memDefault": 50,
+        "memMax": 512
+    },
+    "tags": [
+        "26"
+    ],
     "volumeMounts": [
         {
             "mountPath": "/data"
         }
-    ],
-    "resourceLimits": {
-        "cpuMax": 200,
-        "cpuDefault": 100,
-        "memMax": 512,
-        "memDefault": 50
-    },
-    "tags": ["26"]
+    ]
 }
