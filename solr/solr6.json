@@ -21,7 +21,7 @@
     "image": {
         "name": "ndslabs/solr6",
         "tags": [
-            "latest"
+            "latest", "6.2"
         ]
     },
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Solr",
