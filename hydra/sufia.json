@@ -56,7 +56,7 @@
     "image": {
         "name": "ndslabs/sufia",
         "tags": [
-            "latest"
+            "latest", "7.1"
         ]
     },
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Sufia",
