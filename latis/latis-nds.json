@@ -1,0 +1,11 @@
+{
+    "key": "latis",
+    "label": "LaTiS",
+    "image": "dlindhol/latis-nds:latest",
+    "description": "Sample LaTiS data server instance to explore NDS Labs possibilities",
+    "access": "external",
+    "display": "stack",
+    "ports": [
+        { "port": 8080, "protocol": "http" }
+    ]
+}
