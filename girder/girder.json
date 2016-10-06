@@ -16,8 +16,7 @@
   "depends": [
     {
       "key": "mongo",
-      "required": true,
-      "shareConfig": false
+      "required": true
     }
   ],
   "args": [
