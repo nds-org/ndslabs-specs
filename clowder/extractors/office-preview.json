@@ -1,12 +1,12 @@
 {
-    "key": "pdfpreview",
-    "label": "PDF Preview Extractor",
-    "description": "Clowder extractor for PDF preview thumbnails",
+    "key": "officepreview",
+    "label": "Office Preview Extractor",
+    "description": "Clowder extractor for creating previews of OpenOffice documents",
     "image": {
-		"name": "ncsa/clowder-extractors-pdf-preview", 
+		"name": "ncsa/clowder-extractors-office-preview", 
 		"tags" : ["latest"]
 	},
-    "access": "internal",
+	"access": "internal",
     "depends": [
         {
             "key": "rabbitmq",
@@ -26,7 +26,7 @@
         },
         {
             "name": "RABBITMQ_QUEUE",
-            "value": "ncsa.pdf.preview",
+            "value": "ncsa.office.preview",
             "canOverride": false
         }
     ],
@@ -36,5 +36,5 @@
         "memMax": 250,
         "memDefault": 25
     },
-    "tags" : ["27"]
+	"tags" : ["27"]
 }

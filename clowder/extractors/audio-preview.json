@@ -3,8 +3,8 @@
     "label": "Audio Preview Extractor",
     "description": "Clowder extractor for audio preview clips",
     "image": {
-		"name": "ndslabs/audio-preview", 
-		"tags" : ["0.9.2"]
+		"name": "ncsa/clowder-extractors-audio-preview", 
+		"tags" : ["latest"]
 	},
     "access": "internal",
     "depends": [
@@ -30,5 +30,11 @@
             "canOverride": false
         }
     ],
-	"tags" : ["27"]
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 250,
+        "memDefault": 25
+    },
+    "tags" : ["27"]
 }

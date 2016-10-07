@@ -6,7 +6,7 @@
 		"name": "ndslabs/plantcv", 
 		"tags" : ["0.9.2"]
 	},
-	"access": "internal",
+    "access": "internal",
     "depends": [
         {
             "key": "rabbitmq",
@@ -31,10 +31,10 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 200,
         "cpuDefault": 100,
         "memMax": 250,
-        "memDefault": 100
+        "memDefault": 25
     },
-	"tags" : ["27"]
+    "tags" : ["27"]
 }
