@@ -1,7 +1,8 @@
 {
     "key": "solr",
     "description": "Solr 4.6 intended for use with Dataverse",
-	"access": "internal",
+    "access": "internal",
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Dataverse",
     "label": "Solr",
     "image": {
 		"name": "ndslabs/dataverse-solr",
