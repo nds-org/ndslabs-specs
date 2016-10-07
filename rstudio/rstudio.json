@@ -43,9 +43,6 @@
         "memMax": 2000,
         "memDefault": 50
     },
-    "tags": [
-        "7",
-        "28"
-    ],
+    "tags": [ "7", "28", "40" ],
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/RStudio"
 }
