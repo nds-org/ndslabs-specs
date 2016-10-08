@@ -1,19 +1,19 @@
 {
     "key": "toolserver",
-    "label": "Tool Server",
-    "description": "Docker tool server",
+    "label": "Analysis Toolbox",
+    "description": "Customizable analysis tool server",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/13369353/ndsabs-small.png",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Tool+Server",
     "maintainer": "",
     "image": {
         "registry": "",
-        "name": "craigwillis/toolserver",
+        "name": "ndslabs/toolserver",
         "tags": [
             "latest"
         ]
     },
     "display": "stack",
-    "access": "internal",
+    "access": "external",
     "ports": [
         {
             "port": 8082,
