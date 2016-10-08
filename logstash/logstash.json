@@ -3,6 +3,7 @@
     "label": "Logstash",
     "description": "Centralized logfile management",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170441/logstash-small.png",
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Logstash",
     "image": {
         "name": "logstash",
         "tags": [
