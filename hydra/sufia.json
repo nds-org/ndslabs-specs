@@ -1,0 +1,89 @@
+{
+    "access": "external",
+    "config": [
+        {
+            "canOverride": false,
+            "label": "Database name",
+            "name": "POSTGRES_DB",
+            "useFrom": "postgres.POSTGRES_DB"
+        },
+        {
+            "canOverride": false,
+            "label": "Database user",
+            "name": "POSTGRES_USER",
+            "useFrom": "postgres.POSTGRES_USER"
+        },
+        {
+            "canOverride": false,
+            "label": "Database password",
+            "name": "POSTGRES_PASSWORD",
+            "useFrom": "postgres.POSTGRES_PASSWORD"
+        },
+        {
+            "canOverride": false,
+            "name": "CORE_NAME",
+            "useFrom": "solr6.CORE_NAME"
+        },
+        {
+            "canOverride": true,
+            "isPassword": false,
+            "label": "Solr Config Repo",
+            "name": "CONFIG_REPO",
+            "setTo": "solr6.CONFIG_REPO",
+            "value": "https://github.com/nds-org/ndslabs-sufia/trunk/solr/conf"
+        }
+    ],
+    "depends": [
+        {
+            "key": "postgres",
+            "required": true
+        },
+        {
+            "key": "redis",
+            "required": true
+        },
+        {
+            "key": "solr6",
+            "required": true
+        },
+        {
+            "key": "fedoracommons",
+            "required": true
+        }
+    ],
+    "description": "Open-source repository platform",
+    "display": "stack",
+    "image": {
+        "name": "ndslabs/sufia",
+        "tags": [
+            "latest", "7.2"
+        ]
+    },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Sufia",
+    "key": "sufia",
+    "label": "Sufia",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/21299211/sufia-logo.png",
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "initialDelay": 15,
+        "path": "/favicon.ico",
+        "port": 3000,
+        "timeout": 500,
+        "type": "http"
+    },
+    "resourceLimits": {
+        "cpuDefault": 100,
+        "cpuMax": 1000,
+        "memDefault": 50,
+        "memMax": 2000
+    },
+    "tags": [
+        "19",
+        "11"
+    ]
+}
