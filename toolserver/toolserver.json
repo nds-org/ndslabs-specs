@@ -1,13 +1,13 @@
 {
-    "key": "toolserver",
+    "key": "toolmanager",
     "label": "Analysis Toolbox",
-    "description": "Customizable analysis tool server",
+    "description": "Customizable server for analysis tools",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/13369353/ndsabs-small.png",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Tool+Server",
     "maintainer": "",
     "image": {
         "registry": "",
-        "name": "ndslabs/toolserver",
+        "name": "ndslabs/toolmanager",
         "tags": [
             "latest"
         ]
