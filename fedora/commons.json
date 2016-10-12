@@ -46,5 +46,6 @@
         "11",
         "16", "36"
     ],
+	"authRequired": true,
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Fedora+Commons"
 }

@@ -32,5 +32,6 @@
         "memDefault": 50
     },
 	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
+	"authRequired": true,
 	"tags" : ["7", "14"]
 }
