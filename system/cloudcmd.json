@@ -36,6 +36,7 @@
         "memDefault": 50
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud+Commander",
+	"authRequired": true,
     "tags": [
         "21",
         "6"
