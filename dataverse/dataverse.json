@@ -2,9 +2,9 @@
     "key": "dataverse",
     "label": "Dataverse",
     "image": {
-		"name": "ndslabs/dataverse",
-		"tags": ["4.2.3","latest"]
-	},
+        "name": "ndslabs/dataverse",
+        "tags": ["4.2.3","latest"]
+    },
     "display": "stack",
     "access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
@@ -54,6 +54,11 @@
             "value": "rserve",
             "label": "RServe password",
             "canOverride": false
+        },
+        {
+            "name": "TOOLMANAGER_URL",
+            "value": "",
+            "canOverride": true
         }
     ],
     "volumeMounts":[
@@ -73,10 +78,10 @@
         "memDefault": 1000
     },
     "repositories": [
-	    {
-	      "url": "https://github.com/IQSS/dataverse",
-	      "type": "git"
-	    }
+        {
+          "url": "https://github.com/IQSS/dataverse",
+          "type": "git"
+        }
      ],    
      "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Dataverse",
      "tags" : ["1", "11", "16", "36"]
