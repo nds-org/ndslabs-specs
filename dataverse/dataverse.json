@@ -3,7 +3,7 @@
     "label": "Dataverse",
     "image": {
         "name": "ndslabs/dataverse",
-        "tags": ["4.2.3","latest"]
+        "tags": ["latest", "4.2.3"]
     },
     "display": "stack",
     "access": "external",
@@ -24,24 +24,31 @@
     ],
     "config":  [
         {
+            "name": "ADMIN_PASSWORD",
+            "value": "",
+            "label": "Admin password",
+            "isPassword": true,
+            "canOverride": true
+        },
+        {
             "name": "MAIL_SERVER",
             "value": "smtp.ncsa.illinois.edu",
             "label": "SMTP server",
             "canOverride": true
         },
         {
-            "name": "POSTGRES_DATABASE",
-            "value": "dvndb",
+            "name": "POSTGRES_DB",
+            "useFrom": "postgres.POSTGRES_DB",
             "canOverride": false
         },
         {
             "name": "POSTGRES_USER",
-            "value": "dvnapp",
+            "useFrom": "postgres.POSTGRES_USER",
             "canOverride": false
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "useFrom": "postgres",
+            "useFrom": "postgres.POSTGRES_PASSWORD",
             "canOverride": false
         },
         {
@@ -56,9 +63,15 @@
             "canOverride": false
         },
         {
+<<<<<<< HEAD
             "name": "TOOLMANAGER_URL",
             "value": "",
             "canOverride": true
+=======
+            "name": "TWORAVENS_URL",
+            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
+            "canOverride": false
+>>>>>>> 1c1d5395b4ba2bb23eb52f4077ba0ef534547e96
         }
     ],
     "volumeMounts":[
@@ -68,11 +81,11 @@
         "type" : "http",
         "path" : "/healthcheck.txt",
         "port" : 8080,
-        "initialDelay": 360,
+        "initialDelay": 240,
         "timeout" : 600
     },
     "resourceLimits": {
-        "cpuMax": 200,
+        "cpuMax": 1000,
         "cpuDefault": 100,
         "memMax": 3000,
         "memDefault": 1000

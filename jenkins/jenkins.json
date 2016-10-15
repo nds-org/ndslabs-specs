@@ -44,6 +44,7 @@
         "memMax": 2000,
         "memDefault": 1000
     },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jenkins",
     "tags": [ "37", "16" ],
     "developerEnvironment": "cloud9java",
     "privileged": true

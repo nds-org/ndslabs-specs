@@ -139,7 +139,7 @@
         {
 			"id": "28",
             "definition": "Statistical programming and analysis",
-            "name": "Analysis"
+            "name": "Analysis environment"
         },
         {
 			"id": "29",
@@ -185,6 +185,21 @@
                         "id": "37",
             "definition": "Software that supports task or scripting automation",
             "name": "Automation"
+        },
+        {
+                        "id": "38",
+            "definition": "Software that supports transformation of datasets",
+            "name": "Data transformation"
+        },
+        {
+			"id": "39",
+            "definition": "Software written in Groovy",
+            "name": "Groovy"
+        },
+        {
+			"id": "40",
+            "definition": "Software that supports the R language",
+            "name": "R"
         }
     ]
 }

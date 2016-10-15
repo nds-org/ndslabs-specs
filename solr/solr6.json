@@ -1,0 +1,60 @@
+{
+    "access": "external",
+    "config": [
+        {
+            "canOverride": true,
+            "isPassword": false,
+            "label": "Config Repository Path ",
+            "name": "CONFIG_REPO",
+            "value": ""
+        },
+        {
+            "canOverride": true,
+            "isPassword": false,
+            "label": "Core Name",
+            "name": "CORE_NAME",
+            "value": "mycore"
+        }
+    ],
+    "description": "Open-source search engine",
+    "display": "stack",
+    "image": {
+        "name": "ndslabs/solr6",
+        "tags": [
+            "latest", "6.2"
+        ]
+    },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Solr",
+    "key": "solr6",
+    "label": "Solr",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170457/solr-small.png",
+    "ports": [
+        {
+            "port": 8983,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "initialDelay": 15,
+        "path": "/",
+        "port": 8983,
+        "timeout": 45,
+        "type": "http"
+    },
+    "resourceLimits": {
+        "cpuDefault": 100,
+        "cpuMax": 500,
+        "memDefault": 50,
+        "memMax": 500
+    },
+    "tags": [
+        "16",
+        "23"
+    ],
+    "volumeMounts": [
+        {
+            "mountPath": "/opt/solr/data",
+            "type": ""
+        }
+    ]
+}

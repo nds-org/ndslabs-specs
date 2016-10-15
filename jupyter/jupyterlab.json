@@ -1,32 +1,28 @@
 {
-    "key": "jupyterdsn",
-    "label": "Jupyter Data Science Notebook",
-    "description": "Jupyter data science notebook",
+    "key": "jupyterlab",
+    "label": "JupyterLab",
+    "description": "Extensible computational environment for Jupyter",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532040/jupyter-logo.png",
     "image": {
-        "name": "jupyter/datascience-notebook",
+        "name": "ndslabs/jupyterlab",
         "tags": [
             "latest"
         ]
     },
     "display": "stack",
     "access": "external",
-    "config": [
-        {
-            "name": "PASSWORD",
-            "value": "",
-            "label": "Password",
-            "isPassword": true,
-            "canOverride": false
-        }
-    ],
     "ports": [
         {
             "port": 8888,
             "protocol": "http"
         }
     ],
-    "repositories": null,
+    "repositories": [
+		{
+			"type": "git",
+			"url" : "https://github.com/jupyter/jupyterlab"
+		}
+	],
     "readinessProbe": {
         "type": "http",
         "path": "/static/base/images/favicon.ico",
@@ -46,5 +42,5 @@
         "memDefault": 50
     },
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
-    "tags": ["7", "21", "20", "28", "40"]
+    "tags": ["7", "21", "20", "28"]
 }

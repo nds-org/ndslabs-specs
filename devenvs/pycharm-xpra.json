@@ -35,5 +35,6 @@
         "timeout" : 600
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/PyCharm",
+	"authRequired": true,
 	"tags" : ["7", "20"]
 }

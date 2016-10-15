@@ -30,5 +30,11 @@
             "canOverride": false
         }
     ],
-	"tags" : ["27"]
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 250,
+        "memDefault": 25
+    },
+    "tags" : ["27"]
 }

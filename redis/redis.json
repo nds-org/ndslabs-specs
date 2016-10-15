@@ -1,0 +1,43 @@
+{
+    "key": "redis",
+    "label": "Redis",
+    "description": "In-memory data structure store and message broker",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/21299218/redis-small.png",
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Redis",
+    "image": {
+        "name": "redis",
+        "tags": [
+            "3.0",
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "internal",
+    "ports": [
+        {
+            "port": 6379,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 6379,
+        "initialDelay": 10,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuDefault": 100,
+        "cpuMax": 200,
+        "memDefault": 50,
+        "memMax": 512
+    },
+    "tags": [
+        "26"
+    ],
+    "volumeMounts": [
+        {
+            "mountPath": "/data"
+        }
+    ]
+}

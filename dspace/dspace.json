@@ -27,12 +27,12 @@
         },
         {
             "name": "POSTGRES_USER",
-            "useFrom" : "postgres",
+            "useFrom" : "postgres.POSTGRES_USER",
             "canOverride": false
         },
         {
             "name": "POSTGRES_PASSWORD",
-            "useFrom" : "postgres",
+            "useFrom" : "postgres.POSTGRES_PASSWORD",
             "canOverride": false
         },
         {
