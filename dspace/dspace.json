@@ -82,9 +82,9 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 4000,
+        "memMax": 8000,
         "memDefault": 50
     },
     "tags": [
