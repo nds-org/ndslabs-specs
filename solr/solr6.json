@@ -50,11 +50,5 @@
     "tags": [
         "16",
         "23"
-    ],
-    "volumeMounts": [
-        {
-            "mountPath": "/opt/solr/data",
-            "type": ""
-        }
     ]
 }
