@@ -3,7 +3,7 @@
     "label": "Dataverse",
     "image": {
         "name": "ndslabs/dataverse",
-        "tags": ["latest", "4.2.3"]
+        "tags": ["latest", "4.2.3", "4.3.1"]
     },
     "display": "stack",
     "access": "external",
