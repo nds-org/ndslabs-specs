@@ -20,9 +20,7 @@
     "config": [
         {
             "name": "POSTGRES_SCHEMA",
-            "value": "dspace",
-            "label": "Postgres Database",
-            "isPassword": false,
+            "useFrom" : "postgres.POSTGRES_DB",
             "canOverride": false
         },
         {
@@ -73,7 +71,9 @@
         "type": "http",
         "path": "/themes/Mirage/images/favicon.ico",
         "port": 8080,
-        "initialDelay": 120,
+        "initialDelay": 150
+
+,
         "timeout": 360
     },
     "volumeMounts": [
@@ -82,9 +82,9 @@
         }
     ],
     "resourceLimits": {
-        "cpuMax": 500,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 3000,
+        "memMax": 8000,
         "memDefault": 50
     },
     "tags": [
