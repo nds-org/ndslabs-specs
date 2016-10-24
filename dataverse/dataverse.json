@@ -63,15 +63,15 @@
             "canOverride": false
         },
         {
-<<<<<<< HEAD
             "name": "TOOLMANAGER_URL",
             "value": "",
+            "label": "Tool Manager URL",
             "canOverride": true
-=======
+        },
+        {
             "name": "TWORAVENS_URL",
             "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
             "canOverride": false
->>>>>>> 1c1d5395b4ba2bb23eb52f4077ba0ef534547e96
         }
     ],
     "volumeMounts":[
