@@ -3,6 +3,7 @@
     "label": "Redis",
     "description": "In-memory data structure store and message broker",
     "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/21299218/redis-small.png",
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Redis",
     "image": {
         "name": "redis",
         "tags": [

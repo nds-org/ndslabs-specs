@@ -37,5 +37,6 @@
         "memDefault": 50
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/iQvoc",
+	"authRequired": true,
     "tags": ["19", "32"]
 }
