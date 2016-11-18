@@ -8,7 +8,8 @@
     "display": "stack",
     "access": "external",
     "description": "VIM development environment for Python",
-	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/python-small.png",
+    "logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/python-small.png",
+    "authRequired": true,
     "ports": [
         {
             "port": 3000,
