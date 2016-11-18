@@ -1,0 +1,37 @@
+{
+    "key": "vimpy",
+    "label": "VIM Python",
+    "image": {
+		"name": "ndslabs/vim-python",
+		"tags": ["latest"]
+	}, 
+    "display": "stack",
+    "access": "external",
+    "description": "VIM development environment for Python",
+    "logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/python-small.png",
+    "authRequired": true,
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http"
+        }
+    ],
+    "volumeMounts":[
+       { "mountPath": "/workspace" }
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/",
+        "port" : 3000,
+        "initialDelay": 5,
+        "timeout" : 600
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/VIM",
+	"tags" : ["7", "20"]
+}
