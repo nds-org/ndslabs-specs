@@ -2,7 +2,7 @@
     "key": "rabbitmq",
     "label": "RabbitMQ",
     "description": "A highly reliable enterprise messaging system",
-	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613394/rabbitmq-small.png",
+	"logo" : "/asset/png/logos/rabbitmq-logo.png",
 	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/RabbitMQ",
     "image": {
 		"name" : "rabbitmq", 
