@@ -7,7 +7,7 @@
 	}, 
     "display": "stack",
     "access": "external",
-	"logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/nodejs-logo.png",
+	"logo": "/asset/png/logos/nodejs-logo.png",
     "description": "Node.js development environment based on Cloud9",
     "ports": [
         {
