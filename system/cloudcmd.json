@@ -2,7 +2,7 @@
     "key": "cloudcmd",
     "label": "File Manager",
     "description": "Cloud Commander file manager and editor",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613382/cloudcmd.png",
+    "logo": "/asset/png/logos/cloudcmd-logo.png",
     "requiresVolume": false,
     "image": {
         "registry": "",
