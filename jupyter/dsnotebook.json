@@ -2,7 +2,7 @@
     "key": "jupyterdsn",
     "label": "Jupyter Data Science Notebook",
     "description": "Jupyter data science notebook",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532040/jupyter-logo.png",
+    "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
         "name": "jupyter/datascience-notebook",
         "tags": [
