@@ -2,7 +2,7 @@
     "key": "owncloud",
     "label": "ownCloud",
     "description": "A self-hosted file sync and share server",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170531/owncloud-small.png?api=v2",
+    "logo": "/asset/png/logos/owncloud-logo.png",
     "maintainer": "",
     "image": {
         "registry": "",
