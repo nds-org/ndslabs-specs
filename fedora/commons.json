@@ -2,7 +2,7 @@
     "key": "fedoracommons",
     "label": "Fedora Commons",
     "description": "An open-source repository management system",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613437/fedora-logo.png?api=v2",
+    "logo": "/asset/png/logos/fedora-logo.png,
     "maintainer": "",
     "image": {
         "registry": "",
