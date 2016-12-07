@@ -2,7 +2,7 @@
     "key": "jupyterlab",
     "label": "JupyterLab",
     "description": "Extensible computational environment for Jupyter",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532040/jupyter-logo.png",
+    "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
         "name": "ndslabs/jupyterlab",
         "tags": [
