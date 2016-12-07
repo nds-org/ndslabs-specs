@@ -2,7 +2,7 @@
     "key": "fedoracommons",
     "label": "Fedora Commons",
     "description": "An open-source repository management system",
-    "logo": "/asset/png/logos/fedora-logo.png,
+    "logo": "/asset/png/logos/fedora-logo.png",
     "maintainer": "",
     "image": {
         "registry": "",
