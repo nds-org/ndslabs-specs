@@ -1,7 +1,7 @@
 {
   "key": "latis",
   "label": "LaTiS",
-  "logo" :"https://nationaldataservice.atlassian.net/wiki/download/attachments/13369353/ndsabs-small.png",
+  "logo" : "/asset/png/logos/ndslabs-badge.png",
   "description": "Web service for dynamic dataset reformatting",
   "image": {
     "registry": "",
