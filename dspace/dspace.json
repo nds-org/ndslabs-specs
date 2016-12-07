@@ -2,7 +2,7 @@
     "key": "dspace",
     "label": "DSpace",
     "description": "Turnkey software used for creating open access digital repositories.",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170448/dspace-small.png",
+    "logo": "/asset/png/logos/dpsace-logo.png",
     "image": {
         "name": "ndslabs/dspace",
         "tags": [
