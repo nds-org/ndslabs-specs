@@ -8,7 +8,7 @@
     },
     "display": "stack",
     "access": "external",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532035/clowder-small.png",
+    "logo": "/asset/png/logos/clowder-logo.png",
     "depends": [
         {
             "key": "mongo",
