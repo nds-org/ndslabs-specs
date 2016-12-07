@@ -2,7 +2,7 @@
     "key": "webprotege",
     "label": "WebProtégé",
     "description": "Ontology development environment",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532070/webprotege-small.gif",
+    "logo": "/asset/png/logos/webprotege-logo.gif",
     "image": {
         "name": "ndslabs/webprotege",
         "tags": [
