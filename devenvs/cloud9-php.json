@@ -5,7 +5,7 @@
 		"name": "ndslabs/cloud9-php",
 		"tags": ["latest", "v1.0.2"]
 	}, 
-	"logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/php-logo.png",
+	"logo" : "/asset/png/logos/php-logo.png",
     "display": "stack",
     "access": "external",
     "description": "PHP development environment based on Cloud9",
