@@ -2,7 +2,7 @@
     "key": "docker",
     "label": "Docker",
     "description": "Docker command-line environment for NDS Labs",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532060/docker-small.png",
+    "logo": "/asset/png/logos/docker-logo.png",
     "image": {
         "name": "ndslabs/dind",
         "tags": [
