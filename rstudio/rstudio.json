@@ -2,7 +2,7 @@
     "key": "rstudio",
     "label": "RStudio Server",
     "description": "IDE for the R programming language.",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613403/rstudio-small.png",
+    "logo": "/asset/png/logos/rstudio-logo.png",
     "image": {
         "name": "rocker/ropensci",
         "tags": [

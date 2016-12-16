@@ -27,7 +27,7 @@
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Solr",
     "key": "solr6",
     "label": "Solr",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17170457/solr-small.png",
+    "logo": "/asset/png/logos/solr-logo.png",
     "ports": [
         {
             "port": 8983,

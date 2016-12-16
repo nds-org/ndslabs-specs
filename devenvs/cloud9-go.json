@@ -7,7 +7,7 @@
 	}, 
     "display": "stack",
     "access": "external",
-	"logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/golang-logo.png",
+	"logo": "/asset/png/logos/golang-logo.png",
     "description": "Go development environment based on Cloud9",
     "ports": [
         {

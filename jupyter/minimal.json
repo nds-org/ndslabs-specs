@@ -2,7 +2,7 @@
     "key": "jupytermn",
     "label": "Jupyter Minimal Notebook",
     "description": "Jupyter Minimal Notebook",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532040/jupyter-logo.png",
+    "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
         "name": "jupyter/minimal-notebook",
         "tags": [

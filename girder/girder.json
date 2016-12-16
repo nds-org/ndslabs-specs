@@ -2,7 +2,7 @@
   "key": "girder",
   "label": "Girder",
   "description": "Web-based data management platform.",
-  "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/16613414/girder-logo.png",
+  "logo": "/asset/png/logos/girder-logo.png",
   "image": {
     "name": "girder/girder",
     "tags": [

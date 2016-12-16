@@ -62,7 +62,7 @@
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Sufia",
     "key": "sufia",
     "label": "Sufia",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/21299211/sufia-logo.png",
+    "logo": "/asset/png/logos/sufia-logo.png",
     "ports": [
         {
             "port": 3000,

@@ -2,7 +2,7 @@
   "key": "mysql",
   "label": "MySQL",
   "description": "An open-source relational database management system (RDBMS)",
-  "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17989668/mysql-logo.png?api=v2",
+  "logo": "/asset/png/logos/mysql-logo.png",
   "maintainer": "",
   "image": {
     "registry": "",

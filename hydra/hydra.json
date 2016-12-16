@@ -2,7 +2,7 @@
     "key": "hydra",
     "label": "Hydra",
     "description": "Open-source institutional repository platform",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/20611076/hydra-logo.png",
+    "logo": "/asset/png/logos/hydra-logo.png",
     "image": {
         "name": "ndslabs/hydra",
         "tags": [

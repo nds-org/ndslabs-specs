@@ -2,7 +2,7 @@
     "key": "jenkins",
     "label": "Jenkins CI",
     "description": "An open-source automation server",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/17989674/jenkins-logo.png?api=v2",
+    "logo": "/asset/png/logos/jenkins-logo.png",
     "maintainer": "",
     "image": {
         "registry": "",
