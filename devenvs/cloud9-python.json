@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "Python development environment based on Cloud9",
-    "logo" : "https://nationaldataservice.atlassian.net/wiki/download/attachments/15532046/python-small.png",
+    "logo" : "/asset/png/logos/python-logo.png",
     "authRequired": true,
     "ports": [
         {
