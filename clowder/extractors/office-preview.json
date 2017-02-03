@@ -3,7 +3,7 @@
     "label": "Office Preview Extractor",
     "description": "Clowder extractor for creating previews of OpenOffice documents",
     "image": {
-		"name": "ncsa/clowder-extractors-office-preview", 
+		"name": "clowder/extractors-office-preview", 
 		"tags" : ["latest"]
 	},
 	"access": "internal",
