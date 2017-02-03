@@ -3,8 +3,8 @@
     "key": "clowder",
     "description": "A scalable data repository where you can share, organize and analyze data.",
     "image": {
-	"name": "ncsa/clowder",
-	"tags" : ["1.0", "0.9.5", "0.9.4.2", "0.9.4.1", "0.9.4", "0.9.3", "0.9.2", "latest"]
+	"name": "clowder/clowder",
+	"tags" : ["1.1.1", "1.0.1", "1.0", "0.9.5", "0.9.4.2", "0.9.4.1", "0.9.4", "latest"]
     },
     "display": "stack",
     "access": "external",
