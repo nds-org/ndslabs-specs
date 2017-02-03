@@ -3,7 +3,7 @@
     "label": "Image Metadata Extractor",
     "description": "Clowder extractor for image metadata",
     "image": {
-        "name": "ncsa/clowder-extractors-image-metadata", 
+        "name": "ncsa/extractors-image-metadata", 
         "tags" : ["latest"]
     },
     "access": "internal",
