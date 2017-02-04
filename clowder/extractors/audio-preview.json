@@ -3,7 +3,7 @@
     "label": "Audio Preview Extractor",
     "description": "Clowder extractor for audio preview clips",
     "image": {
-		"name": "ncsa/clowder-extractors-audio-preview", 
+		"name": "clowder/extractors-audio-preview", 
 		"tags" : ["latest"]
 	},
     "access": "internal",

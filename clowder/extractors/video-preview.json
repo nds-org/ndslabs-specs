@@ -3,7 +3,7 @@
     "label": "Video Preview Extractor",
     "description": "Clowder extractor for creating a series of preview shots from a video",
     "image": {
-		"name": "ncsa/clowder-extractors-video-preview", 
+		"name": "clowder/extractors-video-preview", 
 		"tags" : ["latest"]
 	},
 	"access": "internal",

@@ -3,7 +3,7 @@
     "label": "Message Digest (MD5) Extractor",
     "description": "Clowder extractor for generating MD5 hashes of uploaded files",
     "image": {
-		"name": "ncsa/clowder-extractors-digest", 
+		"name": "clowder/extractors-digest", 
 		"tags" : ["latest"]
 	},
 	"access": "internal",

@@ -3,7 +3,7 @@
     "label": "PDF Preview Extractor",
     "description": "Clowder extractor for PDF preview thumbnails",
     "image": {
-		"name": "ncsa/clowder-extractors-pdf-preview", 
+		"name": "clowder/extractors-pdf-preview", 
 		"tags" : ["latest"]
 	},
     "access": "internal",
