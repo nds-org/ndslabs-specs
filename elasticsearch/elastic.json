@@ -10,7 +10,7 @@
 	},
 	"access": "internal",
     "ports": [
-        { "port": 9300, "protocol": "tcp", "contextPath": "/" }
+        { "port": 9300, "protocol": "tcp" }
     ],
     "args" : [
         "-Des.cluster.name=clowder" 
