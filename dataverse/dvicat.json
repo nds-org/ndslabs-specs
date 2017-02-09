@@ -11,7 +11,8 @@
     "ports": [
         {
             "port": 1247,
-            "protocol": "tcp"
+            "protocol": "tcp",
+            "contextPath": "/"
         }
     ],
     "config":  [

@@ -19,7 +19,8 @@
     "ports": [
         {
             "port": 8000,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "readinessProbe": {

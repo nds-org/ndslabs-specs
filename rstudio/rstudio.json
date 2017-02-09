@@ -15,7 +15,8 @@
     "ports": [
         {
             "port": 8787,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "repositories": [

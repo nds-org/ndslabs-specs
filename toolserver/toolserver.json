@@ -17,7 +17,8 @@
     "ports": [
         {
             "port": 8082,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "repositories": null,

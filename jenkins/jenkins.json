@@ -17,7 +17,8 @@
     "ports": [
         {
             "port": 8080,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         },
         {
             "port": 50000,

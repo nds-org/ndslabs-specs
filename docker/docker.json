@@ -12,7 +12,8 @@
     "ports": [
         {
             "port": 3000,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "display": "stack",

@@ -31,7 +31,8 @@
     "ports": [
         {
             "port": 8983,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "readinessProbe": {

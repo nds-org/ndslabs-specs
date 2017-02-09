@@ -13,7 +13,8 @@
     "ports": [
         {
             "port": 10000,
-            "protocol": "http"
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "volumeMounts": [
