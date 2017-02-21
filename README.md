@@ -219,7 +219,16 @@ We will review and give feedback on your pull request before merging it in.
 For more information on our Developer Workflows, see [Developer Workflows](https://opensource.ncsa.illinois.edu/confluence/display/NDS/Developer+Workflows).
 
 ## See Also
-* https://github.com/nds-org/ndslabs-clowder
+* https://github.com/nds-org/ndslabs-chisel
 * https://github.com/nds-org/ndslabs-dataverse
-* https://github.com/nds-org/ndslabs-elk
+* https://github.com/nds-org/ndslabs-devenvs
+* https://github.com/nds-org/ndslabs-dind
+* https://github.com/nds-org/ndslabs-dspace
+* https://github.com/nds-org/ndslabs-iqvoc
 * https://github.com/nds-org/ndslabs-irods
+* https://github.com/nds-org/ndslabs-jenkins
+* https://github.com/nds-org/ndslabs-jupyterlab
+* https://github.com/nds-org/ndslabs-irods
+* https://github.com/nds-org/ndslabs-owncloud
+* https://github.com/nds-org/ndslabs-toolmanager
+* https://github.com/nds-org/ndslabs-webprotege
