@@ -105,6 +105,7 @@ Specifications for a given service stack are organized into subdirectories.
 |label|string|Label used for display|
 |description|string|Description used for display|
 |maintainer|string|maintainer name and email|
+|info|string|Optional URL to help page for this service|
 |logo|string|Optional URL to logo for service|
 |image|ServiceImage|Docker image information (see below)|
 |display|string|	"stack" => show this service as a top-level stack; "standalone" => show this service as a standalone (hidden behind the checkbox in the UI) otherwise, do not display this service; only allow it to be added to other stacks|
