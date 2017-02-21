@@ -17,10 +17,11 @@ Specifications for a given service stack are organized into subdirectories.
 ```js
 {
     "id": "uniqueid",
-    "logo": "URL",
     "key": "shortname",
     "label": "My Service Display Name",
     "maintainer": "Maintainer name and email",
+    "info": "URL",
+    "logo": "URL",
     "image": {
         "registry" : "docker.io",
         "name" : "ndslabs/myimage",
