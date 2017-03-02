@@ -1,36 +1,26 @@
 {
-    "key": "jupytermn",
-    "label": "Jupyter Minimal Notebook",
-    "description": "Jupyter Minimal Notebook",
+    "key": "jupyternetcdf",
+    "label": "Jupyter/NetCDF4",
+    "description": "Jupyter SciPy Notebook with NetCDF support",
     "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
-        "name": "jupyter/minimal-notebook",
+        "name": "terraref/jupyter-netcdf",
         "tags": [
             "latest"
         ]
     },
     "display": "stack",
     "access": "external",
-    "config": [
-        {
-            "name": "PASSWORD",
-            "value": "",
-            "label": "Password",
-            "isPassword": true,
-            "canOverride": false
-        }
-    ],
     "ports": [
         {
             "port": 8888,
-            "protocol": "http",
-            "contextPath": "/"
+            "protocol": "http"
         }
     ],
     "repositories": [
 		{
 			"type": "git",
-			"url" : "https://github.com/jupyter/notebook"
+			"url" : "https://github.com/jupyter/jupyterlab"
 		}
 	],
     "readinessProbe": {
@@ -40,18 +30,12 @@
         "initialDelay": 5,
         "timeout": 600
     },
-    "volumeMounts": [ 
-		{
-			"mountPath": "/home/jovyan/work"
-		}
-    ],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 50
     },
-	"developerEnvironment" : "cloud9nodejs",
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
     "tags": ["7", "21", "20", "28"]
 }

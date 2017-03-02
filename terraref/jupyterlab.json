@@ -1,25 +1,16 @@
 {
-    "key": "jupyterdsn",
-    "label": "Jupyter Data Science Notebook",
-    "description": "Jupyter data science notebook",
+    "key": "jupyterlab",
+    "label": "JupyterLab for pyClowder",
+    "description": "Extensible computational environment for Jupyter with pyClowder dependencies",
     "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
-        "name": "jupyter/datascience-notebook",
+        "name": "craigwillis/jupyterlab-pyclowder",
         "tags": [
             "latest"
         ]
     },
     "display": "stack",
     "access": "external",
-    "config": [
-        {
-            "name": "PASSWORD",
-            "value": "",
-            "label": "Password",
-            "isPassword": true,
-            "canOverride": false
-        }
-    ],
     "ports": [
         {
             "port": 8888,
@@ -27,7 +18,12 @@
             "contextPath": "/"
         }
     ],
-    "repositories": null,
+    "repositories": [
+		{
+			"type": "git",
+			"url" : "https://github.com/jupyter/jupyterlab"
+		}
+	],
     "readinessProbe": {
         "type": "http",
         "path": "/static/base/images/favicon.ico",
@@ -47,5 +43,5 @@
         "memDefault": 50
     },
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
-    "tags": ["7", "21", "20", "28", "40"]
+    "tags": ["7", "21", "20", "28"]
 }

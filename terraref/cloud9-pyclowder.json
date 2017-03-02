@@ -1,14 +1,15 @@
 {
-    "key": "cloud9cpp",
-    "label": "Cloud9 C/C++",
+    "key": "cloud9pyclowder",
+    "label": "Cloud9 Python environment for pyClowder",
     "image": {
-		"name": "ndslabs/cloud9-cpp",
+		"name": "craigwillis/cloud9-pyclowder",
 		"tags": ["latest"]
 	}, 
     "display": "stack",
     "access": "external",
-    "description": "C/C++ development environment based on Cloud9",
-	"logo" : "/asset/png/logos/gnu-logo.png",
+    "description": "Python development environment based on Cloud9 with pyClowder dependencies",
+    "logo" : "/asset/png/logos/python-logo.png",
+    "authRequired": true,
     "ports": [
         {
             "port": 80,
@@ -33,6 +34,5 @@
         "memDefault": 50
     },
 	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
-	"authRequired": true,
-	"tags" : ["7", "14"]
+	"tags" : ["7", "20"]
 }
