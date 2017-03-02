@@ -23,6 +23,11 @@
 			"url" : "https://github.com/jupyter/jupyterlab"
 		}
 	],
+    "volumeMounts": [
+        {
+            "mountPath": "/home/jovyan/work"
+        }
+    ],
     "readinessProbe": {
         "type": "http",
         "path": "/static/base/images/favicon.ico",

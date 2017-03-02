@@ -30,6 +30,12 @@
         "initialDelay": 1,
         "timeout": 360
     },
+    "volumeMounts": [
+        {
+            "type": "",
+            "mountPath": "/home/rstudio"
+        }
+    ],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
