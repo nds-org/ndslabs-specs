@@ -17,10 +17,11 @@ Specifications for a given service stack are organized into subdirectories.
 ```js
 {
     "id": "uniqueid",
-    "logo": "URL",
     "key": "shortname",
     "label": "My Service Display Name",
     "maintainer": "Maintainer name and email",
+    "info": "URL",
+    "logo": "URL",
     "image": {
         "registry" : "docker.io",
         "name" : "ndslabs/myimage",
@@ -105,6 +106,7 @@ Specifications for a given service stack are organized into subdirectories.
 |label|string|Label used for display|
 |description|string|Description used for display|
 |maintainer|string|maintainer name and email|
+|info|string|Optional URL to help page for this service|
 |logo|string|Optional URL to logo for service|
 |image|ServiceImage|Docker image information (see below)|
 |display|string|	"stack" => show this service as a top-level stack; "standalone" => show this service as a standalone (hidden behind the checkbox in the UI) otherwise, do not display this service; only allow it to be added to other stacks|
@@ -217,7 +219,16 @@ We will review and give feedback on your pull request before merging it in.
 For more information on our Developer Workflows, see [Developer Workflows](https://opensource.ncsa.illinois.edu/confluence/display/NDS/Developer+Workflows).
 
 ## See Also
-* https://github.com/nds-org/ndslabs-clowder
+* https://github.com/nds-org/ndslabs-chisel
 * https://github.com/nds-org/ndslabs-dataverse
-* https://github.com/nds-org/ndslabs-elk
+* https://github.com/nds-org/ndslabs-devenvs
+* https://github.com/nds-org/ndslabs-dind
+* https://github.com/nds-org/ndslabs-dspace
+* https://github.com/nds-org/ndslabs-iqvoc
 * https://github.com/nds-org/ndslabs-irods
+* https://github.com/nds-org/ndslabs-jenkins
+* https://github.com/nds-org/ndslabs-jupyterlab
+* https://github.com/nds-org/ndslabs-irods
+* https://github.com/nds-org/ndslabs-owncloud
+* https://github.com/nds-org/ndslabs-toolmanager
+* https://github.com/nds-org/ndslabs-webprotege
