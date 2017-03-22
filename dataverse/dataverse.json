@@ -20,7 +20,6 @@
       { "key": "postgres", "required": true },
       { "key": "solr", "required": true },
       { "key": "rserve", "required": true},
-      { "key": "tworavens", "required": false },
       { "key": "dvicat", "required": false }
     ],
     "config":  [
@@ -61,17 +60,6 @@
             "name": "RSERVE_PASSWORD",
             "value": "rserve",
             "label": "RServe password",
-            "canOverride": false
-        },
-        {
-            "name": "TOOLMANAGER_URL",
-            "value": "",
-            "label": "Tool Manager URL",
-            "canOverride": true
-        },
-        {
-            "name": "TWORAVENS_URL",
-            "value": "https://$(NDSLABS_STACK)-tworavens.$(NDSLABS_DOMAIN)",
             "canOverride": false
         }
     ],
