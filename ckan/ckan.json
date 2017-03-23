@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "A tool for making open data websites to help manage and publish collections of data.",
-    "logo": "/asset/png/logos/ckan-logo.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/35459799/logo-ckan.png?api=v2",
     "ports": [
         {
             "port": 5000,
