@@ -4,8 +4,7 @@
     "description": "Relational database platform",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/PostgreSQL",
     "logo": "/asset/png/logos/postgres-logo.png",
-	"access" :"internal",
-	"display" :"stack",
+    "access" :"internal",
     "image": {
         "name": "postgres",
         "tags": [
