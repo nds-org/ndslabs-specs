@@ -56,7 +56,7 @@
             "name": "SOLR_PORT_8983_TCP_PORT",
             "value": "8983",
             "canOverride": false
-        },
+        }
     ],
     "volumeMounts":[
        { "mountPath": "/var/lib/ckan" }
