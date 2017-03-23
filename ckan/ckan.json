@@ -58,8 +58,8 @@
             "canOverride": false
         },
         {
-            "name": "SITE_URL",
-            "value": "https://$(NDSLABS_STACK)-ckan.$(NDSLABS_DOMAIN)",
+            "name": "CKAN_SITE_URL",
+            "value": "http://$(NDSLABS_STACK)-ckan.$(NDSLABS_DOMAIN)",
             "canOverride": false
         }
     ],
