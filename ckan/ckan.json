@@ -56,6 +56,11 @@
             "name": "SOLR_PORT_8983_TCP_PORT",
             "value": "8983",
             "canOverride": false
+        },
+        {
+            "name": "SITE_URL",
+            "value": "https://$(NDLABS_STACK)-ckan.$(NDSLABS_DOMAIN)",
+            "canOverride": false
         }
     ],
     "volumeMounts":[
