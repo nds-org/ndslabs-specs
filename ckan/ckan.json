@@ -2,7 +2,7 @@
     "key": "ckan",
     "label": "CKAN",
     "image": {
-        "name": "ckan/ckan",
+        "name": "ndslabs/ckan",
         "tags": ["latest"]
     },
     "display": "stack",
