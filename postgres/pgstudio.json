@@ -1,0 +1,36 @@
+{
+    "key": "pgstudio",
+    "label": "PostgresSQL Studio",
+    "logo": "/asset/png/logos/postgres-logo.png",
+    "description": "Web-based interface to PostgreSQL",
+    "image": {
+        "registry": "",
+        "name": "lukasmartinelli/pgstudio",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 8080,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "http",
+        "path": "/",
+        "port": 8080,
+        "initialDelay": 30,
+        "timeout": 600
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "authRequired": true
+}
