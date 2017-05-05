@@ -9,7 +9,7 @@
     "tags": ["latest"]
     },
     "ports": [
-        { "port": 8983, "protocol": "http", "contextPath": "/" }
+        { "port": 8983, "protocol": "tcp", "contextPath": "/" }
     ],
     "volumeMounts":[
         { "mountPath": "/opt/solr/server/solr/ckan/data" }

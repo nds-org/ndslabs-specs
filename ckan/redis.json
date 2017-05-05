@@ -15,7 +15,7 @@
     "ports": [
         {
             "port": 6379,
-            "protocol": "http",
+            "protocol": "tcp",
             "contextPath": "/"
         }
     ],
