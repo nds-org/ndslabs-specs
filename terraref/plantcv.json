@@ -11,6 +11,7 @@
     },
     "display": "stack",
     "access": "external",
+    "authRequired": true,
     "ports": [
         {
             "port": 8888,
