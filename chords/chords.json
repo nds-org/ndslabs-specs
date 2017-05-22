@@ -1,0 +1,100 @@
+{
+    "key": "chords",
+    "label": "CHORDS",
+    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "image": {
+        "registry": "",
+        "name": "craigwillis/chords",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+        {
+            "key": "mysql",
+            "required": true
+        },
+        {
+            "key": "influx",
+            "required": true
+        }
+    ],
+    "config": [
+        {
+            "name": "RAILS_ENV",
+            "value": "production",
+            "label": "Rails Environment",
+            "canOverride": true
+        },
+        {
+            "name": "CHORDS_GUEST_PW",
+            "label": "CHORDS Guest Password",
+            "isPassword": true,
+            "canOverride": true
+        },
+        {
+            "name": "CHORDS_ADMIN_PW",
+            "isPassword": true,
+            "canOverride": true,
+            "setTo": "mysql.MYSQL_PASSWORD"
+        },
+        {
+            "name": "MYSQL_USER",
+            "value": "chords_demo_user",
+            "canOverride": true,
+            "setTo": "mysql.MYSQL_USER"
+        },
+        {
+            "name": "MYSQL_DATABASE",
+            "value": "chords_demo_production",
+            "canOverride": true,
+            "setTo": "mysql.MYSQL_DATABASE"
+        },
+        {
+            "name": "MYSQL_ROOT_PASSWORD",
+            "isPassword": true,
+            "canOverride": true,
+            "setTo": "mysql.MYSQL_ROOT_PASSWORD"
+        },
+        {
+            "name": "SMTP_HOST",
+            "value": "smtp.sdsc.edu"
+        },
+        {
+            "name": "INFLUXDB_USERNAME",
+            "value": "admin",
+            "canOverride": true
+        },
+        {
+            "name": "INFLUXDB_PASSWORD",
+            "value": "$(CHORDS_ADMIN_PW)"
+        },
+        {
+            "name": "DB_RETENTION",
+            "value": "104w",
+            "canOverride": true
+        }
+    ],
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "",
+        "path": "",
+        "port": 0,
+        "initialDelay": 0,
+        "timeout": 0
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    }
+}
