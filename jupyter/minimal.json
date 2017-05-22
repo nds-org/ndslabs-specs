@@ -53,5 +53,5 @@
     },
 	"developerEnvironment" : "cloud9nodejs",
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
-    "tags": ["7", "21", "20", "28"]
+    "tags": ["21", "20", "28"]
 }
