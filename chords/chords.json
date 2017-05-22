@@ -1,7 +1,8 @@
 {
     "key": "chords",
     "label": "CHORDS",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "description": "Easy-to-use system to acquire, navigate and distribute real-time data streams.",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36427107/chords-logo-small.png?api=v2",
     "image": {
         "registry": "",
         "name": "craigwillis/chords",
@@ -96,5 +97,6 @@
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 50
-    }
+    },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/CHORDS"
 }

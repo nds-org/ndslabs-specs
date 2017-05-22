@@ -1,7 +1,8 @@
 {
     "key": "influx",
     "label": "InfluxDB",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "description": "Scalable datastore for metrics, events, and real-time analytics",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36427254/influxdb-logo-small.png?api=v2",
     "image": {
         "registry": "",
         "name": "influxdb",
@@ -62,5 +63,6 @@
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 50
-    }
+    },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/InfluxDB"
 }
