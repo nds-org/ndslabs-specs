@@ -1,0 +1,35 @@
+{
+    "key": "suave",
+    "label": "SuAVE",
+    "logo": "/asset/png/logos/logo_earthcube_cube-only.png",
+    "image": {
+        "registry": "",
+        "name": "ndslabs/suave",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+        {
+            "key": "mongo",
+            "required": true
+        }
+    ],
+    "readinessProbe": {
+        "type": "",
+        "path": "",
+        "port": 0,
+        "initialDelay": 0,
+        "timeout": 0
+    },
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/NDS+Labs+Services/SuAVE",
+    "authRequired": true
+}
