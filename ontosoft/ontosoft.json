@@ -32,5 +32,6 @@
         "memMax": 1000,
         "memDefault": 50
     },
-    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/OntoSoft"
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/OntoSoft",
+    "tags": ["42"]
 }

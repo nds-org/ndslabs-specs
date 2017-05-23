@@ -98,5 +98,6 @@
         "memMax": 1000,
         "memDefault": 50
     },
-    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/CHORDS"
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/CHORDS",
+    "tags": ["42"]
 }
