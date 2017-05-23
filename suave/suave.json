@@ -17,6 +17,51 @@
             "required": true
         }
     ],
+    "config": [
+        {
+            "name": "STOREHOST",
+            "value": "$(NDSLABS_STACK)-mongo.$(NDSLABS_DOMAIN)",
+            "label": "MongoDB Hostname",
+            "canOverride": true
+        },
+        {
+            "name": "STOREPORT",
+            "value": "27017",
+            "label": "MongoDB Port",
+            "canOverride": true
+        },
+        {
+            "name": "STOREDB",
+            "value": "suave",
+            "label": "MongoDB Database",
+            "canOverride": true
+        },
+        {
+            "name": "EMAIL_HOST",
+            "value": "",
+            "label": "SMTP Hostname",
+            "canOverride": true
+        },
+        {
+            "name": "EMAIL_USER",
+            "value": "",
+            "label": "SMTP Username",
+            "canOverride": true
+        },
+        {
+            "name": "EMAIL_PASS",
+            "value": "",
+            "label": "SMTP Password",
+            "canOverride": true
+        }
+    ],
+    "ports": [
+        {
+            "port": 3001,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
     "readinessProbe": {
         "type": "",
         "path": "",
