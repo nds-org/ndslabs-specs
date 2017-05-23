@@ -6,7 +6,7 @@
     "image": {
         "name": "craigwillis/rstudio-terraref",
         "tags": [
-            "latest",
+            "latest"
         ]
     },
     "display": "stack",
