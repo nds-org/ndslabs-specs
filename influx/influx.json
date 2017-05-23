@@ -2,7 +2,7 @@
     "key": "influx",
     "label": "InfluxDB",
     "description": "Scalable datastore for metrics, events, and real-time analytics",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36427254/influxdb-logo-small.png?api=v2",
+    "logo": "asset/png/logos/influxdb-logo.png",",
     "image": {
         "registry": "",
         "name": "influxdb",
