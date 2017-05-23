@@ -4,10 +4,9 @@
     "description": "IDE for the R programming language.",
     "logo": "/asset/png/logos/rstudio-logo.png",
     "image": {
-        "name": "rocker/ropensci",
+        "name": "craigwillis/rstudio-terraref",
         "tags": [
             "latest",
-            "dev"
         ]
     },
     "display": "stack",
