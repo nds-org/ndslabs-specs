@@ -2,7 +2,7 @@
     "key": "influx",
     "label": "InfluxDB",
     "description": "Scalable datastore for metrics, events, and real-time analytics",
-    "logo": "asset/png/logos/influxdb-logo.png",",
+    "logo": "asset/png/logos/influxdb-logo.png",
     "image": {
         "registry": "",
         "name": "influxdb",
