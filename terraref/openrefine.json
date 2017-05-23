@@ -2,7 +2,7 @@
     "key": "openrefine",
     "label": "OpenRefine",
     "description": "A free, open source, power tool for working with messy data",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/asset/png/logos/openrefine-logo.png",
     "image": {
         "registry": "",
         "name": "craigwillis/openrefine",
