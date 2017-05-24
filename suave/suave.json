@@ -1,7 +1,8 @@
 {
     "key": "suave",
     "label": "SuAVE",
-    "logo": "/asset/png/logos/logo_earthcube_cube-only.png",
+    "logo": "/asset/png/logos/suave-logo-small.png",
+    "description": "Survey Analysis via Visual Exploration",
     "image": {
         "registry": "",
         "name": "ndslabs/suave",
@@ -75,6 +76,5 @@
         "memMax": 1000,
         "memDefault": 50
     },
-    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/NDS+Labs+Services/SuAVE",
-    "authRequired": true
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/NDS+Labs+Services/SuAVE"
 }
