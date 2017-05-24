@@ -76,5 +76,8 @@
         "memMax": 1000,
         "memDefault": 50
     },
+    "tags": [
+        "42"
+    ],
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/NDS+Labs+Services/SuAVE"
 }
