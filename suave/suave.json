@@ -20,7 +20,7 @@
     "config": [
         {
             "name": "STOREHOST",
-            "value": "$(NDSLABS_STACK)-mongo.$(NDSLABS_DOMAIN)",
+            "value": "$(MONGO_PORT_27017_TCP_ADDR)",
             "label": "MongoDB Hostname",
             "canOverride": true
         },
@@ -63,11 +63,11 @@
         }
     ],
     "readinessProbe": {
-        "type": "",
-        "path": "",
-        "port": 0,
-        "initialDelay": 0,
-        "timeout": 0
+        "type": "tcp",
+        "path": "/",
+        "port": 3001,
+        "initialDelay": 10,
+        "timeout": 480
     },
     "resourceLimits": {
         "cpuMax": 500,
