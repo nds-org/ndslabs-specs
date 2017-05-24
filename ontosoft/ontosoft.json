@@ -19,13 +19,13 @@
             "contextPath": "/"
         }
     ],
-    "readinessProbe": {
-        "type": "",
-        "path": "",
-        "port": 0,
-        "initialDelay": 0,
-        "timeout": 0
-    },
+  "readinessProbe": {
+    "type": "http",
+    "path": "/customise/Logo.png",
+    "port": 8080,
+    "initialDelay": 30,
+    "timeout": 480
+  },
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
