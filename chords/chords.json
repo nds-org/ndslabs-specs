@@ -85,13 +85,13 @@
             "contextPath": "/"
         }
     ],
-    "readinessProbe": {
-        "type": "",
-        "path": "",
-        "port": 0,
-        "initialDelay": 0,
-        "timeout": 0
-    },
+  "readinessProbe": {
+    "type": "http",
+    "path": "/",
+    "port": 80,
+    "initialDelay": 0,
+    "timeout": 0
+  },
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
