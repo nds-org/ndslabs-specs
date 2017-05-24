@@ -39,7 +39,7 @@
         },
         {
             "name": "EMAIL_HOST",
-            "value": "",
+            "value": "smtp.ncsa.illinois.edu",
             "label": "SMTP Hostname",
             "canOverride": true
         },
