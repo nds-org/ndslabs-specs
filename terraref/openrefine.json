@@ -14,7 +14,7 @@
     "access": "external",
     "ports": [
         {
-            "port": 8080,
+            "port": 3333,
             "protocol": "http",
             "contextPath": "/"
         }
@@ -36,5 +36,6 @@
         "cpuDefault": 100,
         "memMax": 1000,
         "memDefault": 50
-    }
+    },
+    "authRequired": true
 }
