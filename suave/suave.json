@@ -57,7 +57,7 @@
         },
         {
             "name": "RHOST",
-            "value": "132.249.238.130",
+            "value": "",
             "label": "R Server",
             "canOverride": true
         }
