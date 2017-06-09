@@ -2,7 +2,7 @@
     "key": "chords",
     "label": "CHORDS",
     "description": "Easy-to-use system to acquire, navigate and distribute real-time data streams.",
-    "logo": "asset/png/logos/chords-logo.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36427107/chords-logo-small.png?api=v2",
     "image": {
         "registry": "",
         "name": "craigwillis/chords",
