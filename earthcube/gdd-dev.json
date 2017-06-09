@@ -2,7 +2,7 @@
     "key": "gdddev",
     "label": "GeoDeepDive Development Environment",
     "description": "Python development environment based on Cloud9",
-    "logo": "/asset/png/logos/logo_earthcube_cube-only.png",
+    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36669078/logo_earthcube_cube-only.png?api=v2",
     "image": {
         "registry": "",
         "name": "craigwillis/gdd-dev",
