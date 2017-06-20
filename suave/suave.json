@@ -54,6 +54,12 @@
             "value": "",
             "label": "SMTP Password",
             "canOverride": true
+        },
+        {
+            "name": "RHOST",
+            "value": "",
+            "label": "R Server",
+            "canOverride": true
         }
     ],
     "ports": [
