@@ -6,9 +6,9 @@
     "info": "https://www.h2o.ai/",
     "logo": "https://h2o2016.wpengine.com/wp-content/themes/h2o2016/images/H2O_logo_yellow.svg",
     "image": {
-        "registry" : "",
-        "name" : "h2oai",
-        "tags" : [ "latest" ]
+        "registry" : "ndslabs/h2o",
+        "name" : "ndslabs/h2o",
+        "tags" : [ "latest"]
     },
     "display": "stack",
     "access": "external",
@@ -28,10 +28,14 @@
         }
     ],
     "developerEnvironment" : "",
-    "volumeMounts":[],
+    "volumeMounts": [
+        {
+            "mountPath": "/home/$(NAMESPACE)"
+        }
+    ],
     "readinessProbe" : {
         "type" : "http",
-        "path" : "",
+        "path" : "/",
         "port" : 54321,
         "initialDelay": 30,
         "timeout" : 600
@@ -42,5 +46,6 @@
         "memMax": 1024,
         "memDefault": 512
     },
-    "tags": []
+    "tags": ["43", "28"],
+    "authRequired": true
 }
