@@ -1,0 +1,54 @@
+{
+    "key": "jupyteret",
+    "label": "Jupyter/Einstein Toolkit",
+    "description": "Jupyter SciPy Notebook with Einstein Toolkit dependencies",
+    "logo": "/asset/png/logos/jupyter-logo.png",
+    "image": {
+        "registry": "",
+        "name": "craigwillis/jupyter-et",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/jupyter/jupyterlab",
+            "type": "git"
+        }
+    ],
+    "readinessProbe": {
+        "type": "http",
+        "path": "/static/base/images/favicon.ico",
+        "port": 8888,
+        "initialDelay": 5,
+        "timeout": 600
+    },
+    "volumeMounts": [
+        {
+            "mountPath": "/home/jovyan/work"
+        }
+    ],
+    "resourceLimits": {
+        "cpuMax": 2000,
+        "cpuDefault": 100,
+        "memMax": 2000,
+        "memDefault": 50
+    },
+    "tags": [
+        "7",
+        "21",
+        "20",
+        "28"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
+    "authRequired": true
+}
