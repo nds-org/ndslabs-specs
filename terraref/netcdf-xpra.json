@@ -2,7 +2,7 @@
     "key": "netcdfxpra",
     "label": "NetCDF Visualization",
     "description": "Xpra container for NetCDF Visualization",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/asset/png/logos/netcdf.png",
     "image": {
         "registry": "",
         "name": "terraref/netcdf-xpra",
