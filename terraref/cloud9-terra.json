@@ -1,0 +1,38 @@
+{
+    "key": "cloud9terra",
+    "label": "Cloud9 Python environment for TERRA",
+    "image": {
+		"name": "terraref/cloud9-terra",
+		"tags": ["latest"]
+	}, 
+    "display": "stack",
+    "access": "external",
+    "description": "Python development environment with pyClowder and TERRA dependencies",
+    "logo" : "/asset/png/logos/python-logo.png",
+    "authRequired": true,
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "volumeMounts":[
+       { "mountPath": "/workspace" }
+    ],
+    "readinessProbe" : {
+        "type" : "http",
+        "path" : "/favicon.ico",
+        "port" : 80,
+        "initialDelay": 10,
+        "timeout" : 360
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
+	"tags" : ["7", "20"]
+}

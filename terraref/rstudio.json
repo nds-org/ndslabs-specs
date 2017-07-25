@@ -1,13 +1,12 @@
 {
     "key": "rstudio",
     "label": "RStudio Server",
-    "description": "IDE for the R programming language.",
+    "description": "RStudio Server with TERRA dependencies",
     "logo": "/asset/png/logos/rstudio-logo.png",
     "image": {
-        "name": "rocker/ropensci",
+        "name": "terraref/rstudio-terraref",
         "tags": [
-            "latest",
-            "dev"
+            "latest"
         ]
     },
     "display": "stack",
