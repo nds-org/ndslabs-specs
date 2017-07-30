@@ -14,10 +14,15 @@
             "port": 80,
             "protocol": "http",
             "contextPath": "/"
+        },
+        {
+            "port": 8080,
+            "protocol": "http",
+            "contextPath": "/"
         }
     ],
     "volumeMounts":[
-       { "mountPath": "/workspace" }
+       { "mountPath": "/workspace","defaultPath":"/" }
     ],
     "readinessProbe" : {
         "type" : "http",
