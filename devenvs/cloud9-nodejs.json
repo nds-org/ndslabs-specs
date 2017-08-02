@@ -32,9 +32,9 @@
         "timeout" : 360
     },
     "resourceLimits": {
-        "cpuMax": 1000,
+        "cpuMax": 2000,
         "cpuDefault": 100,
-        "memMax": 1000,
+        "memMax": 4000,
         "memDefault": 50
     },
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
