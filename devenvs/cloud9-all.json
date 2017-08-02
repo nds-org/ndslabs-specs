@@ -8,7 +8,7 @@
 	"logo" : "/asset/png/logos/cloud9-logo.png",
     "display": "stack",
     "access": "external",
-    "description": "Multiple-language development environment",
+    "description": "Multiple-language development environment (Java, NodeJS, PHP, Python, Rails)",
     "ports": [
         {
             "port": 80,
