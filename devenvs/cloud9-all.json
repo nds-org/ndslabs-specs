@@ -1,14 +1,14 @@
 {
-    "key": "cloud9java",
-    "label": "Cloud9 Java",
+    "key": "cloud9all",
+    "label": "Cloud9",
     "image": {
-		"name": "ndslabs/cloud9-java",
+		"name": "ndslabs/cloud9-all",
 		"tags": ["latest"]
 	}, 
-	"logo" : "/asset/png/logos/java-logo.png",
+	"logo" : "/asset/png/logos/cloud9-logo.png",
     "display": "stack",
     "access": "external",
-    "description": "Java development environment based on Cloud9",
+    "description": "Multiple-language development environment",
     "ports": [
         {
             "port": 80,
