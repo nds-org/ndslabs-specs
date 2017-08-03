@@ -11,7 +11,7 @@
         ]
     },
     "display": "stack",
-    "access": "external",
+    "access": "internal",
     "config": [
         {
             "name": "INFLUXDB_HTTP_MAX_ROW_LIMIT",
