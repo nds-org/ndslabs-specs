@@ -2,212 +2,217 @@
     "name": "tags",
     "terms": [
         {
-			"id": "1",
+	      		"id": "1",
             "definition": "Software that supports archiving of research data",
             "name": "Archive"
         },
         {
-			"id": "2",
+		      	"id": "2",
             "definition": "Software that supports management of active research data",
             "name": "Active data management"
         },
         {
-			"id": "3",
+		      	"id": "3",
             "definition": "Software that supports collaboration with research data",
             "name": "Collaboration"
         },
         {
-			"id": "4",
+		      	"id": "4",
             "definition": "Software that supports cataloging of research data or metadata",
             "name": "Catalog"
         },
         {
-			"id": "5",
+	      		"id": "5",
             "definition": "Current research information system",
             "name": "CRIS"
         },
         {
-			"id": "6",
+	      		"id": "6",
             "definition": "Software that supports transfer of research data",
             "name": "Data transfer"
         },
         {
-			"id": "7",
+		      	"id": "7",
             "definition": "Software development environment",
             "name": "Development environment"
         },
         {
-			"id": "8",
+		      	"id": "8",
             "definition": "Software for object identification",
             "name": "Identifier services"
         },
         {
-			"id": "9",
+		      	"id": "9",
             "definition": "Software for research or user identity",
             "name": "Identity services"
         },
         {
-			"id": "10",
+		      	"id": "10",
             "definition": "Metadata capture and management",
             "name": "Metadata"
         },
         {
-			"id": "11",
+		      	"id": "11",
             "definition": "Research data repository software",
             "name": "Repository"
         },
         {
-			"id": "12",
+		      	"id": "12",
             "definition": "Research data visualiation software",
             "name": "Visualization"
         },
         {
-			"id": "13",
+			      "id": "13",
             "definition": "Workflow management systems",
             "name": "Workflow"
         },
         {
-			"id": "14",
+			      "id": "14",
             "definition": "Software written in C/C++",
             "name": "C/C++"
         },
         {
-			"id": "15",
+			      "id": "15",
             "definition": "Software written in C#",
             "name": "C#"
         },
         {
-			"id": "16",
+			      "id": "16",
             "definition": "Software written in Java",
             "name": "Java"
         },
         {
-			"id": "17",
+			      "id": "17",
             "definition": "Software written in Go",
             "name": "Go"
         },
         {
-			"id": "18",
+			      "id": "18",
             "definition": "Software written in PHP",
             "name": "PHP"
         },
         {
-			"id": "19",
+			      "id": "19",
             "definition": "Software written in Ruby",
             "name": "Ruby"
         },
         {
-			"id": "20",
+			      "id": "20",
             "definition": "Software written in Python",
             "name": "Python"
         },
         {
-			"id": "21",
+			      "id": "21",
             "definition": "Software written in Javascript",
             "name": "Javascript"
         },
         {
-			"id": "22",
+			      "id": "22",
             "definition": "Software written in Scala",
             "name": "Scala"
         },
         {
-			"id": "23",
+			      "id": "23",
             "definition": "Search engine software",
             "name": "Search engine"
         },
         {
-			"id": "24",
+			      "id": "24",
             "definition": "NoSQL database ",
             "name": "NoSQL"
         },
         {
-			"id": "25",
+			      "id": "25",
             "definition": "Relational database management system ",
             "name": "RDBMS"
         },
         {
-			"id": "26",
+			      "id": "26",
             "definition": "Message broker",
             "name": "Message broker"
         },
         {
-			"id": "27",
+			      "id": "27",
             "definition": "Extractor",
             "name": "Extractor"
         },
         {
-			"id": "28",
+			      "id": "28",
             "definition": "Statistical programming and analysis",
             "name": "Analysis environment"
         },
         {
-			"id": "29",
+			      "id": "29",
             "definition": "Software that provides a REST API",
             "name": "REST"
         },
         {
-			"id": "30",
+			      "id": "30",
             "definition": "Logging, monitoring and alerts",
             "name": "LMA"
         },
         {
-			"id": "31",
+			      "id": "31",
             "definition": "NDS Labs system utilities",
             "name": "System utilities"
         },
         {
-			"id": "32",
+			      "id": "32",
             "definition": "Semantic services for controlled vocabularies and ontologies",
             "name": "Semantic"
         },
         {
-			"id": "33",
+			      "id": "33",
             "definition": "Triple/quad store",
             "name": "Triple store"
         },
         {
-			"id": "34",
+			      "id": "34",
             "definition": "Graph database",
             "name": "Graph database"
         },
         {
-			"id": "35",
+			      "id": "35",
             "definition": "Digital library platform",
             "name": "Digital library"
-		},
+		    },
         {
-			"id": "36",
+			      "id": "36",
             "definition": "Software that supports management of research data",
             "name": "Data management"
         },
         {
-                        "id": "37",
+            "id": "37",
             "definition": "Software that supports task or scripting automation",
             "name": "Automation"
         },
         {
-                        "id": "38",
+            "id": "38",
             "definition": "Software that supports transformation of datasets",
             "name": "Data transformation"
         },
         {
-			"id": "39",
+			      "id": "39",
             "definition": "Software written in Groovy",
             "name": "Groovy"
         },
         {
-			"id": "40",
+			      "id": "40",
             "definition": "Software that supports the R language",
             "name": "R"
         },
         {
-			"id": "41",
+			      "id": "41",
             "definition": "Software that supports Docker",
             "name": "Docker"
         },
         {
-			"id": "42",
+            "id": "42",
+            "definition": "EarthCube building block",
+            "name": "Earthcube"
+        },
+        {
+			      "id": "43",
             "definition": "Artificial Intelligence environment",
             "name": "AI"
         }
