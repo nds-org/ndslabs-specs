@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "Cloud9 with Spark support",
-    "logo": "/asset/png/logos/docker-logo.png",
+    "logo": "/asset/png/logos/cloud9-logo.png",
     "ports": [
         {
             "port": 80,
