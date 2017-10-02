@@ -28,7 +28,7 @@
     {
       "name": "LIVY",
       "value": "",
-      "label": "Livy Server URL"
+      "label": "Livy Server URL",
       "canOverride": true
     }
   ],
