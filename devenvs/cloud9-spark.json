@@ -1,14 +1,14 @@
 {
-    "key": "cloud9cpp",
-    "label": "Cloud9 C/C++",
+    "key": "cloud9spark",
+    "label": "Cloud9/Spark",
     "image": {
-		"name": "ndslabs/cloud9-cpp",
-		"tags": ["latest"]
-	}, 
+        "name": "ndslabs/cloud9-spark",
+        "tags": ["latest"]
+    }, 
     "display": "stack",
     "access": "external",
-    "description": "C/C++ development environment based on Cloud9",
-	"logo" : "/asset/png/logos/gnu-logo.png",
+    "description": "Cloud9 with Spark support",
+    "logo": "/asset/png/logos/docker-logo.png",
     "ports": [
         {
             "port": 80,
@@ -32,7 +32,8 @@
         "memMax": 1000,
         "memDefault": 50
     },
-	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
-	"authRequired": true,
-	"tags" : ["7", "14"]
+    "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Cloud9",
+    "authRequired": true,
+    "privileged": true,
+    "tags" : ["7", "41"]
 }

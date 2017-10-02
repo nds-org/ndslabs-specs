@@ -1,0 +1,60 @@
+{
+  "key": "zeppelin",
+  "label": "Apache Zeppelin",
+  "description": "Zeppelin Notebook Environment with built-in Spark support",
+  "logo": "http://zeppelin-project.org/assets/themes/nflabs-sb/img/zeppelin-logo.svg",
+  "image": {
+    "registry": "",
+    "name": "bengalewsky/nds-zeppelin",
+    "tags": [
+      "latest"
+    ]
+  },
+  "display": "stack",
+  "access": "external",
+  "config": [
+    {
+      "name": "ZEPPELIN_LOGS_DIR",
+      "value": "/logs",
+      "label": "Logs Directory",
+      "canOverride": true
+    },
+    {
+      "name": "ZEPPELIN_NOTEBOOK_DIR",
+      "value": "/notebook",
+      "label": "Notebook Directory",
+      "canOverride": true
+    },
+    {
+      "name": "LIVY",
+      "value": "",
+      "label": "Livy Server URL"
+    }
+  ],
+  "ports": [
+    {
+      "port": 8080,
+      "protocol": "http",
+      "contextPath": "/"
+    }
+  ],
+  "readinessProbe": {
+    "type": "",
+    "path": "",
+    "port": 0,
+    "initialDelay": 0,
+    "timeout": 0
+  },
+  "volumeMounts": [
+    {
+      "mountPath": "/notebook"
+    }
+  ],
+  "resourceLimits": {
+    "cpuMax": 1000,
+    "cpuDefault": 200,
+    "memMax": 4000,
+    "memDefault": 200
+  },
+  "authRequired": true
+}
