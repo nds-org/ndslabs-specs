@@ -34,8 +34,8 @@
     },
     "volumeMounts": [
         {
-            "type": "",
-            "mountPath": "/home/rstudio"
+            "mountPath": "/home/rstudio",
+            "defaultPath": "/"
         }
     ],
     "resourceLimits": {

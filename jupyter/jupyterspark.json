@@ -42,7 +42,8 @@
     },
     "volumeMounts": [ 
 		{
-			"mountPath": "/home/jovyan/work"
+			"mountPath": "/home/jovyan/work",
+           		"defaultPath": "/"
 		}
     ],
     "resourceLimits": {

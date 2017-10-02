@@ -29,6 +29,7 @@
       "name": "LIVY",
       "value": "",
       "label": "Livy Server URL"
+      "canOverride": true
     }
   ],
   "ports": [
@@ -47,7 +48,8 @@
   },
   "volumeMounts": [
     {
-      "mountPath": "/notebook"
+      "mountPath": "/notebook", 
+      "defaultPath": "/"
     }
   ],
   "resourceLimits": {
