@@ -1,10 +1,10 @@
 {
-    "key": "rstudiospark",
-    "label": "RStudio/Spark",
-    "description": "RStudio with Spark support",
+    "key": "rstudio",
+    "label": "RStudio Server",
+    "description": "IDE for the R programming language.",
     "logo": "/asset/png/logos/rstudio-logo.png",
     "image": {
-        "name": "ndslabs/rstudio-spark",
+        "name": "rocker/ropensci",
         "tags": [
             "latest",
             "dev"
@@ -34,8 +34,8 @@
     },
     "volumeMounts": [
         {
-            "mountPath": "/home/rstudio",
-            "defaultPath": "/"
+            "type": "",
+            "mountPath": "/home/rstudio"
         }
     ],
     "resourceLimits": {
