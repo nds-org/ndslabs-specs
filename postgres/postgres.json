@@ -1,0 +1,72 @@
+{
+    "key": "postgres",
+    "label": "PostgreSQL",
+    "description": "Relational database platform",
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/PostgreSQL",
+    "logo": "/asset/png/logos/postgres-logo.png",
+	"access" :"internal",
+	"display" :"stack",
+    "image": {
+        "name": "postgres",
+        "tags": [
+            "9.3",
+            "9.4",
+            "9.5",
+            "latest"
+        ]
+    },
+    "config": [
+        {
+            "name": "POSTGRES_PASSWORD",
+            "value": "",
+            "label": "Password",
+            "isPassword": true,
+            "canOverride": true
+        },
+        {
+            "name": "POSTGRES_USER",
+            "value": "myuser",
+            "label": "Username",
+            "isPassword": false,
+            "canOverride": true
+        },
+        {
+            "name": "POSTGRES_DB",
+            "value": "mydb",
+            "label": "Database Name",
+            "isPassword": false,
+            "canOverride": true
+        }
+    ],
+    "ports": [
+        {
+            "port": 5432,
+            "protocol": "tcp"
+        }
+    ],
+    "repositories": [
+		{
+			"type" :"git",
+			"url" :"https://github.com/postgres/postgres"
+		}
+	],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 5432,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "volumeMounts": [ 
+		{
+			"mountPath": "/var/lib/postgresql/data"
+		}
+	],
+    "resourceLimits": {
+        "cpuMax": 200,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "tags": ["25"]
+}
