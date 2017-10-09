@@ -1,8 +1,8 @@
 {
-    "key": "matlab",
-    "label": "MATLAB",
-    "description": "MATLAB Development Environment",
-    "logo": "/asset/png/logos/matlab-logo.png",
+    "key": "metawb",
+    "label": "Metabolomics Workbench Toolsuite",
+    "description": "",
+    "logo": "/asset/png/logos/metawb-logo.png",
     "image": {
         "name": "ndslabs/dind",
         "tags": [
