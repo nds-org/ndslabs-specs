@@ -5,7 +5,7 @@
     "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
         "registry": "",
-        "name": "craigwillis/jupyter-et",
+        "name": "ndslabs/jupyter-et",
         "tags": [
             "latest"
         ]
@@ -34,7 +34,7 @@
     },
     "volumeMounts": [
         {
-            "mountPath": "/home/jovyan/work",
+            "mountPath": "/home/jovyan",
             "defaultPath":"/"
         }
     ],
