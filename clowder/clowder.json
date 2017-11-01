@@ -62,7 +62,7 @@
     "config":  [
         {
             "name": "SMTP_HOST",
-            "value": "smtp.ncsa.illinois.edu",
+            "value": "outbound.ucsd.edu",
             "canOverride": true
         },
         {
