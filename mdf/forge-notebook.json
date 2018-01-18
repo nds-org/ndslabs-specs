@@ -4,7 +4,7 @@
     "description": "Materials Data Facility Forge",
     "logo": "https://s3.amazonaws.com/ndslabs/ForgeIcon.png",
     "image": {
-        "name": "bengal1/forge-notebook",
+        "name": "ndslabs/forge-notebook",
         "tags": [
             "latest"
         ]
