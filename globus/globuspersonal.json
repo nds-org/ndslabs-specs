@@ -18,7 +18,7 @@
       }
     ],
     "display": "stack",
-    "access": "external",
+    "access": "internal",
     "repositories": [
         {
             "url": "https://github.com/nds-org/gcp-docker",
@@ -27,7 +27,7 @@
     ],
     "volumeMounts": [
         {
-            "mountPath": "/data",
+            "mountPath": "/globusdata",
             "defaultPath":"/"
         }
     ],
@@ -43,6 +43,6 @@
         "20",
         "28"
     ],
-    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
-    "authRequired": true
+    "info": "https://github.com/nds-org/ndslabs-specs/blob/globus/globus/README.md",
+    "authRequired": false
 }
