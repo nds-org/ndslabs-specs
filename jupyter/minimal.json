@@ -11,15 +11,13 @@
     },
     "display": "stack",
     "access": "external",
-    "config": [
-        {
-            "name": "PASSWORD",
-            "value": "",
-            "label": "Password",
-            "isPassword": true,
-            "canOverride": false
-        }
+    "command": [
+        "start-notebook.sh"
     ],
+    "args": [
+        "--NotebookApp.token=''"
+    ],
+	"authRequired": true,
     "ports": [
         {
             "port": 8888,
