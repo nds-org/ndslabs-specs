@@ -11,13 +11,13 @@
     },
     "display": "stack",
     "access": "external",
-    "ports": [
-        {
-            "port": 8888,
-            "protocol": "http",
-            "contextPath": "/"
-        }
+    "command": [
+        "start-notebook.sh"
     ],
+    "args": [
+        "--NotebookApp.token=''"
+    ],
+    "authRequired": true,
     "repositories": [
 		{
 			"type": "git",
