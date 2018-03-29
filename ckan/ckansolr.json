@@ -6,7 +6,7 @@
     "label": "Solr for CKAN",
     "image": {
     "name": "ckan/solr",
-    "tags": ["latest"]
+    "tags": ["release-v2.5.3"]
     },
     "ports": [
         { "port": 8983, "protocol": "tcp", "contextPath": "/" }
