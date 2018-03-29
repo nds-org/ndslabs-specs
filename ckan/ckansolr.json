@@ -21,6 +21,33 @@
         "initialDelay": 30,
         "timeout" : 360
     },
+    "config":  [
+        {
+            "name": "DB_ENV_POSTGRES_DB",
+            "useFrom": "postgres.POSTGRES_DB",
+            "canOverride": false
+        },
+        {
+            "name": "DB_ENV_POSTGRES_USER",
+            "useFrom": "postgres.POSTGRES_USER",
+            "canOverride": false
+        },
+        {
+            "name": "DB_ENV_POSTGRES_PASSWORD",
+            "useFrom": "postgres.POSTGRES_PASSWORD",
+            "canOverride": false
+        },
+        {
+            "name": "DB_PORT_5432_TCP_ADDR",
+            "value": "$(POSTGRES_PORT_5432_TCP_ADDR)",
+            "canOverride": false
+        },
+        {
+            "name": "DB_PORT_5432_TCP_PORT",
+            "value": "5432",
+            "canOverride": false
+        }
+    ],
     "resourceLimits": {
         "cpuMax": 200,
         "cpuDefault": 100,
@@ -29,3 +56,5 @@
     },
     "tags" : ["23"]
 }
+
+
