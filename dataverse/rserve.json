@@ -6,7 +6,7 @@
     "description": "A TCP/IP server which allows other programs to use facilities of R",
     "image": {
 		"name": "ndslabs/dataverse-rserve",
-		"tags": ["4.2.3", "latest"]
+		"tags": ["4.7", "latest"]
 	},
     "ports": [
         { "port": 6311, "protocol": "tcp", "contextPath": "/" }
