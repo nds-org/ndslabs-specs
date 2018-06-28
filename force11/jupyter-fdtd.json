@@ -1,23 +1,25 @@
 {
-    "key": "jupyterdsn",
-    "label": "Jupyter Data Science Notebook",
-    "description": "Jupyter data science notebook",
+    "key": "forge",
+    "label": "Forge",
+    "description": "Force11 AM8 Jupyter Environment",
     "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
-        "name": "jupyter/datascience-notebook",
+        "name": "ndslabs/jupyter-fdtd",
         "tags": [
             "latest"
         ]
     },
     "display": "stack",
     "access": "external",
-    "command": [
-        "start-notebook.sh"
+    "config": [
+        {
+            "name": "PASSWORD",
+            "value": "",
+            "label": "Password",
+            "isPassword": true,
+            "canOverride": false
+        }
     ],
-    "args": [
-        "--NotebookApp.token=''"
-    ],
-    "authRequired": true,
     "ports": [
         {
             "port": 8888,
@@ -25,7 +27,12 @@
             "contextPath": "/"
         }
     ],
-    "repositories": null,
+    "repositories": [
+		{
+			"type": "git",
+			"url" : "https://github.com/jupyter/notebook"
+		}
+	],
     "readinessProbe": {
         "type": "http",
         "path": "/static/base/images/favicon.ico",
@@ -33,11 +40,6 @@
         "initialDelay": 5,
         "timeout": 600
     },
-    "volumeMounts": [ 
-		{
-			"mountPath": "/home/jovyan/work"
-		}
-    ],
     "resourceLimits": {
         "cpuMax": 500,
         "cpuDefault": 100,
@@ -45,5 +47,5 @@
         "memDefault": 50
     },
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks",
-    "tags": ["7", "21", "20", "28", "40"]
+    "tags": ["7", "21", "20", "28"]
 }

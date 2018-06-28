@@ -13,7 +13,6 @@
             "latest"
         ]
     },
-    "display": "stack",
     "access": "external",
     "args": [ "--root", "/home/$(NAMESPACE)" ],
     "ports": [
