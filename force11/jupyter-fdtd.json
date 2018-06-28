@@ -1,6 +1,6 @@
 {
     "key": "forge",
-    "label": "Forge",
+    "label": "AM8 Jupyter",
     "description": "Force11 AM8 Jupyter Environment",
     "logo": "/asset/png/logos/jupyter-logo.png",
     "image": {
