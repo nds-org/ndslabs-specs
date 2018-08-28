@@ -18,6 +18,13 @@
         "--NotebookApp.token=''"
     ],
     "authRequired": true,
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
     "repositories": [
 		{
 			"type": "git",
