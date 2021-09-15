@@ -2,7 +2,7 @@
     "key": "jupyterlab",
     "label": "JupyterLab",
     "description": "Extensible computational environment for Jupyter",
-    "logo": "/asset/png/logos/jupyter-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/jupyter-logo.png",
     "image": {
         "name": "ndslabs/jupyterlab",
         "tags": [

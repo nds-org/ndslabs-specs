@@ -5,7 +5,7 @@
 		"name": "ndslabs/cloud9-rails",
 		"tags": ["latest"]
 	}, 
-	"logo" : "/asset/png/logos/rails-logo.png",
+	"logo" : "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/rails-logo.png",
     "display": "stack",
     "access": "external",
     "description": "Ruby + Rails development environment based on Cloud9",

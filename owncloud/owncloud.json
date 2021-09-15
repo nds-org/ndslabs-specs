@@ -2,7 +2,7 @@
     "key": "owncloud",
     "label": "ownCloud",
     "description": "A self-hosted file sync and share server",
-    "logo": "/asset/png/logos/owncloud-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/owncloud-logo.png",
     "maintainer": "",
     "image": {
         "registry": "",

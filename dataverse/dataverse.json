@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "A web application to share, preserve, cite, explore and analyze research data",
-    "logo": "/asset/png/logos/dataverse-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/dataverse-logo.png",
     "ports": [
         {
             "port": 8080,

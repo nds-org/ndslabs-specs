@@ -2,7 +2,7 @@
     "key": "redis",
     "label": "Redis",
     "description": "In-memory data structure store and message broker",
-    "logo": "/asset/png/logos/redis-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/redis-logo.png",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Redis",
     "image": {
         "name": "redis",
