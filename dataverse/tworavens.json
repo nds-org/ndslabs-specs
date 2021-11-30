@@ -4,7 +4,7 @@
     "description": "A collection of statistical tools for data exploration, analysis, and meta-analysis.",
     "label": "TwoRavens",
 	"info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Two+Ravens",
-	"logo" : "/asset/png/logos/tworavens-logo.png",
+	"logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/tworavens-logo.png",
 	"display" : "stack",
     "image": {
 		"name": "ndslabs/tworavens",

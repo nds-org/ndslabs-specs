@@ -2,7 +2,7 @@
     "key": "cloud9conda",
     "label": "Cloud9 Conda",
     "description": "Python development environment with Conda based on Cloud9",
-    "logo": "/asset/png/logos/python-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/python-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/cloud9-conda",

@@ -2,7 +2,7 @@
     "key": "jupyterdsn",
     "label": "Jupyter Data Science Notebook",
     "description": "Jupyter data science notebook",
-    "logo": "/asset/png/logos/jupyter-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/jupyter-logo.png",
     "image": {
         "name": "jupyter/datascience-notebook",
         "tags": [

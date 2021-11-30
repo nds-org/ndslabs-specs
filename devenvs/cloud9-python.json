@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "Python development environment based on Cloud9",
-    "logo" : "/asset/png/logos/python-logo.png",
+    "logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/python-logo.png",
     "authRequired": true,
     "ports": [
         {

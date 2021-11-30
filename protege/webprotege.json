@@ -2,7 +2,7 @@
     "key": "webprotege",
     "label": "WebProtégé",
     "description": "Ontology development environment",
-    "logo": "/asset/png/logos/webprotege-logo.gif",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/webprotege-logo.gif",
     "image": {
         "name": "ndslabs/webprotege",
         "tags": [
