@@ -2,7 +2,7 @@
     "key": "iqvoc",
     "label": "iQvoc",
     "description": "SKOS-based vocabulary management system",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/iqvoc-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/iqvoc-logo.png",
     "image": {
         "name": "ndslabs/iqvoc",
         "tags": [

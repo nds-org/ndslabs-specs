@@ -2,7 +2,7 @@
     "key": "docker",
     "label": "Docker",
     "description": "Docker command-line environment for NDS Labs",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/docker-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/docker-logo.png",
     "image": {
         "name": "ndslabs/dind",
         "tags": [

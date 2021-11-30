@@ -5,7 +5,7 @@
 		"name": "ndslabs/cloud9-php",
 		"tags": ["latest", "v1.0.2"]
 	}, 
-	"logo" : "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/php-logo.png",
+	"logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/php-logo.png",
     "display": "stack",
     "access": "external",
     "description": "PHP development environment based on Cloud9",

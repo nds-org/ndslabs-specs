@@ -7,7 +7,7 @@
 	}, 
     "display": "stack",
     "access": "external",
-	"logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/golang-logo.png",
+	"logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/golang-logo.png",
     "description": "Go development environment based on Cloud9",
     "ports": [
         {

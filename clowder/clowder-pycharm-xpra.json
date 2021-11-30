@@ -2,7 +2,7 @@
     "key": "pyclowderpycharm",
     "label": "PyCharm for pyClowder",
     "description": "PyCharm development environment for pyClowder",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/pycharm-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/pycharm-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/pycharm-clowder-xpra",

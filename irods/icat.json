@@ -6,7 +6,7 @@
 		"name": "ndslabs/irods-icat",
 		"tags": ["4.1.3", "latest"]
 	},
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/irods-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/irods-logo.png",
     "access": "external",
     "display": "stack",
     "ports": [

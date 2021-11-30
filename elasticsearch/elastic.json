@@ -1,7 +1,7 @@
 {
     "key": "elasticsearch",
     "label": "ElasticSearch 1.x",
-	"logo" : "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/elasticsearch-logo.png",
+	"logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/elasticsearch-logo.png",
 	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Elasticsearch",
     "description": "A distributed search and analytics engine",
     "image": { 

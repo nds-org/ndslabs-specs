@@ -1,7 +1,7 @@
 {
     "key": "pgstudio",
     "label": "PostgresSQL Studio",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/postgres-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/postgres-logo.png",
     "description": "Web-based interface to PostgreSQL",
     "image": {
         "registry": "",

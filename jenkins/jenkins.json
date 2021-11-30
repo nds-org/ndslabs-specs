@@ -2,7 +2,7 @@
     "key": "jenkins",
     "label": "Jenkins CI",
     "description": "An open-source automation server",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/jenkins-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/jenkins-logo.png",
     "maintainer": "",
     "image": {
         "registry": "",

@@ -2,7 +2,7 @@
     "key": "jupytermn",
     "label": "Jupyter Minimal Notebook",
     "description": "Jupyter Minimal Notebook",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/jupyter-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/jupyter-logo.png",
     "image": {
         "name": "jupyter/minimal-notebook",
         "tags": [

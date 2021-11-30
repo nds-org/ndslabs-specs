@@ -2,7 +2,7 @@
     "key": "cloudcmd",
     "label": "File Manager",
     "description": "Cloud Commander file manager and editor",
-    "logo": "https://github.com/nds-org/ndslabs/raw/cddr/gui/asset/png/logos/cloudcmd-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/cloudcmd-logo.png",
     "requiresVolume": false,
     "image": {
         "registry": "",
