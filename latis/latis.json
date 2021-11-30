@@ -1,7 +1,7 @@
 {
   "key": "latis",
   "label": "LaTiS",
-  "logo" : "/asset/png/logos/ndslabs-badge.png",
+  "logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
   "description": "Web service for dynamic dataset reformatting",
   "image": {
     "registry": "",

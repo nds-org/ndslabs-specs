@@ -7,7 +7,7 @@
 	}, 
     "display": "stack",
     "access": "external",
-	"logo": "/asset/png/logos/nodejs-logo.png",
+	"logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/nodejs-logo.png",
     "description": "Node.js development environment based on Cloud9",
     "ports": [
         {

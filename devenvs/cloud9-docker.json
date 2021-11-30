@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "Docker environment based on Cloud9",
-    "logo": "/asset/png/logos/docker-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/docker-logo.png",
     "ports": [
         {
             "port": 80,

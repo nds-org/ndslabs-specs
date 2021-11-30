@@ -2,7 +2,7 @@
     "key": "geowsobspy",
     "label": "ObsPy (GeoWS Client)",
     "description": "An open-source project dedicated to provide a Python framework for processing seismological data.",
-    "logo": "/asset/png/logos/jupyter-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/jupyter-logo.png",
     "image": {
         "registry": "",
         "name": "crleblanc/obspy-notebook",

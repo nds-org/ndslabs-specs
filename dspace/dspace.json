@@ -2,7 +2,7 @@
     "key": "dspace",
     "label": "DSpace",
     "description": "Turnkey software used for creating open access digital repositories.",
-    "logo": "/asset/png/logos/dspace-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/dspace-logo.png",
     "image": {
         "name": "ndslabs/dspace",
         "tags": [

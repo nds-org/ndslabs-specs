@@ -1,0 +1,61 @@
+{
+    "key": "forgeglobus",
+    "label": "Forge with Globus",
+    "description": "Materials Data Facility Forge",
+    "logo": "https://s3.amazonaws.com/ndslabs/ForgeIcon.png",
+    "image": {
+        "registry": "",
+        "name": "ndslabs/forge-notebook",
+        "tags": [
+            "globus"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "config": [
+        {
+            "name": "PASSWORD",
+            "label": "Password",
+            "isPassword": true
+        }
+    ],
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "https://github.com/jupyter/notebook",
+            "type": "git"
+        }
+    ],
+    "readinessProbe": {
+        "type": "http",
+        "path": "/static/base/images/favicon.ico",
+        "port": 8888,
+        "initialDelay": 5,
+        "timeout": 600
+    },
+    "volumeMounts": [
+        {
+            "mountPath": "/home/jovyan/work"
+        }
+    ],
+    "resourceLimits": {
+        "cpuMax": 500,
+        "cpuDefault": 100,
+        "memMax": 1000,
+        "memDefault": 50
+    },
+    "developerEnvironment": "cloud9nodejs",
+    "tags": [
+        "7",
+        "21",
+        "20",
+        "28"
+    ],
+    "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jupyter+Notebooks"
+}

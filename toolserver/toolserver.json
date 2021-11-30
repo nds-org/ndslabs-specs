@@ -2,7 +2,7 @@
     "key": "toolmanager",
     "label": "Analysis Toolbox",
     "description": "Customizable server for analysis tools",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Tool+Server",
     "maintainer": "",
     "image": {
