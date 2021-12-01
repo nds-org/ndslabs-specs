@@ -91,7 +91,7 @@
             "canOverride": true
         },
         {
-            "name": "ENGINE_EXTRALOCALEXECUTOR_THREADS",
+            "name": "ENGINE_LOCALEXECUTORTHREADS",
             "value": "8",
             "label": "Engine Local Executor Threads",
             "canOverride": true
