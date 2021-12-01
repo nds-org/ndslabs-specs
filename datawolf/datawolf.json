@@ -118,7 +118,7 @@
         {
             "port": 8888,
             "protocol": "http",
-            "contextPath": "/"
+            "contextPath": "/datawolf/editor"
         }
     ],
     "readinessProbe": {
