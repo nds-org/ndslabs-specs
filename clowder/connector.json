@@ -3,7 +3,7 @@
   "key": "connector",
   "label": "Clowder Connector",
   "description": "This is to connect workbench with Clowder and send jobs to Workbench directly from Clowder",
-  "logo": "/asset/png/logos/ndslabs-badge.png",
+  "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
   "maintainer": "",
   "image": {
     "registry": "",
