@@ -2,6 +2,7 @@
     "key": "geodashboard",
     "label": "Geodashboard",
     "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
+    "description": "Geodashboard is the frontend component of the the Geostreaming Data Framework. It built using React to explore, search and visualize data stored in Geostreaming API.",
     "maintainer": "lambert8@illinois.edu",
     "image": {
         "registry": "",
