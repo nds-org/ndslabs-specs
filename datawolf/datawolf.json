@@ -2,6 +2,7 @@
     "key": "datawolf",
     "label": "DataWolf",
     "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
+    "description": "DataWolf is a scientific workflow system designed to be an integral part of a cyberinfrastructure software system with the goal of reducing the time to and from discovery.",
     "maintainer": "lambert8@illinois.edu",
     "image": {
         "registry": "",
