@@ -34,6 +34,8 @@
     },
     "info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Docker",
     "authRequired": true,
-    "privileged": true,
+    "securityContext:" {
+        "privileged": true
+    },
     "tags" : ["7", "41"]
 }
