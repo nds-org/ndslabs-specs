@@ -9,7 +9,6 @@
             "develop"
         ]
     },
-    "display": "stack",
     "access": "external",
     "depends": [
         {

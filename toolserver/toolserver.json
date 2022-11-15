@@ -35,5 +35,7 @@
         "memMax": 2000,
         "memDefault": 1000
     },
-    "privileged": true
+    "securityContext": {
+        "privileged": true
+    }
 }
