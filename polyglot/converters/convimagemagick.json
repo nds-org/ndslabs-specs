@@ -9,7 +9,7 @@
             "develop"
         ]
     },
-    "display": "internal",
+    "display": "standalone",
     "access": "external",
     "depends": [
         {

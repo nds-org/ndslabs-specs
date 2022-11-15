@@ -48,5 +48,7 @@
     "info": "https://nationaldataservice.atlassian.net/wiki/display/NDSC/Jenkins",
     "tags": [ "37", "16" ],
     "developerEnvironment": "cloud9java",
-    "privileged": true
+    "securityContext": {
+        "privileged": true
+    }
 }
