@@ -5,7 +5,7 @@
 		"name": "ndslabs/cloud9-java",
 		"tags": ["latest"]
 	}, 
-	"logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/java-logo.png",
+	"logo" : "https://github.com/nds-org/ndslabs-specs/raw/develop/devenvs/java-logo.png",
     "display": "stack",
     "access": "external",
     "description": "Java development environment based on Cloud9",

@@ -2,7 +2,7 @@
     "key": "ontosoft",
     "label": "OntoSoft",
     "description": "Software repository portal built on semantic technologies.",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36427545/ontosoft-logo-small.png?api=v2",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/earthcube/ontosoft-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/ontosoft",

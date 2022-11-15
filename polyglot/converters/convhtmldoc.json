@@ -1,7 +1,7 @@
 {
     "key": "convhtmldoc",
     "label": "Polyglot Converter: HTML Doc",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/system/ndslabs-badge.png",
     "image": {
         "registry": "",
         "name": "ncsa/converters-htmldoc",
@@ -9,6 +9,7 @@
             "develop"
         ]
     },
+    "display": "standalone",
     "access": "external",
     "depends": [
         {

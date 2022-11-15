@@ -2,7 +2,7 @@
     "key": "pycharmxpra",
     "label": "PyCharm",
     "description": "PyCharm Community Edition",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/pycharm-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/devenvs/pycharm-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/pycharm-xpra",

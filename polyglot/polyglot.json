@@ -1,7 +1,7 @@
 {
     "key": "polyglot",
     "label": "Polyglot",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/system/ndslabs-badge.png",
     "description": "Polyglot is a distributed service which can convert files to various common / open formats.",
     "maintainer": "lambert8@illinois.edu",
     "image": {

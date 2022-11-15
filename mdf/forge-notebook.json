@@ -2,7 +2,7 @@
     "key": "forge",
     "label": "Forge",
     "description": "Materials Data Facility Forge",
-    "logo": "https://s3.amazonaws.com/ndslabs/ForgeIcon.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/mdf/mdf-logo.png",
     "image": {
         "name": "ndslabs/forge-notebook",
         "tags": [

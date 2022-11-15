@@ -2,7 +2,7 @@
     "key": "globusconnect",
     "label": "Globus Connect",
     "description": "Launch a Globus Endpoint",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4okBXwGGU3GEKEfTCRNuZW_geJCArj8k_T5r_7Iq4bUPZEVPMUg",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/globus/globus-logo.png",
     "image": {
         "registry": "",
         "name": "ndslabs/gcp-docker",

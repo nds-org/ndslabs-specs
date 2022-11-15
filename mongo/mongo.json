@@ -6,7 +6,7 @@
 		"tags" : ["3.2.4"]
 	},
     "description": "A cross-platform document-oriented NoSQL database",
-	"display": "standalone",
+	"display": "stack",
 	"access": "internal",
     "ports": [
         { "port": 27017, "protocol": "tcp" }
@@ -33,7 +33,7 @@
 		"url" : "https://github.com/mongodb/mongo"
 		}
 	],
-	"logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/mongodb-logo.jpg",
+	"logo" : "https://github.com/nds-org/ndslabs-specs/raw/develop/mongo/mongodb-logo.jpg",
 	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/MongoDB",
 	"tags" : ["24"]
 }

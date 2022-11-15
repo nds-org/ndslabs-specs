@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "A tool for making open data websites to help manage and publish collections of data.",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ckan-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/ckan/ckan-logo.png",
     "ports": [
         {
             "port": 5000,

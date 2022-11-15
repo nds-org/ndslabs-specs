@@ -1,7 +1,7 @@
 {
     "key": "suave",
     "label": "SuAVE",
-    "logo": "https://nationaldataservice.atlassian.net/wiki/download/attachments/36669078/suave-logo-small.png?api=v2",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/earthcube/suave-logo.png",
     "description": "Survey Analysis via Visual Exploration",
     "image": {
         "registry": "",

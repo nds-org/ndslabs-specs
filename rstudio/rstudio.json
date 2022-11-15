@@ -2,7 +2,7 @@
     "key": "rstudio",
     "label": "RStudio Server",
     "description": "IDE for the R programming language.",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/rstudio-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/rstudio/rstudio-logo.png",
     "image": {
         "name": "rocker/ropensci",
         "tags": [
