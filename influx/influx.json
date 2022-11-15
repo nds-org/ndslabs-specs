@@ -2,7 +2,7 @@
     "key": "influx",
     "label": "InfluxDB",
     "description": "Scalable datastore for metrics, events, and real-time analytics",
-    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/influx/influx-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/influx/influxdb-logo.png",
     "image": {
         "registry": "",
         "name": "influxdb",
