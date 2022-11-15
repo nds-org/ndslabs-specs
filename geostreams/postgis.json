@@ -2,7 +2,7 @@
     "key": "postgis",
     "label": "PostGIS",
     "description": "GIS-centric Relational database platform",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/postgres-logo.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/postgres/postgres-logo.png",
     "image": {
         "registry": "",
         "name": "mdillon/postgis",

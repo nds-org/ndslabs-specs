@@ -2,7 +2,7 @@
   "key": "mysql",
   "label": "MySQL",
   "description": "An open-source relational database management system (RDBMS)",
-  "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/mysql-logo.png",
+  "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/mysql/mysql-logo.png",
   "maintainer": "",
   "image": {
     "registry": "",

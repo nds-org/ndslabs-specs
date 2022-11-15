@@ -4,7 +4,7 @@
     "label": "H2O AI",
     "description": "AI for the Digital Brain",
     "info": "https://www.h2o.ai/",
-    "logo": "https://www.h2o.ai/wp-content/themes/h2o2016/images/H2O_logo_yellow.svg",
+    "logo": ""https://github.com/nds-org/ndslabs-specs/raw/develop/h2oai/h20-ai-logo.png",
     "image": {
         "registry" : "ndslabs/h2o",
         "name" : "ndslabs/h2o",

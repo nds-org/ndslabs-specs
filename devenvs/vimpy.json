@@ -8,7 +8,7 @@
     "display": "stack",
     "access": "external",
     "description": "VIM development environment for Python",
-    "logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/python-logo.png",
+    "logo" : "https://github.com/nds-org/ndslabs-specs/raw/develop/devenvs/python-logo.png",
     "authRequired": true,
     "ports": [
         {

@@ -2,7 +2,7 @@
   "key": "girder",
   "label": "Girder",
   "description": "Web-based data management platform.",
-  "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/girder-logo.png",
+  "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/girder/girder-logo.png",
   "image": {
     "name": "girder/girder",
     "tags": [

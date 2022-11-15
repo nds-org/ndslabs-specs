@@ -1,7 +1,7 @@
 {
     "key": "geostreams",
     "label": "Geostreams API",
-    "logo": "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/ndslabs-badge.png",
+    "logo": "https://github.com/nds-org/ndslabs-specs/raw/develop/system/ndslabs-badge.png",
     "description": "Geostreams API is a RESTful web service to manage data streams in time and space. It relies on PostgreSQL, PostGIS and the jsonb data type. The web application is developed using the Play Framework in Scala.",
     "maintainer": "lambert8@illinois.edu",
     "image": {

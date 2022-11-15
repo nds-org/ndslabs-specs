@@ -33,7 +33,7 @@
 		"url" : "https://github.com/mongodb/mongo"
 		}
 	],
-	"logo" : "https://github.com/nds-org/ndslabs/raw/develop/gui/asset/png/logos/mongodb-logo.jpg",
+	"logo" : "https://github.com/nds-org/ndslabs-specs/raw/develop/mongo/mongodb-logo.jpg",
 	"info" : "https://nationaldataservice.atlassian.net/wiki/display/NDSC/MongoDB",
 	"tags" : ["24"]
 }
