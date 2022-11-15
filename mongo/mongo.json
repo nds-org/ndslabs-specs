@@ -6,7 +6,7 @@
 		"tags" : ["3.2.4"]
 	},
     "description": "A cross-platform document-oriented NoSQL database",
-	"display": "standalone",
+	"display": "stack",
 	"access": "internal",
     "ports": [
         { "port": 27017, "protocol": "tcp" }
