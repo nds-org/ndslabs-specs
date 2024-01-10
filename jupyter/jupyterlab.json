@@ -35,7 +35,7 @@
         "useFrom": "",
         "setTo": ""
       }
-    },
+    ],
     "repositories": [
 		{
 			"type": "git",
